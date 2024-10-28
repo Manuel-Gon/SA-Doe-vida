@@ -16,14 +16,14 @@ body{
    
 }
 
-.container{
+.container-login{
     width: 60%;
     height: 70vh;
     display: flex;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
 }
 
-.form-image{
+.form-image-login{
     width: 50%;
     display: flex;
     justify-content: center;
@@ -32,11 +32,11 @@ body{
     padding: 2rem;
 }
 
-.form-image img{
+.form-image-login img{
     width: 25rem;
 }
 
-.form{
+.form-login{
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -44,11 +44,11 @@ body{
     padding: 2rem;
 }
 
-.form-header{
+.form-header-login{
     margin-bottom: 30px;
 }
 
-.form-header h1::after{
+.form-header-login h1::after{
     content: '';
     display: block;
     width: 2.5rem;
@@ -57,19 +57,19 @@ body{
     border-radius: 10px;
 }
 
-.input-group{
+.input-group-login{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.input-box{
+.input-box-login{
     display: flex;
     flex-direction: column;
     margin-top: 10px; 
 }
 
-.input-box input{
+.input-box-login input{
     margin: 0.6rem 0;
     padding: 0.8rem 1.2rem;
     border: none;
@@ -77,21 +77,21 @@ body{
     box-shadow: 1px 1px 6px #0000001c;
 }
 
-.input-box input:hover{
+.input-box-login input:hover{
     background-color: #eeeeee75;
 }
 
-.input-box input:focus-visible{
+.input-box-login input:focus-visible{
     outline: 1px solid #D80C12;
 }
 
-.input-box label{
+.input-box-login label{
     font-size: 0.80rem;
     font-weight: 600;
     color: #000000c0;
 }
 
-.input-box input:hover{
+.input-box-login input:hover{
     color: #000000be;
 }
 
@@ -116,15 +116,15 @@ body{
     color: #fff;
 }
 
-.confirm-input {
+.confirm-input-logint {
     margin-top:20px;
 }
 
-.confirm-input input {
+.confirm-input-login input {
     margin-right: 2px;
 }
 
-.confirm-input label {
+.confirm-input-login label {
     font-size: 0.75rem;
     color: #000000c0;
 }

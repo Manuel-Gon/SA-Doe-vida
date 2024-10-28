@@ -16,14 +16,14 @@ body {
     background: #D67676;
 }
 
-.container {
+.container-perfil {
     width: 70%;
     height: 80vh;
     display: flex;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
 }
 
-.form-img {
+.form-img-perfil {
     width: 50%;
     display: flex;
     justify-content: center;
@@ -32,11 +32,11 @@ body {
     
 }
 
-.form-img img {
+.form-img-perfil img {
     width: 30rem;
 }
 
-.form {
+.form-perfil {
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -44,7 +44,7 @@ body {
     padding: 3rem;
 }
 
-.form-content {
+.form-content-perfil {
     text-align: center;
     margin-bottom: 30px;
 }
@@ -56,13 +56,13 @@ body {
 .logo{
     width: 100px;
 }
-.form-header {
+.form-header-perfil {
     display: flex;
     justify-content: space-between;
     
 }
 
-.form-header h1::after {
+.form-header-perfil h1::after {
     content: '';
     display: block;
     width: 3.5rem;
@@ -71,26 +71,26 @@ body {
     border-radius: 10px;
 }
 
-.input-group {
+.input-group-perfil {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     width: 100%;
 }
 
-.input-box {
+.input-box-perfil {
     display: flex;
     flex-direction: column; 
     margin-right: 1rem;
 }
 
-.input-btn-wrapper {
+.input-btn-wrapper-perfil {
     display: flex;
     align-items: center;
     gap: 0.5rem; 
 }
 
-.input-btn-wrapper input {
+.input-btn-wrapper-perfil input {
     flex: 1;
 }
 
@@ -113,7 +113,7 @@ body {
     box-shadow: 0 0 1rem rgb(246, 53, 53);
 }
 
-.input-box input {
+.input-box-perfil input {
     margin: 0.4rem 0;
     padding: 0.5rem 0.5rem;
     border: none;
@@ -121,24 +121,24 @@ body {
     box-shadow: 1px 1px 7px #0000001c;
 }
 
-.input-box input:hover {
+.input-box-perfil input:hover {
     background-color: #eeeeee75;
 }
 
-.input-box input:focus-visible {
+.input-box-perfil input:focus-visible {
     outline: 1px solid #D80C12;
 }
 
-.input-box label {
+.input-box-perfil label {
     font-size: 0.80rem;
     font-weight: 600;
     color: #000000c0;
 }
 
-.input-box input:hover {
+.input-box-perfil input:hover {
     color: #000000be;
 }
-.sair-button button{
+.sair-button-perfil button{
     width: 100%;
     margin-top: 20px;
     border: none;
@@ -148,13 +148,13 @@ body {
     cursor: pointer;
 }
 
-.sair-button button:hover{
+.sair-button-perfil button:hover{
     background-color: #820000;
     transition: 0.3s;
    
 }
 
-.sair-button button {
+.sair-button-perfil button {
     text-decoration: none;
     font-size: 0.93rem;
     font-weight: 500;

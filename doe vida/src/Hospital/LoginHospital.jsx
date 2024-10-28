@@ -2,12 +2,12 @@ import React from 'react'
 import './LoginH.css'
 function LoginHospital() {
   return (
-    <div className='conteiner'>
-       <div className='form-image'>
+    <div className='container-login'>
+       <div className='form-image-login'>
             <img src="./imagem da tela de login hospitalar.svg"/>
         </div>
-        <div className='form'>
-                <div className='form-header'>
+        <div className='form-login'>
+                <div className='form-header-login'>
                     <div className='tittle'>
                         <h1>Login</h1>
                     </div>
@@ -15,14 +15,14 @@ function LoginHospital() {
                 <div className='mensagem'>
                     <p>Digite os dados de acesso do hospital no campo abaixo.</p>
                 </div>
-                <div className='input-group'>
-                    <div className='input-box'>
-                        <div className='input-box'>
+                <div className='input-group-login'>
+                    <div className='input-box-login'>
+                        <div className='input-box-login'>
                             <label htmlFor="email">Email</label>
                             <input id="email" type="email" name="email" placeholder="Email" required/>
                         </div>
     
-                        <div className='input-box'>
+                        <div className='input-box-login'>
                             <label htmlFor="password">Senha</label>
                             <input id="password" type="password" name="password" placeholder="Senha" required/>
                         </div>
@@ -33,7 +33,7 @@ function LoginHospital() {
                     <button>Esqueci minha senha</button>
                 </div>
                 
-                <div className='confirm-input'>
+                <div className='confirm-input-login'>
                     <input type="checkbox" id="confirmacao" name="confirmacao" value="confirmacao" required/>
                     <label htmlFor="confirmacao">
                         Ao confirmar os dados preenchidos do login acima, você concorda com os nossos 
