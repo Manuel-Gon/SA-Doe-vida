@@ -8,7 +8,7 @@ function NavBar() {
     <div>
        <div className="navBar">
 
-            <img className="imgUm" src="img/Logo.png" alt="logo"/>
+            <img className="imgUm" src="./Logo da SA - sem o fundo.png " alt="logo"/>
             <h2>Doação de Sangue</h2>
 
             <div class="linksNavBar">

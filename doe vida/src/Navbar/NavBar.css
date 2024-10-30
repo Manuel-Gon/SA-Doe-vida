@@ -1,7 +1,4 @@
-.navBar{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 25px;
-    min-width: 100vw;
-}
+    .navBar{
+padding: 0;
+
+    }

@@ -1,16 +1,32 @@
 import React from 'react'
+<<<<<<< HEAD
 import { Link } from 'react-router-dom'
+=======
+>>>>>>> fe327a1962e8d42a70f44c9486da20ab14d4acbb
 import NavBar from '../Navbar/navBar'
 import './TelaInicialT.css'
 
 function TelaInicialT() {
   return (
     <div>
+<<<<<<< HEAD
       <NavBar/>
       <div className="container">
 
        
 
+=======
+
+      <NavBar/>
+
+      <div className="container-inicial">
+
+       
+
+      
+<button > <img className="perfil" src="./Cópia de user.png" alt=""/></button>
+
+>>>>>>> fe327a1962e8d42a70f44c9486da20ab14d4acbb
 </div>
 
 
