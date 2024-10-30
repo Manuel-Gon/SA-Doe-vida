@@ -1,13 +1,14 @@
 import React from 'react'
 import NavBar from '../Navbar/NavBar'
+import './TelaInicialT.css'
 
 function TelaInicialT() {
   return (
     <div>
-      
+      <navBar/>
       <div className="container">
 
-        <NavBar/>
+       
 
       
 <button > <img className="perfil" src="./user perfil.png" alt=""/></button>

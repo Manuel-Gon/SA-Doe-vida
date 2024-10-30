@@ -1,8 +1,10 @@
 import React from 'react'
+import NavBar from '../Navbar/NavBar'
 
 function Doacao() {
   return (
     <div>
+      <NavBar />
        <div class="container">
         <h1>Sobre a Doação de Sangue - Campanha Doe Vida</h1>
     

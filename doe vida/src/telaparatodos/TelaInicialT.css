@@ -1,0 +1,365 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #F2EED8;
+}
+
+.perfil {
+    width: 4rem;
+}
+
+.imgUm {
+    height: 130px;
+}
+
+.navBar {
+    background-color: #b92c37;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: whitesmoke;
+    position: fixed;
+    width: 100%;
+    padding: 15px;
+}
+
+h2 {
+    color: #F2EED8;
+    font-size: 40px;
+}
+
+.itens {
+    list-style: none;
+    display: flex;
+}
+
+.itens>button {
+    padding-left: 55px;
+    color: #F2EED8;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+.itens>button:hover {
+    text-decoration: underline;
+    transition: 0.3s;
+}
+
+
+
+.cadastro:hover {
+    background-color: #d6161c;
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.cadastro:active {
+    transform: scale(0.98);
+}
+
+.login:hover {
+    background-color: #dad6c1;
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+
+}
+
+.login:active {
+    transform: scale(0.98);
+}
+
+.link1:hover,
+.link2:hover,
+.link3:hover,
+.link4:hover {
+    color: #e0dcc0;
+    transition: 0.3s;
+}
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*FOOTER*/
+.informacoes {
+    display: flex;
+}
+
+.secoes {
+    max-width: 1900px;
+    margin: auto;
+}
+
+footer {
+    background-color: #b92c37;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0;
+    margin-top: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.info1,
+.info2,
+.info3 {
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size: 15px;
+    color: rgb(231, 231, 231);
+}
+
+.imgDois {
+    border-radius: 20px;
+    height: 80px;
+    margin-top: 20px;
+}
+
+.info1>h2,
+.info2>h2,
+.info3>h2 {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+}
+
+.divisao {
+    margin-top: 20px;
+}
+
+.projeto {
+    margin-top: 40px;
+    color: #fff;
+    padding-left: 50px;
+    font-size: 30px;
+}
+
+.descricao {
+    display: flex;
+}
+
+.linksFooter {
+    display: flex;
+}
+
+.linksFooter>li {
+    margin-top: 35px;
+    list-style: none;
+}
+
+
+.linkUm:hover,
+.linkDois:hover,
+.linkTres:hover {
+    color: rgb(188, 188, 188);
+    transition: 1s;
+    text-decoration: underline;
+}
+
+.linkUm,
+.linkDois,
+.linkTres {
+    margin-right: 20px;
+    font-size: 15px;
+    color: rgb(231, 231, 231);
+    text-decoration: none;
+}
+
+.linkUm:hover,
+.linkDois:hover,
+.linkTres:hover {
+    color: rgb(188, 188, 188);
+    transition: 0.3s;
+    text-decoration: underline;
+}
+
+.creditos {
+    font-size: 14px;
+    color: #fff;
+    padding-left: 50px;
+    margin-top: 40px;
+}
+
+.bntFooter {
+    background-color: #F2EED8;
+    color: #820000;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 40px;
+    font-size: 16px;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.bntFooter:hover {
+    background-color: #e5e1c1;
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.bntFooter:active {
+    transform: scale(0.98);
+}
+
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*Cards*/
+.cards-inicial {
+    display: flex;
+}
+
+.card {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: #b92c37;
+    margin-top: 20px;
+    color: rgb(231, 231, 231);
+    height: 500px;
+}
+
+p {
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+
+}
+
+.card2 {
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    height: 500px;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: #b92c37;
+    margin-top: 20px;
+    color: rgb(231, 231, 231);
+}
+
+.card3 {
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    height: 500px;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: #b92c37;
+    margin-top: 20px;
+    color: rgb(231, 231, 231);
+}
+
+.img-card {
+    border-radius: 20px;
+
+}
+
+label {
+    font-size: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+}
+
+.button-cards {
+    background-color: #F2EED8;
+    color: #820000;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 40px;
+    font-size: 16px;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+
+}
+
+.button-cards:hover {
+    background-color: #e5e1c1;
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.button-cards:active {
+    transform: scale(0.98);
+}
+
+.fixa {
+    width: 100%;
+    margin-top: 160px;
+}
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*opções de Cadastro*/
+.body-opcoes {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+
+}
+
+.opcoesCadastro {
+    text-align: center;
+    padding: 40px;
+
+}
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 60px;
+    color: #8e0116;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+
+.btn-image {
+    margin-bottom: 10px;
+    height: 140px;
+}
+
+.button-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button-opcoes {
+    background-color: #b92c37;
+    color: #F2EED8;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 40px;
+    font-size: 20px;
+    font-weight: bolder;
+    width: 400px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+
+.button-opcoes:hover {
+    background-color: #a61f23;
+    color: #F2EED8;
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.button-opcoes:active {
+    transform: scale(0.98);
+}
+
+.button-opcoes label {
+    font-weight: 600px;}

@@ -1,8 +1,10 @@
 import React from 'react'
+import NavBar from '../Navbar/NavBar'
 
 function Parceiros() {
   return (
     <div>
+      <NavBar />
        <div class="container">
         <h1>Parceiros e Apoio - Campanha Doe Vida</h1>
     

@@ -1,8 +1,11 @@
 import React from 'react'
+import NavBar from '../Navbar/NavBar'
 
 function PerfilHospital() {
   return (
+   
     <div className='container-perfil'>
+         <navBar/>
        <div className='form-img-perfil'>
             <img src="./imagem de perfil - Hospital.svg " alt=""/>
         </div>

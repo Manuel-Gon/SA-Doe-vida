@@ -1,8 +1,10 @@
 import React from 'react'
+import NavBar from '../Navbar/NavBar'
 
 function Campanhas() {
   return (
     <div>
+        <NavBar />
          <div class="container">
             <h1>Campanhas</h1>
 
