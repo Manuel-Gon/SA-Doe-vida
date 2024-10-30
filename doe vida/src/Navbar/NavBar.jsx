@@ -19,6 +19,8 @@ function NavBar() {
                     <Link to="/parceiros" className="link3">Parceiros</Link>
                     <Link to="/contato" className="link4">Contato</Link>
                 </ul>
+                
+                <img className="perfil" src="./user perfil.png" alt=""/>
             </div>
     </div>
     </div>

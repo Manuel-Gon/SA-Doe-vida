@@ -1,17 +1,15 @@
 import React from 'react'
-import NavBar from '../Navbar/NavBar'
+import { Link } from 'react-router-dom'
+import NavBar from '../Navbar/navBar'
 import './TelaInicialT.css'
 
 function TelaInicialT() {
   return (
     <div>
-      <navBar/>
+      <NavBar/>
       <div className="container">
 
        
-
-      
-<button > <img className="perfil" src="./user perfil.png" alt=""/></button>
 
 </div>
 
@@ -30,12 +28,12 @@ function TelaInicialT() {
 
         <div className="button-wrapper">
             <img src="./undraw_love_it_heart_dxlp.svg" alt="" className="btn-image"/>
-          <button>  <button className="button-opcoes">Sou Doador</button></button>
+          <Link to= '/doador'><button className="button-opcoes">Sou Doador</button></Link>
         </div>
 
         <div className="button-wrapper">
             <img src="./undraw_doctors_p6aq.svg" alt="" className="btn-image"/>
-          <button>  <button className="button-opcoes">Área Hospitalar</button></button>
+          <Link to='hospital'><button className="button-opcoes">Área Hospitalar</button></Link>
         </div>
 
     </div>
@@ -54,7 +52,7 @@ function TelaInicialT() {
 
     <p>Somos uma comunidade comprometida em salvar vidas através da doação de sangue. Facilitamos button conexão entre doadores e pessoas em necessidade, garantindo que cada doação faça button diferença. </p>
 
-    <button ><button className="button-cards">Sobre Nós!</button></button>
+    <Link to='/qsomos' ><button className="button-cards">Sobre Nós!</button></Link>
 
 </div>
 
