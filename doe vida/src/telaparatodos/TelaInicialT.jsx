@@ -1,10 +1,21 @@
 import React from 'react'
+<<<<<<< HEAD
+import { Link } from 'react-router-dom'
+=======
+>>>>>>> fe327a1962e8d42a70f44c9486da20ab14d4acbb
 import NavBar from '../Navbar/navBar'
 import './TelaInicialT.css'
 
 function TelaInicialT() {
   return (
     <div>
+<<<<<<< HEAD
+      <NavBar/>
+      <div className="container">
+
+       
+
+=======
 
       <NavBar/>
 
@@ -15,6 +26,7 @@ function TelaInicialT() {
       
 <button > <img className="perfil-inicial" src="./Cópia de user.png" alt=""/></button>
 
+>>>>>>> fe327a1962e8d42a70f44c9486da20ab14d4acbb
 </div>
 
 
@@ -32,12 +44,20 @@ function TelaInicialT() {
 
         <div className="button-wrapper">
             <img src="./undraw_love_it_heart_dxlp.svg" alt="" className="btn-image"/>
+<<<<<<< HEAD
             <button className="button-opcoes">Sou Doador</button>
+=======
+          <Link to= '/doador'><button className="button-opcoes">Sou Doador</button></Link>
+>>>>>>> 139672b45ee0402c51ff14b29885457ceb66e2bb
         </div>
 
         <div className="button-wrapper">
             <img src="./undraw_doctors_p6aq.svg" alt="" className="btn-image"/>
+<<<<<<< HEAD
             <button className="button-opcoes">Área Hospitalar</button>
+=======
+          <Link to='hospital'><button className="button-opcoes">Área Hospitalar</button></Link>
+>>>>>>> 139672b45ee0402c51ff14b29885457ceb66e2bb
         </div>
 
     </div>
@@ -56,7 +76,7 @@ function TelaInicialT() {
 
     <p className='p-inicial'>Somos uma comunidade comprometida em salvar vidas através da doação de sangue. Facilitamos button conexão entre doadores e pessoas em necessidade, garantindo que cada doação faça button diferença. </p>
 
-    <button ><button className="button-cards">Sobre Nós!</button></button>
+    <Link to='/qsomos' ><button className="button-cards">Sobre Nós!</button></Link>
 
 </div>
 

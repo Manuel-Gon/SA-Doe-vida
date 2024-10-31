@@ -1,7 +1,10 @@
-import React from 'react'
+
+import { Link } from 'react-router-dom'
 import './CadastroH.css'
 
+
 function HospitalCadastro() {
+   
   return (
     <div className='container-hospital'>
      
@@ -107,8 +110,9 @@ function HospitalCadastro() {
     </div>
 
     <div className='continue-button-hospital'>
-        <button >Continuar</button>
+       <Link to='/perfilH'><button>Cadastrar</button></Link>
     </div>
+ 
 </div> 
       
     </div>
