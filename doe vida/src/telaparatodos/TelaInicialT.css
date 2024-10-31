@@ -4,7 +4,7 @@ body {
     background-color: #F2EED8;
 }
 
-.perfil {
+.perfil-inicial {
     width: 4rem;
 }
 
@@ -12,16 +12,6 @@ body {
     height: 130px;
 }
 
-.navBar {
-    background-color: #b92c37;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    color: whitesmoke;
-    position: fixed;
-    width: 100%;
-    padding: 15px;
-}
 
 h2 {
     color: #F2EED8;
@@ -79,16 +69,16 @@ h2 {
 
 /*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 /*FOOTER*/
-.informacoes {
+.informacoes-inicial {
     display: flex;
 }
 
-.secoes {
+.secoes-inicial {
     max-width: 1900px;
     margin: auto;
 }
 
-footer {
+.footer-tela-inicial {
     background-color: #b92c37;
     left: 0;
     bottom: 0;
@@ -98,9 +88,9 @@ footer {
     font-family: 'Poppins', sans-serif;
 }
 
-.info1,
-.info2,
-.info3 {
+.info1-inicial,
+.info2-inicial,
+.info3-inicial {
     padding-top: 30px;
     padding-right: 30px;
     padding-left: 30px;
@@ -114,71 +104,71 @@ footer {
     margin-top: 20px;
 }
 
-.info1>h2,
-.info2>h2,
-.info3>h2 {
+.info1-inicial>h2,
+.info2-inicial>h2,
+.info3-inicial>h2 {
     color: rgb(255, 255, 255);
     font-size: 25px;
 }
 
-.divisao {
+.divisao-inicial {
     margin-top: 20px;
 }
 
-.projeto {
+.projeto-inicial {
     margin-top: 40px;
     color: #fff;
     padding-left: 50px;
     font-size: 30px;
 }
 
-.descricao {
+.descricao-inicial {
     display: flex;
 }
 
-.linksFooter {
+.linksFooter-inicial {
     display: flex;
 }
 
-.linksFooter>li {
+.linksFooter-inicial>li {
     margin-top: 35px;
     list-style: none;
 }
 
 
-.linkUm:hover,
-.linkDois:hover,
-.linkTres:hover {
+.linkUm-inicial:hover,
+.linkDois-inicial:hover,
+.linkTres-inicial:hover {
     color: rgb(188, 188, 188);
     transition: 1s;
     text-decoration: underline;
 }
 
-.linkUm,
-.linkDois,
-.linkTres {
+.linkUm-inicial,
+.linkDois-inicial,
+.linkTres-inicial {
     margin-right: 20px;
     font-size: 15px;
     color: rgb(231, 231, 231);
     text-decoration: none;
 }
 
-.linkUm:hover,
-.linkDois:hover,
-.linkTres:hover {
+.linkUm-inicial:hover,
+.linkDois-inicial:hover,
+.linkTres-inicial:hover {
     color: rgb(188, 188, 188);
     transition: 0.3s;
     text-decoration: underline;
 }
 
-.creditos {
+.creditos-inicial {
     font-size: 14px;
     color: #fff;
     padding-left: 50px;
     margin-top: 40px;
 }
 
-.bntFooter {
+.bntFooter-inicial {
     background-color: #F2EED8;
     color: #820000;
     border: none;
@@ -191,24 +181,24 @@ footer {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.bntFooter:hover {
+.bntFooter-inicial:hover {
     background-color: #e5e1c1;
     transform: scale(1.05);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
 
-.bntFooter:active {
+.bntFooter-inicial:active {
     transform: scale(0.98);
 }
 
 
 /*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 /*Cards*/
-.cards-inicial {
+.cards-inicial-inicial {
     display: flex;
 }
 
-.card {
+.card-inicial {
     width: 300px;
     display: flex;
     flex-direction: column;
@@ -221,13 +211,13 @@ footer {
     height: 500px;
 }
 
-p {
+.p-inicial {
     font-size: 15px;
     font-family: 'Inter', sans-serif;
 
 }
 
-.card2 {
+.card2-inicial {
     max-width: 300px;
     display: flex;
     flex-direction: column;
@@ -240,7 +230,7 @@ p {
     color: rgb(231, 231, 231);
 }
 
-.card3 {
+.card3-inicial {
     max-width: 300px;
     display: flex;
     flex-direction: column;
@@ -253,7 +243,7 @@ p {
     color: rgb(231, 231, 231);
 }
 
-.img-card {
+.img-card-inicial {
     border-radius: 20px;
 
 }
@@ -265,7 +255,7 @@ label {
     font-family: 'Inter', sans-serif;
 }
 
-.button-cards {
+.button-cards-inicial{
     background-color: #F2EED8;
     color: #820000;
     border: none;
@@ -280,13 +270,13 @@ label {
 
 }
 
-.button-cards:hover {
+.button-cards-inicial:hover {
     background-color: #e5e1c1;
     transform: scale(1.05);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
 
-.button-cards:active {
+.button-cards-inicial:active {
     transform: scale(0.98);
 }
 

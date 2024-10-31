@@ -5,7 +5,7 @@ function Parceiros() {
   return (
     <div>
       <NavBar />
-       <div class="container">
+       <div className="container">
         <h1>Parceiros e Apoio - Campanha Doe Vida</h1>
     
         <h3>Famosos que Apoiamos a Campanha</h3>

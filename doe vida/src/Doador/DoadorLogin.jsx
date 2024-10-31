@@ -30,7 +30,7 @@ function DoadorLogin() {
       <div className='esqueceuSenha'>
           <button>Esqueci minha senha</button>
         </div>
-        <div classname='confirm-input'>
+        <div className='confirm-input'>
             <input type="checkbox" id="confirmacao" name="confirmacao" value="confirmacao" required/>
             <label for="confirmacao">
                 Ao confirmar os dados preenchidos do login acima, você concorda com os nossos 
@@ -39,7 +39,7 @@ function DoadorLogin() {
             </label>
         </div>
 
-        <div classname='login-button'>
+        <div className='login-button'>
            <button onclick="login()">Entrar</button>
         </div>
 
