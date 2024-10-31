@@ -1,6 +1,7 @@
 import { createBrowserRouter } from "react-router-dom"; 
 import DoadorCadastro from "../Doador/DoadorCadastro";
 import HospitalCadastro from "../Hospital/HospitalCadastro";
+import LoginHospital from "../Hospital/LoginHospital";
 import PerfilHospital from "../Hospital/PerfilHospital";
 import Campanhas from "../telaparatodos/Campanhas";
 import Contato from "../telaparatodos/Contato";
@@ -19,7 +20,8 @@ const router = createBrowserRouter([
     {path: "/doador", element: <DoadorCadastro/>},
     {path: "/hospital", element: <HospitalCadastro/>},
     {path: "/qsomos", element: <QuemSomos/>},
-    {path: "/perfilH'", element: <PerfilHospital/>},
+    {path: "/perfilH", element: <PerfilHospital/>},
+    {path: "/loginH", element: <LoginHospital/>},
 ])
 
 export default router;

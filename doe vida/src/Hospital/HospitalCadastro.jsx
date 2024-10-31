@@ -9,7 +9,7 @@ function HospitalCadastro() {
     <div className='container-hospital'>
      
  <div className='form-image-hospital'>
-<img src="img/imagem da tela de cadastro hospitalar.svg"/>
+<img src="./imagem da tela de cadastro hospitalar.svg"/>
 </div>
 <div className='form-hospital'>
     <div className='form-header-hospital'>
@@ -17,7 +17,7 @@ function HospitalCadastro() {
             <h1>Novo hospital</h1>
         </div>
         <div className='login-button-hospital'>
-            <button type="button" >Entrar</button>
+            <Link to='/loginH' type="button" ><button>Entrar</button></Link>
         </div>
     </div>
 
@@ -110,6 +110,7 @@ function HospitalCadastro() {
     </div>
 
     <div className='continue-button-hospital'>
+       {/* <Link to='/perfilH'><button>Cadastrar</button></Link> */}
        <Link to='/perfilH'><button>Cadastrar</button></Link>
     </div>
  
