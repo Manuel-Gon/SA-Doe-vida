@@ -7,31 +7,7 @@ function TelaInicialT() {
   return (
     <div>
       <NavBar/>
-      <div className="container">
-
-       
-
-<<<<<<< HEAD
-=======
-=======
-
-      <NavBar/>
-
-      <div className="container-inicial">
-
-       
-
-      
-<button > <img className="perfil-inicial" src="./Cópia de user.png" alt=""/></button>
-
->>>>>>> fe327a1962e8d42a70f44c9486da20ab14d4acbb
->>>>>>> d0ff99d3d2058cfb939a646672d327f836cd4e66
-</div>
-
-
-<img className="fixa" src="./Seja um doador.png" alt=""/>
-
-
+   
 
 <div className="body-opcoes-inicial">
 
@@ -43,20 +19,12 @@ function TelaInicialT() {
 
         <div className="button-wrapper">
             <img src="./undraw_love_it_heart_dxlp.svg" alt="" className="btn-image"/>
-<<<<<<< HEAD
-            <button className="button-opcoes">Sou Doador</button>
-=======
           <Link to= '/doador'><button className="button-opcoes">Sou Doador</button></Link>
->>>>>>> 139672b45ee0402c51ff14b29885457ceb66e2bb
         </div>
 
         <div className="button-wrapper">
             <img src="./undraw_doctors_p6aq.svg" alt="" className="btn-image"/>
-<<<<<<< HEAD
-            <button className="button-opcoes">Área Hospitalar</button>
-=======
           <Link to='hospital'><button className="button-opcoes">Área Hospitalar</button></Link>
->>>>>>> 139672b45ee0402c51ff14b29885457ceb66e2bb
         </div>
 
     </div>

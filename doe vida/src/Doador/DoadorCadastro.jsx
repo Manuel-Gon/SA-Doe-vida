@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './CadastroD.css'
 
 function DoadorCadastro() {
@@ -12,7 +13,7 @@ function DoadorCadastro() {
                 <h1>Cadastre-se</h1>
                  </div>
                 <div className='login-button'>
-                   <button type='button'>Login</button>
+                <Link to='/loginD'><button type='button'>Login</button></Link>
                    </div>
                 </div>
                 <div className='input-group'>
@@ -91,7 +92,9 @@ function DoadorCadastro() {
                 </label>
              </div>
 
-       
+             <div className='continue-button-doador'>
+       <Link to='/perfilD'><button>Cadastrar</button></Link>
+    </div>
       </div>
     </div>
     </div>

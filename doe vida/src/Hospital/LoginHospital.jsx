@@ -47,7 +47,7 @@ function LoginHospital() {
                   <button onclick="login()"><button>Entrar</button></button>
                 </div>
 
-                <label>Não possui conta? <lin>Cadastre-se</lin></label>
+                <label>Não possui conta? <Link to='/hospital'><button>Cadastre-se</button></Link></label>
 
         </div>
     </div>

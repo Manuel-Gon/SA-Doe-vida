@@ -17,7 +17,7 @@ function HospitalCadastro() {
             <h1>Novo hospital</h1>
         </div>
         <div className='login-button-hospital'>
-            <Link to='/loginH' type="button" ><button>Entrar</button></Link>
+            <Link to='/loginH' type="button" ><button>Login</button></Link>
         </div>
     </div>
 
@@ -110,7 +110,6 @@ function HospitalCadastro() {
     </div>
 
     <div className='continue-button-hospital'>
-       {/* <Link to='/perfilH'><button>Cadastrar</button></Link> */}
        <Link to='/perfilH'><button>Cadastrar</button></Link>
     </div>
  
