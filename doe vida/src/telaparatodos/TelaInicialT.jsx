@@ -7,23 +7,14 @@ function TelaInicialT() {
   return (
     <div>
       <NavBar/>
-<<<<<<< HEAD
-   
-=======
       <div className="container">
-
-
-      
-<button > <img className="perfil-inicial" src="./Cópia de user.png" alt=""/></button>
-
 
 </div>
 
 
-<img className="fixa" src="./mundial_doador.png" alt=""/>
+<img className="fixa-tela-inicial" src="./mundial_doador.png" alt=""/>
 
 
->>>>>>> 84203977ca458e694be35f46d9fee414a571db80
 
 <div className="body-opcoes-inicial">
 
@@ -33,16 +24,6 @@ function TelaInicialT() {
 
     <div className="button-group-inicial">
 
-<<<<<<< HEAD
-        <div className="button-wrapper">
-            <img src="./undraw_love_it_heart_dxlp.svg" alt="" className="btn-image"/>
-          <Link to= '/doador'><button className="button-opcoes">Sou Doador</button></Link>
-        </div>
-
-        <div className="button-wrapper">
-            <img src="./undraw_doctors_p6aq.svg" alt="" className="btn-image"/>
-          <Link to='hospital'><button className="button-opcoes">Área Hospitalar</button></Link>
-=======
         <div className="button-wrapper-inicial">
             <img src="./sou_doador.png" alt="" className="btn-image"/>
           <Link to= '/doador'><button className="button-opcoes-inicial">Sou Doador</button></Link>
@@ -51,7 +32,6 @@ function TelaInicialT() {
         <div className="button-wrapper-inicial">
             <img src="./area_hospitalar.png" alt="" className="btn-image"/>
           <Link to='hospital'><button className="button-opcoes-inicial">Área Hospitalar</button></Link>
->>>>>>> 84203977ca458e694be35f46d9fee414a571db80
         </div>
 
     </div>
@@ -122,7 +102,7 @@ function TelaInicialT() {
     </section>
     <hr className="divisao-inicial"/>
     <section className="descricao-inicial">
-        <img className="imgDois" src="./logo doação de sangue.png" alt="logo"/>
+        <img className="imgDois-inicial" src="./logo doação de sangue.png" alt="logo"/>
         <h1 className="projeto-inicial">DoeVida</h1>
         <div className="creditos-inicial">
             <p>©DoeVidas todos os direitos reservados.</p>
