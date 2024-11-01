@@ -9,15 +9,10 @@ function TelaInicialT() {
       <NavBar/>
       <div className="container">
 
-
-      
-<button > <img className="perfil-inicial" src="./Cópia de user.png" alt=""/></button>
-
-
 </div>
 
 
-<img className="fixa" src="./mundial_doador.png" alt=""/>
+<img className="fixa-tela-inicial" src="./mundial_doador.png" alt=""/>
 
 
 
@@ -107,7 +102,7 @@ function TelaInicialT() {
     </section>
     <hr className="divisao-inicial"/>
     <section className="descricao-inicial">
-        <img className="imgDois" src="./logo doação de sangue.png" alt="logo"/>
+        <img className="imgDois-inicial" src="./logo doação de sangue.png" alt="logo"/>
         <h1 className="projeto-inicial">DoeVida</h1>
         <div className="creditos-inicial">
             <p>©DoeVidas todos os direitos reservados.</p>

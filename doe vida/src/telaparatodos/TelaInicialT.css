@@ -1,6 +1,4 @@
 body {
-    padding: 0;
-    margin: 0;
     background-color: #F2EED8;
 }
 
@@ -59,7 +57,7 @@ h2 {
     transform: scale(0.98);
 }
 
-.link1:hover,
+.link1-inicial:hover,
 .link2:hover,
 .link3:hover,
 .link4:hover {
@@ -98,7 +96,7 @@ h2 {
     color: rgb(231, 231, 231);
 }
 
-.imgDois {
+.imgDois-inicial {
     border-radius: 20px;
     height: 80px;
     margin-top: 20px;
@@ -128,6 +126,7 @@ h2 {
 
 .linksFooter-inicial {
     display: flex;
+    background-color: #b92c37;
 }
 
 .linksFooter-inicial>li {
@@ -139,9 +138,10 @@ h2 {
 .linkUm-inicial:hover,
 .linkDois-inicial:hover,
 .linkTres-inicial:hover {
-    color: rgb(188, 188, 188);
+    color: rgb(207, 33, 33);
     transition: 1s;
     text-decoration: underline;
+    background-color: #e0dcc0;
 }
 
 .linkUm-inicial,
@@ -149,16 +149,31 @@ h2 {
 .linkTres-inicial {
     margin-right: 20px;
     font-size: 15px;
-    color: rgb(231, 231, 231);
+    color: rgb(218, 42, 42);
     text-decoration: none;
+    background-color: #b92c37;
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #c62828; /* Vermelho forte */
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.2s;
+
 }
 
 .linkUm-inicial:hover,
 .linkDois-inicial:hover,
 .linkTres-inicial:hover {
-    color: rgb(188, 188, 188);
+    color: #b92c37;
     transition: 0.3s;
     text-decoration: underline;
+    background-color: #b71c1c; /* Vermelho mais escuro */
+    transform: scale(1.05);  
+    
 }
 
 .creditos-inicial {
@@ -266,7 +281,7 @@ label {
     cursor: pointer;
     transition: all 0.4s ease;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-
+    
 
 }
 
@@ -280,9 +295,9 @@ label {
     transform: scale(0.98);
 }
 
-.fixa {
+.fixa-tela-inicial {
     width: 100%;
-    margin-top: 160px;
+   
 }
 
 /*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/

@@ -3,7 +3,7 @@ import './LoginD.css'
 
 function DoadorLogin() {
   return (
-    <div className='container'>
+    <div className='container-login-doador'>
       <div className='form-image'>
         <img src="./imagem da tela de login.svg" alt="" />
       </div>

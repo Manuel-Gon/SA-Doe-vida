@@ -4,7 +4,7 @@ import './CadastroD.css'
 
 function DoadorCadastro() {
   return (
-    <div className='Container'>
+    <div className='Container-cadastro'>
       <div className='form-image'>
         <img src="./imagem da tela de cadastro.svg" alt="" />
         <div className='form'>
