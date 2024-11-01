@@ -7,7 +7,23 @@ function TelaInicialT() {
   return (
     <div>
       <NavBar/>
+<<<<<<< HEAD
    
+=======
+      <div className="container">
+
+
+      
+<button > <img className="perfil-inicial" src="./Cópia de user.png" alt=""/></button>
+
+
+</div>
+
+
+<img className="fixa" src="./mundial_doador.png" alt=""/>
+
+
+>>>>>>> 84203977ca458e694be35f46d9fee414a571db80
 
 <div className="body-opcoes-inicial">
 
@@ -17,6 +33,7 @@ function TelaInicialT() {
 
     <div className="button-group-inicial">
 
+<<<<<<< HEAD
         <div className="button-wrapper">
             <img src="./undraw_love_it_heart_dxlp.svg" alt="" className="btn-image"/>
           <Link to= '/doador'><button className="button-opcoes">Sou Doador</button></Link>
@@ -25,6 +42,16 @@ function TelaInicialT() {
         <div className="button-wrapper">
             <img src="./undraw_doctors_p6aq.svg" alt="" className="btn-image"/>
           <Link to='hospital'><button className="button-opcoes">Área Hospitalar</button></Link>
+=======
+        <div className="button-wrapper-inicial">
+            <img src="./sou_doador.png" alt="" className="btn-image"/>
+          <Link to= '/doador'><button className="button-opcoes-inicial">Sou Doador</button></Link>
+        </div>
+
+        <div className="button-wrapper-inicial">
+            <img src="./area_hospitalar.png" alt="" className="btn-image"/>
+          <Link to='hospital'><button className="button-opcoes-inicial">Área Hospitalar</button></Link>
+>>>>>>> 84203977ca458e694be35f46d9fee414a571db80
         </div>
 
     </div>
@@ -36,19 +63,19 @@ function TelaInicialT() {
 
 <div className="cards-inicial-inicial">
 
-<div className="card-inicial">
-    <img className="img-card-inicial" src="./Dia nacional do doador de sangue.png" alt=""/>
+<div className="card-inicial-one">
+    <img className="img-card-inicial" src="./quemsomos_card.png" alt=""/>
 
     <label className='label-inicial'>QUEM SOMOS</label>
 
     <p className='p-inicial'>Somos uma comunidade comprometida em salvar vidas através da doação de sangue. Facilitamos button conexão entre doadores e pessoas em necessidade, garantindo que cada doação faça button diferença. </p>
 
-    <Link to='/qsomos' ><button className="button-cards">Sobre Nós!</button></Link>
+    <Link to='/qsomos' className='button-cards-one'><button className="button-cards-inicial">Sobre Nós!</button></Link>
 
 </div>
 
 <div className="card2-inicial">
-    <img className="img-card-inicial" src="./Doevida.png" alt=""/>
+    <img className="img-card-inicial" src="./quero_doar_sangue.png" alt=""/>
 
     <label className='label-inicial'>DOE VIDA DOE SANGUE</label>
 
@@ -58,7 +85,7 @@ function TelaInicialT() {
 </div>
 
 <div className="card3-inicial">
-    <img className="img-card-inicial" src="./Doevidaimg.png" alt=""/>
+    <img className="img-card-inicial" src="./saiba_mais_card.png" alt=""/>
 
     <label className='label-inicial'>QUEM PODE DOAR SANGUE?</label>
 
@@ -113,5 +140,5 @@ function TelaInicialT() {
 
   )
 }
-
-export default TelaInicialT
+  
+export default TelaInicialT 

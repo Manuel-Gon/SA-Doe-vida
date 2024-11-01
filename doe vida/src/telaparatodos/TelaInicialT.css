@@ -198,7 +198,7 @@ h2 {
     display: flex;
 }
 
-.card-inicial {
+.card-inicial-one {
     width: 300px;
     display: flex;
     flex-direction: column;
@@ -208,13 +208,13 @@ h2 {
     background-color: #b92c37;
     margin-top: 20px;
     color: rgb(231, 231, 231);
-    height: 500px;
+    
 }
 
 .p-inicial {
     font-size: 15px;
     font-family: 'Inter', sans-serif;
-
+    padding: 10px;
 }
 
 .card2-inicial {
@@ -222,7 +222,7 @@ h2 {
     display: flex;
     flex-direction: column;
     margin: auto;
-    height: 500px;
+    height: 550px;
     padding: 30px;
     border-radius: 20px;
     background-color: #b92c37;
@@ -235,7 +235,7 @@ h2 {
     display: flex;
     flex-direction: column;
     margin: auto;
-    height: 500px;
+    height: 550px;
     padding: 30px;
     border-radius: 20px;
     background-color: #b92c37;
@@ -287,16 +287,17 @@ label {
 
 /*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 /*opções de Cadastro*/
-.body-opcoes {
+.body-opcoes-inicial {
     font-family: 'Inter', sans-serif;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-bottom: 50px;
 
 }
 
-.opcoesCadastro {
+.opcoesCadastro-inicial {
     text-align: center;
     padding: 40px;
 
@@ -319,13 +320,13 @@ h1 {
     height: 140px;
 }
 
-.button-wrapper {
+.button-wrapper-inicial  {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.button-opcoes {
+.button-opcoes-inicial {
     background-color: #b92c37;
     color: #F2EED8;
     border: none;
@@ -340,16 +341,16 @@ h1 {
 
 }
 
-.button-opcoes:hover {
+.button-opcoes-inicial:hover {
     background-color: #a61f23;
     color: #F2EED8;
     transform: scale(1.05);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
 
-.button-opcoes:active {
+.button-opcoes-inicial:active {
     transform: scale(0.98);
 }
 
-.button-opcoes label {
+.button-opcoes-inicial label {
     font-weight: 600px;}
