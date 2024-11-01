@@ -14,6 +14,7 @@ function NavBar() {
             <div class="linksNavBar">
                 <ul className="itens">
                   
+                  <Link to= "/" className="home">Inicio</Link>
                     <Link to="/campanhas" className="link1">Campanhas</Link>
                     <Link to="/doacao" className="link2">Onde Doar</Link>
                     <Link to="/parceiros" className="link3">Parceiros</Link>
