@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom'
 import './LoginH.css'
 function LoginHospital() {
   return (
-    <div className='container-login'>
+    <div className='container-login-hospital'>
        <div className='form-image-login'>
-            <img src="./imagem da tela de login hospitalar.svg"/>
+            <img src="./tela_login_hospital.png"/>
         </div>
         <div className='form-login'>
                 <div className='form-header-login'>
@@ -13,7 +13,7 @@ function LoginHospital() {
                         <h1>Login</h1>
                     </div>
                 </div>
-                <div className='mensagem'>
+                <div className='mensagem-login-hospital'>
                     <p>Digite os dados de acesso do hospital no campo abaixo.</p>
                 </div>
                 <div className='input-group-login'>
@@ -30,7 +30,7 @@ function LoginHospital() {
                     </div>
                 </div>
 
-                <div className='esqueceuSenha'>
+                <div className='esqueceuSenha-login-doador'>
                     <button>Esqueci minha senha</button>
                 </div>
                 
@@ -43,11 +43,11 @@ function LoginHospital() {
                     </label>
                 </div>
 
-                <div className='login-button'>
+                <div className='login-button-hospital'>
                   <button onclick="login()"><button>Entrar</button></button>
                 </div>
 
-                <label>Não possui conta? <Link to='/hospital'><button>Cadastre-se</button></Link></label>
+                <label className='naoPossuiConta'>Não possui conta? <Link to='/hospital'><button>Cadastre-se</button></Link></label>
 
         </div>
     </div>

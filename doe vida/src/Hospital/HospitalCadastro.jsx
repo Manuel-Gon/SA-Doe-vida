@@ -6,10 +6,10 @@ import './CadastroH.css'
 function HospitalCadastro() {
    
   return (
-    <div className='container-hospital'>
+    <div className='container-hospital-cadastro'>
      
  <div className='form-image-hospital'>
-<img src="./imagem da tela de cadastro hospitalar.svg"/>
+<img src="./tela_cadastro_hospital.png"/>
 </div>
 <div className='form-hospital'>
     <div className='form-header-hospital'>

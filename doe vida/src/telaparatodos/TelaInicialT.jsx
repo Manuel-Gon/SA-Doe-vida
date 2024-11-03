@@ -61,7 +61,7 @@ function TelaInicialT() {
 
     <p>Doar sangue é salvar vidas. Seu gesto pode ser o milagre que alguém precisa. Seja button esperança de alguém e doe sangue. Compartilhe o presente mais precioso: button vida.</p>
 
-  <button ><button className="button-cards-inicial">Quero Doar Sangue!</button></button>
+  <button className="button-cards-inicial">Quero Doar Sangue!</button>
 </div>
 
 <div className="card3-inicial">
@@ -96,7 +96,7 @@ function TelaInicialT() {
             <p>Todos os dias acontecem centenas de acidentes, cirurgias e queimaduras  violentas que
                 exigem transfusão, assim como os portadores de hemofilia,  leucemia e anemias.Além
                 disso, doar sangue é um ato simples, tranquilo e seguro que não provoca risco.</p>
-           <button > <button className="bntFooter-inicial">Quero Doar Sangue!</button></button>
+            <button className="bntFooter-inicial">Quero Doar Sangue!</button>
         </div>
 
     </section>

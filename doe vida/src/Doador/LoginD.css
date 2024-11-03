@@ -6,7 +6,7 @@
     display: flex;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
 }
-.form-image{
+.form-image-login-doador{
     width: 50%;
     display: flex;
     justify-content: center;
@@ -14,21 +14,23 @@
     background-color: #f1e2da;
     padding: 2rem;
 }
-.form-image img{
+.form-image-login-doador img{
     width: 25rem;
+  
 }
-.form{
+.form-header-login-doador{
     width: 50%;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: #fff;
     padding: 2rem;
+    height: 400px;
 }
-.form-header{
+.form-header-login-doador{
     margin-bottom: 30px;
 }
-.form-header h1::after{
+.form-header-login-doador h1::after{
     content: '';
     display: block;
     width: 2.5rem;
@@ -36,39 +38,39 @@
     background-color:#D80C12;
     border-radius: 10px;
 }
-.input-group{
+.input-group-login-doador{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
-.input-box{
+.input-box-login-doador{
     display: flex;
     flex-direction: column;
     margin-top: 10px; 
 }
-.input-box input{
+.input-box-login-doador input{
     margin: 0.6rem 0;
     padding: 0.8rem 1.2rem;
     border: none;
     border-radius: 15px;
     box-shadow: 1px 1px 6px #0000001c;
 }
-.input-box input:hover{
+.input-box-login-doador input:hover{
     background-color: #eeeeee75;
 }
-.input-box input:focus-visible{
+.input-box-login-doador input:focus-visible{
     outline: 1px solid #D80C12;
 }
-.input-box label{
+.input-box-login-doador label{
     font-size: 0.80rem;
     font-weight: 600;
     color: #000000c0;
 }
-.input-box input:hover{
+.input-box-login-doador input:hover{
     color: #000000be;
 }
 
-.login-button button{
+.login-button-doador-login button{
     width: 100%;
     margin-top: 15px;
     border: none;
@@ -77,25 +79,25 @@
     border-radius: 5px;
     cursor: pointer;
 }
-.login-button button:hover{
+.login-button-doador-login button:hover{
     background-color: #820000;
     transition: 0.3s;
 }
-.login-button button {
+.login-button-doador-login button {
     text-decoration: none;
     font-size: 0.93rem;
     font-weight: 600;
     color: #fff;
 }
-.confirm-input {
+.confirm-input-login-doador {
     margin-top:20px;
 }
 
-.confirm-input input {
+.confirm-input-login-doador input {
     margin-right: 2px;
 }
 
-.confirm-input label {
+.confirm-input-login-doador label {
     font-size: 0.75rem;
     color: #000000c0;
 }

@@ -4,10 +4,10 @@ import './LoginD.css'
 function DoadorLogin() {
   return (
     <div className='container-login-doador'>
-      <div className='form-image'>
-        <img src="./imagem da tela de login.svg" alt="" />
+      <div className='form-image-login-doador'>
+        <img src="./tela_login_doador.png" alt="" />
       </div>
-     <div className='form-header'>
+     <div className='form-header-login-doador'>
      <div className='tittle'>
         <h1>Login</h1>
        </div>
@@ -15,13 +15,13 @@ function DoadorLogin() {
        <div className='mensagem'>
           <p>Digite seus dados de acesso no campo abaixo.</p>
          </div>
-      <div className='input-group' >
-          <div className='input-box'>
-              <div className='input-box'>
+      <div className='input-group-login-doador' >
+          <div className='input-box-login-doador'>
+              <div className='input-box-login-doador'>
                    <label htmlFor="email">E-mail</label>
                  <input id="email" type="email" name="email" placeholder="Digite seu e-mail" required/>
               </div>
-               <div className='input-box'>
+               <div className='input-box-login-doador'>
                    <label htmlFor="password">Senha</label>
                    <input id="password" type="password" name="password" placeholder="Digite sua senha" required/>
                </div>
@@ -30,7 +30,7 @@ function DoadorLogin() {
       <div className='esqueceuSenha'>
           <button>Esqueci minha senha</button>
         </div>
-        <div className='confirm-input'>
+        <div className='confirm-input-login-doador'>
             <input type="checkbox" id="confirmacao" name="confirmacao" value="confirmacao" required/>
             <label for="confirmacao">
                 Ao confirmar os dados preenchidos do login acima, você concorda com os nossos 
@@ -39,7 +39,7 @@ function DoadorLogin() {
             </label>
         </div>
 
-        <div className='login-button'>
+        <div className='login-button-doador-login'>
            <button onclick="login()">Entrar</button>
         </div>
 

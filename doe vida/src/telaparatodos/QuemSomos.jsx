@@ -5,7 +5,7 @@ function QuemSomos() {
   return (
     <div>
       <NavBar />
-      <div className="container">
+      <div className="container-quem-somos">
          
          <h1>DoeVida</h1>
             

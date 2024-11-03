@@ -9,7 +9,7 @@ function NavBar() {
        <div className="navBar">
 
             <img className="imgUm" src="./Logo da SA - sem o fundo.png " alt="logo"/>
-            <h2>Doação de Sangue</h2>
+            <h2 className="h2-navbar">Doação de Sangue</h2>
 
             <div class="linksNavBar">
                 <ul className="itens">
@@ -21,8 +21,9 @@ function NavBar() {
                     <Link to="/contato" className="link4">Contato</Link>
                 </ul>
                 
-                <img className="perfil" src="./user perfil.png" alt=""/>
+              
             </div>
+           <img className="perfil" src="./Cópia de user.png" alt=""/>
     </div>
     </div>
     </nav>

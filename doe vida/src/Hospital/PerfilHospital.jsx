@@ -7,7 +7,7 @@ function PerfilHospital() {
     <div className='container-perfil'>
          <NavBar/>
        <div className='form-img-perfil'>
-            <img src="./imagem de perfil - Hospital.svg " alt=""/>
+            <img src="./area_hospitalar.png " alt=""/>
         </div>
         <div className='form-perfil'>
             <div className='form-header-perfil'>

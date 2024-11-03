@@ -13,7 +13,9 @@ body {
 
 h2 {
     color: #F2EED8;
-    font-size: 40px;
+    font-size: 35px;
+    padding: 10px;
+    margin-top: 20px;
 }
 
 .itens {
@@ -57,13 +59,6 @@ h2 {
     transform: scale(0.98);
 }
 
-.link1-inicial:hover,
-.link2:hover,
-.link3:hover,
-.link4:hover {
-    color: #e0dcc0;
-    transition: 0.3s;
-}
 
 /*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 /*FOOTER*/
@@ -194,6 +189,7 @@ h2 {
     cursor: pointer;
     transition: all 0.3s ease;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 10px;
 }
 
 .bntFooter-inicial:hover {
@@ -237,8 +233,8 @@ h2 {
     display: flex;
     flex-direction: column;
     margin: auto;
-    height: 550px;
-    padding: 30px;
+    height: 580px;
+    padding: 35px;
     border-radius: 20px;
     background-color: #b92c37;
     margin-top: 20px;
@@ -250,7 +246,7 @@ h2 {
     display: flex;
     flex-direction: column;
     margin: auto;
-    height: 550px;
+    height: 580px;
     padding: 30px;
     border-radius: 20px;
     background-color: #b92c37;

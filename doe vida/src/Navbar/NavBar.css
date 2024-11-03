@@ -3,7 +3,111 @@
     justify-content: space-around;
     align-items: center;
     color: whitesmoke;
-    padding: 15px;
+    padding: 0;
     display: flex;
+    margin-top: 0;
+   
    
 }
+   
+.home {
+    display: inline-block;
+    background-color: #b92c37; /* Cor de fundo do botão */
+    color: white; /* Cor do texto */
+    padding: 15px 30px; /* Espaçamento interno */
+    font-size: 18px; /* Tamanho da fonte */
+    border-radius: 5px; /* Bordas arredondadas */
+    text-decoration: none; /* Sem sublinhado */
+    transition: background-color 0.3s, transform 0.3s; /* Transições suaves */
+    justify-content: center;
+    margin-top: 6px;
+}
+
+.home:hover {
+    background-color: #c9302c; /* Cor ao passar o mouse */
+    transform: scale(1.05); /* Leve aumento de tamanho */
+}
+    .link1{
+        display: inline-block;
+        background-color: #b92c37; /* Cor de fundo do botão */
+        color: white; /* Cor do texto */
+        padding: 15px 30px; /* Espaçamento interno */
+        font-size: 11px; /* Tamanho da fonte */
+        border-radius: 5px; /* Bordas arredondadas */
+        text-decoration: none; /* Sem sublinhado */
+        transition: background-color 0.3s, transform 0.3s; /* Transições suaves */
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .link1:hover {
+        background-color: #c9302c; /* Cor ao passar o mouse */
+        transform: scale(1.05); /* Leve aumento de tamanho */
+    
+    }
+
+    .link2{
+
+        display: inline-block;
+        background-color: #b92c37; /* Cor de fundo do botão */
+        color: white; /* Cor do texto */
+        padding: 15px 30px; /* Espaçamento interno */
+        font-size: 12px; /* Tamanho da fonte */
+        border-radius: 5px; /* Bordas arredondadas */
+        text-decoration: none; /* Sem sublinhado */
+        transition: background-color 0.3s, transform 0.3s; /* Transições suaves */
+        margin-top: 10px;
+    }
+.link2:hover{
+    background-color: #c9302c; /* Cor ao passar o mouse */
+    transform: scale(1.05); /* Leve aumento de tamanho */
+
+}
+    .link3{
+
+        display: inline-block;
+        background-color: #b92c37; /* Cor de fundo do botão */
+        color: white; /* Cor do texto */
+        padding: 15px 30px; /* Espaçamento interno */
+        font-size: 12px; /* Tamanho da fonte */
+        border-radius: 5px; /* Bordas arredondadas */
+        text-decoration: none; /* Sem sublinhado */
+        transition: background-color 0.3s, transform 0.3s; /* Transições suaves */
+        margin-top: 10px;
+    }
+.link3:hover{
+    background-color: #c9302c; /* Cor ao passar o mouse */
+    transform: scale(1.05); /* Leve aumento de tamanho */
+
+}
+    .link4{
+        display: inline-block;
+        background-color: #b92c37; /* Cor de fundo do botão */
+        color: white; /* Cor do texto */
+        padding: 15px 30px; /* Espaçamento interno */
+        font-size: 12px; /* Tamanho da fonte */
+        border-radius: 5px; /* Bordas arredondadas */
+        text-decoration: none; /* Sem sublinhado */
+        transition: background-color 0.3s, transform 0.3s; /* Transições suaves */
+        margin-top: 10px;
+    }
+    .link4:hover{
+
+        background-color: #c9302c; /* Cor ao passar o mouse */
+        transform: scale(1.05); /* Leve aumento de tamanho */
+
+    }
+    .perfil{
+
+        width: 100px;
+        height: 100px;
+        display: flex;
+        margin-top: 10px;
+    }
+    .h2-navbar{
+        color: #F2EED8;
+        font-size: 35px;
+        padding: 10px;
+        margin-top: 20px;
+
+    }

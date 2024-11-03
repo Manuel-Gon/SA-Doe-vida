@@ -5,7 +5,7 @@ function Doacao() {
   return (
     <div>
       <NavBar />
-       <div className="container">
+       <div className="container-doacao">
         <h1>Sobre a Doação de Sangue - Campanha Doe Vida</h1>
     
         <h3>Por Que Doar Sangue?</h3>

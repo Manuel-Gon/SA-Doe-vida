@@ -5,7 +5,7 @@ function Campanhas() {
   return (
     <div>
         <NavBar />
-         <div className="container">
+         <div className="container-campanhas">
             <h1>Campanhas</h1>
 
             <h3>Você Sabia?</h3>

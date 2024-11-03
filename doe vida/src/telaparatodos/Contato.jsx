@@ -5,7 +5,7 @@ function Contato() {
   return (
     <div>
       <NavBar /> 
-          <div className="container">
+          <div className="container-contato-t">
        <h1>Contatos - Campanha Doe Vida</h1>
     
         <h3>Fale Conosco</h3>
