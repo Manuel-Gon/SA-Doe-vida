@@ -59,7 +59,7 @@ function TelaInicialT() {
 
     <label className='label-inicial'>DOE VIDA DOE SANGUE</label>
 
-    <p>Doar sangue é salvar vidas. Seu gesto pode ser o milagre que alguém precisa. Seja button esperança de alguém e doe sangue. Compartilhe o presente mais precioso: button vida.</p>
+    <p className='p-tela-inicial'>Doar sangue é salvar vidas. Seu gesto pode ser o milagre que alguém precisa. Seja button esperança de alguém e doe sangue. Compartilhe o presente mais precioso: button vida.</p>
 
   <button className="button-cards-inicial">Quero Doar Sangue!</button>
 </div>
@@ -69,7 +69,7 @@ function TelaInicialT() {
 
     <label className='label-inicial'>QUEM PODE DOAR SANGUE?</label>
 
-    <p>Uma doação de sangue pode salvar até quatro vidas! Confira os requisitos para doar de forma segura. Sua generosidade é button esperança de muitos. Abra o arquivo e saiba mais!</p>
+    <p className='p3-tela-inicial'>Uma doação de sangue pode salvar até quatro vidas! Confira os requisitos para doar de forma segura. Sua generosidade é button esperança de muitos. Abra o arquivo e saiba mais!</p>
 
     <button className="button-cards-inicial">Saiba mais!</button>
 </div>
