@@ -1,8 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import './CadastroD.css'
+import './Doador_cadastro.css'
 
-function DoadorCadastro() {
+function Doador_cadastro() {
   return (
     <div className='Container-cadastro-doador'>
       <div className='form-image-cadastro-doador'>
@@ -72,7 +72,7 @@ function DoadorCadastro() {
                 <div className='gender-group-cadastro-doador'>
                     <div className='gender-input-cadastro-doador'>
                         <input type="radio" id="female" name="gender"/>
-                        <label htmlFor="female">Feminino</label>
+                        <label htmlFor="female" >Feminino</label>
                     </div>
 
                     <div className='gender-input-cadastro-doador'>
@@ -101,4 +101,4 @@ function DoadorCadastro() {
   )
 }
 
-export default DoadorCadastro
+export default Doador_cadastro
