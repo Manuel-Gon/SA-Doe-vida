@@ -1,12 +1,15 @@
 import React from 'react'
 import NavBar from '../Navbar/NavBar'
+import './Four-pages.css'
 
 function Parceiros() {
   return (
     <div>
       <NavBar />
-       <div className="container-parceiros">
-        <h1>Parceiros e Apoio - Campanha Doe Vida</h1>
+       <div className="container-four-pages">
+       <div className='titulo'>
+        <h1>Parceiros - Campanha Doe Vida</h1>
+       </div>
     
         <h3>Famosos que Apoiamos a Campanha</h3>
         <p>A campanha "Doe Vida" conta com o apoio de diversos parceiros e celebridades que se juntaram a nós nessa causa tão importante. Com a ajuda de pessoas influentes, conseguimos aumentar a conscientização sobre a importância da doação de sangue e salvar ainda mais vidas.</p>

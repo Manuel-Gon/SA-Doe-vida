@@ -1,0 +1,55 @@
+:root{
+    --color-1-: #B92C37;
+    --color-2-: #D80C12;
+    --color-3-: #F2EED8;
+    --color-4-: #D67676;
+    --color-5-: #7E1D2C;
+    --color-6-: #954243;
+    --color-7-: #FFFFFF;
+    --color-8-: #000000;
+}
+
+.container-four-pages{
+    color: var(--color-2-);
+    margin: 0 auto;
+    padding: 30px;
+    background-color: var(--color-3-);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 25px;
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h3{
+    font-size: 1.30em;
+    color: #b92c37;
+    border-bottom: 2px solid #b92c37;
+    padding-bottom: 10px;
+    margin-top: 30px;
+}
+p{
+    color: #333;
+    margin: 15px 0;
+}
+li{
+    color: #333;
+}
+
+.cadastre-se{
+    width: 500px;
+    height: 100px;
+    background-color: var(--color-2-);
+    color: var(--color-7-);
+    border-style: none;
+    border-radius: 100px;
+    cursor: pointer;
+    font-size: 30px;
+}
+.cta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
