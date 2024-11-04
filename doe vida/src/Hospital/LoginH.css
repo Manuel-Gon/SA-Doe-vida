@@ -61,6 +61,7 @@
 .input-box-login input{
     margin: 0.6rem 0;
     padding: 0.8rem 1.2rem;
+    width: 500px;
     border: none;
     border-radius: 15px;
     box-shadow: 1px 1px 6px #0000001c;
@@ -85,7 +86,7 @@
 }
 
 .login-button-hospital button{
-    width: 100%;
+    width: 90%;
     margin-top: 15px;
     border: none;
     background-color:#D80C12;
@@ -123,8 +124,9 @@
     font-size: 14px;
 }
 
-.naoPossuiConta label{
-    font-size:13px ;
+.naoPossuiConta{
+    color: black;
+    font-size:13px;
 }
 .esqueceuSenha-login-doador{
     font-size: 13px;

@@ -31,15 +31,15 @@ function LoginHospital() {
                 </div>
 
                 <div className='esqueceuSenha-login-doador'>
-                    <button>Esqueci minha senha</button>
+                    <a>Esqueci minha senha</a>
                 </div>
+
+                <br />
+                <br />
                 
                 <div className='confirm-input-login'>
-                    <input type="checkbox" id="confirmacao" name="confirmacao" value="confirmacao" required/>
-                    <label htmlFor="confirmacao">
-                        Ao confirmar os dados preenchidos do login acima, você concorda com os nossos 
-                        <button>Termos de Uso</button> e nossa 
-                        <button>Política de Privacidade</button>.
+                    <input type="checkbox" id="confirmacao" name="confirmacao" value="confirmacao" required/> <label>
+                        Ao confirmar os dados preenchidos do login acima, você concorda com os nossos <a>Termos de Uso</a> e nossa <a>Política de Privacidade</a>.
                     </label>
                 </div>
 
@@ -47,7 +47,7 @@ function LoginHospital() {
                   <button onclick="login()"><button>Entrar</button></button>
                 </div>
 
-                <label className='naoPossuiConta'>Não possui conta? <Link to='/hospital'><button>Cadastre-se</button></Link></label>
+                <label className='naoPossuiConta'>Não possui conta?</label><Link to='/hospital' className='login-button-hospital'><button>Cadastre-se</button></Link>
 
         </div>
     </div>
