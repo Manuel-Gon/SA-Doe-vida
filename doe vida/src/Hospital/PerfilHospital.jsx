@@ -1,26 +1,31 @@
 import React from 'react'
 import NavBar from '../Navbar/NavBar'
+import './PerfilHospital.css'
 
 function PerfilHospital() {
   return (
    
+    <>
+        <NavBar />
     <div className='container-perfil'>
-         <NavBar/>
+         
        <div className='form-img-perfil'>
-            <img src="./area_hospitalar.png " alt=""/>
+            <img src="./area_hospitalar.png "/>
         </div>
         <div className='form-perfil'>
-            <div className='form-header-perfil'>
-               <img className='logo' src="./Cópia de logo doação de sangue (2).png" alt=""/>
-               <h1>Perfil do Hospital</h1>
-               <div className='voltar-button'>
-                <button>Voltar</button>
-            </div>
-            </div>
+            <div className='topo'>
+                <div className='form-header-perfil'>
+                <img className='logo' src="./Cópia de logo doação de sangue (2).png"/>
+                <h1>Perfil do Hospital</h1>
+                    <div className='voltar-button'>
+                        <button>Voltar</button>
+                    </div>
+                </div>
 
-            <div className='form-content-perfil'>
-                <img className='avatar' src="./user.png" alt=""/>
-                <h4>Dados do Hospital</h4>
+                <div className='form-content-perfil'>
+                    <img className='avatar' src="./user.png" alt=""/>
+                    <h4>Dados do Hospital</h4>
+                </div>
             </div>
  
             <div className='input-group-perfil'>
@@ -89,6 +94,7 @@ function PerfilHospital() {
 
         </div> 
     </div>
+    </>
   )
 }
 

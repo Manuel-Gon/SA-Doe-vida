@@ -1,13 +1,16 @@
 import React from 'react'
 import NavBar from '../Navbar/NavBar'
+import './Four-pages.css'
 
 function QuemSomos() {
   return (
     <div>
       <NavBar />
-      <div className="container-quem-somos">
+      <div className="container-four-pages">
          
-         <h1>DoeVida</h1>
+      <div className='titulo'>
+        <h1>DoeVida</h1>
+       </div>
             
          <h3>Sobre Nós</h3>
          <p>Bem-vindo ao Doevida, uma plataforma dedicada à promoção e facilitação da doação de sangue. Acreditamos que cada doação tem o poder de salvar vidas e é nossa missão criar uma comunidade conectada de doadores e hospitais para atender essa necessidade vital.</p>
@@ -22,9 +25,9 @@ function QuemSomos() {
          
          <h3>Nossa Visão</h3>
          <p>Acreditamos em um mundo onde a doação de sangue é um ato comum e consciente, com uma rede eficaz e solidária que garante o suprimento contínuo e seguro de sangue para todos os que precisam.</p>
-         
+         <p>Junte-se a nós nesta missão de salvar vidas. Seja um doador, cadastre-se, ou compartilhe esta causa. Juntos, podemos fazer a diferença!</p>
+        
          <div className="cta">
-             <p>Junte-se a nós nesta missão de salvar vidas. Seja um doador, cadastre-se, ou compartilhe esta causa. Juntos, podemos fazer a diferença!</p>
              <button className="cadastre-se">cadastre-se agora!</button>
          </div>
      </div>

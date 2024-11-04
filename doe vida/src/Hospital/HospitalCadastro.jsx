@@ -59,7 +59,7 @@ function HospitalCadastro() {
             </div>
 
         </div>
-
+        <div className='divisor'></div>
         <div className='segundaColuna'>
             <div className='input-box-hospital'>
                 <label htmlFor="site">Website</label>
@@ -103,9 +103,7 @@ function HospitalCadastro() {
     <div className='confirm-input-hospital'>
         <input type="checkbox" id="confirmacao" name="confirmacao" value="confirmacao"/>
         <label htmlFor="confirmacao">
-            Ao confirmar os dados preenchidos do formulário acima, você concorda com os nossos
-            <button>Termos de Uso</button> e nossa
-            <button>Política de Privacidade</button>.
+            Ao confirmar os dados preenchidos do formulário acima, você concorda com os nossos <a href=''>Termos de Uso</a> e nossa <a href=''>Política de Privacidade</a>.
         </label>
     </div>
 

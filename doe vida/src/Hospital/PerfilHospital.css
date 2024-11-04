@@ -7,28 +7,21 @@
     font-family: 'Inter', sans-serif;
 }
 
-body {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #D67676;
-}
-
 .container-perfil {
     width: 70%;
     height: 80vh;
     display: flex;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
+    background-color: white;
+    margin-left: 15%;
+    margin-top: 2%;
 }
 
 .form-img-perfil {
     width: 50%;
     display: flex;
     justify-content: center;
-    align-items: center;
-    background-color: #f1e2da;
-    
+    align-items: center;        
+    background-color: #F2EED8;
 }
 
 .form-img-perfil img {
@@ -36,11 +29,8 @@ body {
 }
 
 .form-perfil {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    background-color: #fff;
-    padding: 3rem;
+    margin: 50px;
+    
 }
 
 .form-content-perfil {
@@ -54,6 +44,7 @@ body {
 }
 .logo{
     width: 100px;
+    height: 65px;
 }
 .form-header-perfil {
     display: flex;
@@ -177,4 +168,5 @@ body {
     text-decoration: none;
     font-weight: 500;
     color: #fff;
+    margin-left: 10px;
 }

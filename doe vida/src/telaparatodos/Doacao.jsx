@@ -1,12 +1,15 @@
 import React from 'react'
 import NavBar from '../Navbar/NavBar'
+import './Four-pages.css'
 
 function Doacao() {
   return (
     <div>
       <NavBar />
-       <div className="container-doacao">
-        <h1>Sobre a Doação de Sangue - Campanha Doe Vida</h1>
+       <div className="container-four-pages">
+       <div className='titulo'>
+        <h1>Doação - Campanha Doe Vida</h1>
+       </div>
     
         <h3>Por Que Doar Sangue?</h3>
         <p>Doar sangue é um ato de solidariedade que pode salvar vidas. Uma única doação pode beneficiar até quatro pessoas. Seja para vítimas de acidentes, pacientes em tratamento de câncer, ou pessoas que precisam de cirurgias, o sangue doado é vital.
