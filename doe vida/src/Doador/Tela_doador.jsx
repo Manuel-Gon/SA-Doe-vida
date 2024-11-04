@@ -1,6 +1,6 @@
 import React from 'react'
 
-function TelaIDoador() {
+function Tela_doador() {
   return (
     <div>
       
@@ -8,4 +8,4 @@ function TelaIDoador() {
   )
 }
 
-export default TelaIDoador
+export default Tela_doador
