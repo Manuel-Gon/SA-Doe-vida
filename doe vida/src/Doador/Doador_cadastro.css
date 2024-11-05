@@ -11,10 +11,11 @@
     display: flex;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
     background-color: #F1E2DA;
+    padding-top: 18%;
 }
 
-.form-image-cadastro-doador{
-    
+.imagem_cadastro{
+
     display: flex;
     justify-content: center;
     background-color: #f1e2da;
@@ -22,13 +23,13 @@
     height: 1000px;
 }
 
-.form-image-cadastro-doador img{
+.imagem_cadastro img{
     width: auto;
     position: absolute;
     padding: 6%;
 }
 
-.form-cadastro-doador{
+.formulario-cadastro-doador{
     width: 50%;
     display: flex;
     justify-content: center;
@@ -37,15 +38,16 @@
     padding: 3rem;
     margin-left: 200%;
     margin-bottom: 10%;
+    
 }
 
-.form-header-cadastro-doador{
+.formulario-cadastro-doador{
     margin-bottom: 3rem;
     display: flex;
     justify-content: space-between;
 }
 
-.login-button-cadastro-doador button{
+.botao_login button{
     padding: 10px 40px;
     font-size: 15px;
     border: none;
@@ -54,18 +56,18 @@
     background-color: #D80C12;  
 }
 
-.login-button-cadastro-doador button:hover{
+.botao_login button:hover{
     background-color: #820000;
     transition: 0.3s;
 }
 
-.login-button-cadastro-doador button{
+.botao_login button{
     text-decoration: none;
     font-weight: 500;
     color: #fff;
 }
 
-.form-header-cadastro-doador h1::after{
+.Div_cadastra-se h1::after{
     content: '';
     display: block;
     width: 5rem;
@@ -76,17 +78,17 @@
     border-radius: 10px;
 }
 
-.input-group-cadastro-doador{
+.Div_requisitos{
     display: flex;
     justify-content: space-between;
 }
 
-.input-box-cadastro-doador{
+.Requisitos_cadastro{
     display: flex;
     flex-direction: column; 
 }
 
-.input-box-cadastro-doador input{
+.Requisitos_cadastro input{
     margin: 0.6rem 0;
     padding: 0.8rem 1.8rem;
     border: none;
@@ -94,47 +96,47 @@
     box-shadow: 1px 1px 7px #0000001c;
 }
 
-.input-box-cadastro-doador input:hover{
+.Requisitos_cadastro input:hover{
     background-color: #eeeeee75;
 }
 
-.iinput-box-cadastro-doador input:focus-visible{
+.Requisitos_cadastro input:focus-visible{
     outline: 1px solid #D80C12;
 }
 
-.input-box-cadastro-doador label, .gender-tittle h6{
+.Requisitos_cadastro label, .gender-tittle h6{
     font-size: 0.80rem;
     font-weight: 600;
     color: #000000c0;
 }
 
-.input-box-cadastro-doador input:hover{
+.Requisitos_cadastro input:hover{
     color: #000000be;
 }
 
-.gender-group-cadastro-doador{
+.Div_femino_masculino{
     display: flex;
     justify-content: space-between;
     margin-top: 0.62rem;
     padding: 0 0.5rem;
 }
 
-.gender-input-cadastro-doador{
+.Feminino_masculino{
     display: flex;
     align-items: center;
 }
 
-.gender-input-cadastro-doador input{
+.Feminino_masculino input{
     margin-right: 0.35rem;
 }
 
-.gender-input-cadastro-doador label{
+.Feminino_masculino label{
     font-size: 0.81rem;
     font-weight: 600;
     color: #000000c0;
 }
 
-.continue-button-cadastro-doador button{
+.botao_cadastrar button{
     width: 100%;
     margin-top: 20px;
     border: none;
@@ -144,37 +146,37 @@
     cursor: pointer;
 }
 
-.continue-button-cadastro-doador button:hover{
+.botao_cadastrar button:hover{
     background-color: #820000;
     transition: 0.3s;
 }
 
-.continue-button-cadastro-doador button {
+.botao_cadastrar button {
     text-decoration: none;
     font-size: 0.93rem;
     font-weight: 500;
     color: #fff;
 }
 
-.confirm-input-cadastro-doador {
+.Div_termos_e_Privacidade {
     margin-top:20px;
 }
 
-.confirm-input-cadastro-doador input {
+.Div_termos_e_Privacidade input {
     margin-right: 0.5rem;
 }
 
-.confirm-input-cadastro-doador label {
+.Div_termos_e_Privacidade label {
     font-size: 0.75rem;
     color: #000000c0;
 }
 
-.confirm-input-cadastro-doador a{
+.Div_termos_e_Privacidade a{
     color: #bd0000;
     text-decoration: none;
    
 }
 
-.confirm-input-cadastro-doador a:hover {
+.Div_termos_e_Privacidade a:hover {
     text-decoration: underline;
 }
