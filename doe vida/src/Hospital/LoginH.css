@@ -18,6 +18,7 @@
     align-items: center;
     background-color: #f1e2da;
     padding: 2rem;
+    height: 840px;
 }
 
 .form-image-login img{
@@ -30,6 +31,7 @@
     flex-direction: column;
     background-color: #fff;
     padding: 2rem;
+    height: 840px;
     
 }
 
@@ -85,7 +87,7 @@
     color: #000000be;
 }
 
-.login-button-hospital button{
+.login-button-hospital-login button{
     width: 90%;
     margin-top: 15px;
     border: none;
@@ -93,13 +95,14 @@
     padding: 0.60rem;
     border-radius: 5px;
     cursor: pointer;
+    
 }
 
-.login-button-hospital button:hover{
+.login-button-hospital-login button:hover{
     background-color: #820000;
 }
 
-.login-button-hospital button a{
+.login-button-hospital-login button a{
     text-decoration: none;
     font-size: 0.93rem;
     font-weight: 600;

@@ -8,7 +8,7 @@ function QuemSomos() {
       <NavBar />
       <div className="container-four-pages">
          
-      <div className='titulo'>
+      <div className='titulo-four-pages'>
         <h1>DoeVida</h1>
        </div>
             

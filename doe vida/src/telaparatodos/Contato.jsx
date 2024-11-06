@@ -7,7 +7,7 @@ function Contato() {
     <div>
       <NavBar /> 
           <div className="container-four-pages">
-       <div className='titulo'>
+       <div className='titulo-four-pages'>
         <h1>Contatos - Campanha Doe Vida</h1>
        </div>
     
