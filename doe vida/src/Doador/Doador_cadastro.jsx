@@ -4,6 +4,7 @@ import './Doador_cadastro.css'
 
 function Doador_cadastro() {
   return (
+    <form action="">
     <div className='Container-cadastro-doador'>
 
       <div className='imagem_cadastro'>
@@ -62,6 +63,9 @@ function Doador_cadastro() {
                             placeholder="Confirme sua senha" required/>
                  </div>
             </div>
+
+            
+
         </div>
 
 
@@ -84,10 +88,10 @@ function Doador_cadastro() {
 
              <div className='Div_termos_e_Privacidade'>
                 <input type="checkbox" id="confirmacao" name="confirmacao" value="confirmacao"/>
-                <label htmlFor="confirmacao">
+                <label className='' htmlFor="confirmacao">
                     Ao confirmar os dados preenchidos do formulário acima, você concorda com os nossos
-                    <button>Termos de Uso</button> e nossa
-                    <button>Política de Privacidade</button>.
+                    <Link to=''> Termos de Uso</Link> e nossa
+                    <Link to=''> Política de Privacidade</Link>.
                 </label>
              </div>
 
@@ -96,8 +100,9 @@ function Doador_cadastro() {
     </div>
       </div>
     </div>
-
+    
     </div>
+    </form>
   )
 }
 

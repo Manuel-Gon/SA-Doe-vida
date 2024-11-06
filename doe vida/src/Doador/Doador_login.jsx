@@ -23,26 +23,26 @@ function Doador_login() {
 
   return (
     <div className='container-login-doador'>
-      <div className='image-login-doador'>
+      <div className='imagem-login-doador'>
         <img src="./tela_login_doador.png" alt="Imagem de Login" />
       </div>
 
-      <div className='form-header-login-doador'>
+      <div className='informacoes-login-doador'>
         <h1>Login</h1>
         <p>Digite seus dados de acesso no campo abaixo.</p>
       </div>
 
-      <form className='input-group-login-doador' onSubmit={e => { e.preventDefault(); handleLogin(); }}>
-        <div className='back-button-container'>
-          <button className='back-button' type="button" onClick={handleBack}>Voltar</button>
+      <form className='formulario-login-doador' onSubmit={e => { e.preventDefault(); handleLogin(); }}>
+        <div className='botao-voltar-container-login-doador'>
+          <button className='botao-voltar-login-doador' type="button" onClick={handleBack}>Voltar</button>
         </div>
 
-        <div className='input-box-login-doador'>
+        <div className='Requisitos-login-doador'>
           <label htmlFor="email">E-mail</label>
           <input id="email" type="email" name="email" placeholder="Digite seu e-mail" required />
         </div>
 
-        <div className='input-box-login-doador'>
+        <div className='Requisitos-login-doador'>
           <label htmlFor="password">Senha</label>
           <input id="password" type="password" name="password" placeholder="Digite sua senha" required />
         </div>
@@ -51,7 +51,7 @@ function Doador_login() {
           <button type="button" onClick={handleForgotPassword}>Esqueci minha senha</button>
         </div>
 
-        <div className='confirm-input-login-doador'>
+        <div className='termos-e-politicas-login-doador'>
           <input type="checkbox" id="confirmacao" name="confirmacao" required />
           <label htmlFor="confirmacao">
             Ao confirmar os dados preenchidos do login acima, você concorda com os nossos 
@@ -60,7 +60,7 @@ function Doador_login() {
           </label>
         </div>
 
-        <div className='login-button-doador-login'>
+        <div className='botao-entrar-login-doador'>
           <button type="submit">Entrar</button>
         </div>
 
@@ -69,6 +69,7 @@ function Doador_login() {
         </div>
       </form>
     </div>
+
   );
 }
 

@@ -128,12 +128,14 @@
 
 .Feminino_masculino input{
     margin-right: 0.35rem;
+    accent-color: #820000;
 }
 
 .Feminino_masculino label{
     font-size: 0.81rem;
     font-weight: 600;
     color: #000000c0;
+    
 }
 
 .botao_cadastrar button{
@@ -179,4 +181,19 @@
 
 .Div_termos_e_Privacidade a:hover {
     text-decoration: underline;
+} 
+
+input[type="checkbox"],input[type="radio"]{
+    -webkit-appearance: none;
+    width: 12px;
+    height: 12px;
+    border: 1px solid #D80C12;
+}
+
+input[type="checkbox"]:checked,input[type="radio"]:checked {
+    background-color: #D80C12;
+}
+
+input[type="radio"]{
+  border-radius: 50%;
 }
