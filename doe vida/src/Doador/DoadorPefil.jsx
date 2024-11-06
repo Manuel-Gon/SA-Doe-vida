@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './PefilD.css'
 function DoadorPefil() {
   return (
@@ -13,10 +14,10 @@ function DoadorPefil() {
                 <img className='logo' src="logo doação de sangue (2).png" alt=""/>
                 <h1>Perfil do Doador</h1>
                 <div className='voltar-button'>
-                    <button ><button>Voltar</button></button>
+                    <Link to='/telaiDoador' ><button>Voltar</button></Link>
                 </div>
             </div>
-        
+            
             <div className='form-content-doador'>
                 <img className='avatar'src="Cópia de user.png" alt=""/>
                 <h4>Dados pessoais de usuário</h4>
