@@ -1,12 +1,15 @@
 import React from 'react'
 import NavBar from '../Navbar/NavBar'
+import './Four-pages.css'
 
 function Contato() {
   return (
     <div>
       <NavBar /> 
-          <div className="container-contato-t">
-       <h1>Contatos - Campanha Doe Vida</h1>
+          <div className="container-four-pages">
+       <div className='titulo-four-pages'>
+        <h1>Contatos - Campanha Doe Vida</h1>
+       </div>
     
         <h3>Fale Conosco</h3>
         <p>Tem dúvidas sobre a doação de sangue? Quer saber mais sobre a campanha ou como participar? Entre em contato conosco pelos canais abaixo:</p>
@@ -15,14 +18,14 @@ function Contato() {
         <p>Central de Atendimento: <strong>(11) 1234-5678</strong></p>
     
         <h3>E-mail</h3>
-        <p>Envie suas dúvidas para: <button>contato@doevida.org</button></p>
+        <p>Envie suas dúvidas para: <a>contato@doevida.org</a></p>
     
         <h3>Redes Sociais</h3>
         <p>Siga-nos e acompanhe as novidades da campanha:</p>
         <ul>
-            <li><button >Facebook</button></li>
-            <li><button >Instagram</button></li>
-            <li><button >Twitter</button></li>
+            <li><a>Facebook</a></li>
+            <li><a>Instagram</a></li>
+            <li><a>Twitter</a></li>
         </ul>
     
         <h3>Endereço</h3>

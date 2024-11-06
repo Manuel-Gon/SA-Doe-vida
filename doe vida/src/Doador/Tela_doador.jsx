@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import NavBar from '../Navbar/NavBar'
 
-function TelaIDoador() {
+function Tela_doador() {
   return (
     <div>
     {/* <NavBar/> */}
@@ -63,5 +63,9 @@ function TelaIDoador() {
   )
 }
 
+<<<<<<< HEAD:doe vida/src/Doador/TelaIDoador.jsx
 export default TelaIDoador
 
+=======
+export default Tela_doador
+>>>>>>> c2a9694f3bd173f0a6a18960ff9ba2a99e625f55:doe vida/src/Doador/Tela_doador.jsx

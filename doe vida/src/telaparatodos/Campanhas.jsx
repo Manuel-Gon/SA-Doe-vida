@@ -1,12 +1,15 @@
 import React from 'react'
 import NavBar from '../Navbar/NavBar'
+import './Four-pages.css'
 
 function Campanhas() {
   return (
     <div>
         <NavBar />
-         <div className="container-campanhas">
-            <h1>Campanhas</h1>
+         <div className="container-four-pages">
+            <div className='titulo-four-pages'>
+                <h1>Campanha Doe Vida</h1>
+            </div>
 
             <h3>Você Sabia?</h3>
             <p>Você sabia que uma única doação de sangue pode salvar até quatro vidas? O simples ato de doar pode fazer a diferença entre a vida e a morte para milhares de pessoas que dependem dessa solidariedade todos os dias.

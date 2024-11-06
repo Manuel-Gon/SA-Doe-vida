@@ -43,7 +43,7 @@ function LoginHospital() {
                     </label>
                 </div>
 
-                <div className='login-button-hospital'>
+                <div className='login-button-hospital-login'>
                   <button onclick="login()"><button>Entrar</button></button>
                 </div>
 

@@ -15,12 +15,12 @@
     background-color: #b92c37; /* Cor de fundo do botão */
     color: white; /* Cor do texto */
     padding: 15px 30px; /* Espaçamento interno */
-    font-size: 18px; /* Tamanho da fonte */
+    font-size: 20px; /* Tamanho da fonte */
     border-radius: 5px; /* Bordas arredondadas */
     text-decoration: none; /* Sem sublinhado */
     transition: background-color 0.3s, transform 0.3s; /* Transições suaves */
     justify-content: center;
-    margin-top: 6px;
+    margin-top: 7px;
 }
 
 .home:hover {
@@ -32,12 +32,12 @@
         background-color: #b92c37; /* Cor de fundo do botão */
         color: white; /* Cor do texto */
         padding: 15px 30px; /* Espaçamento interno */
-        font-size: 11px; /* Tamanho da fonte */
+        font-size: 20px; /* Tamanho da fonte */
         border-radius: 5px; /* Bordas arredondadas */
-        text-decoration: none; /* Sem sublinhado */
+         /* Sem sublinhado */
         transition: background-color 0.3s, transform 0.3s; /* Transições suaves */
         justify-content: center;
-        margin-top: 10px;
+        margin-top: 8px;
     }
 
     .link1:hover {
@@ -52,7 +52,7 @@
         background-color: #b92c37; /* Cor de fundo do botão */
         color: white; /* Cor do texto */
         padding: 15px 30px; /* Espaçamento interno */
-        font-size: 12px; /* Tamanho da fonte */
+        font-size: 18px; /* Tamanho da fonte */
         border-radius: 5px; /* Bordas arredondadas */
         text-decoration: none; /* Sem sublinhado */
         transition: background-color 0.3s, transform 0.3s; /* Transições suaves */
@@ -69,7 +69,7 @@
         background-color: #b92c37; /* Cor de fundo do botão */
         color: white; /* Cor do texto */
         padding: 15px 30px; /* Espaçamento interno */
-        font-size: 12px; /* Tamanho da fonte */
+        font-size: 18px; /* Tamanho da fonte */
         border-radius: 5px; /* Bordas arredondadas */
         text-decoration: none; /* Sem sublinhado */
         transition: background-color 0.3s, transform 0.3s; /* Transições suaves */
@@ -85,7 +85,7 @@
         background-color: #b92c37; /* Cor de fundo do botão */
         color: white; /* Cor do texto */
         padding: 15px 30px; /* Espaçamento interno */
-        font-size: 12px; /* Tamanho da fonte */
+        font-size: 18px; /* Tamanho da fonte */
         border-radius: 5px; /* Bordas arredondadas */
         text-decoration: none; /* Sem sublinhado */
         transition: background-color 0.3s, transform 0.3s; /* Transições suaves */
@@ -99,8 +99,8 @@
     }
     .perfil{
 
-        width: 100px;
-        height: 100px;
+        width: 70px;
+        height: 70px;
         display: flex;
         margin-top: 10px;
     }
@@ -108,6 +108,6 @@
         color: #F2EED8;
         font-size: 35px;
         padding: 10px;
-        margin-top: 20px;
-
+        margin-top: 23px;
+       margin-right: 10px;
     }
