@@ -1,14 +1,14 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import NavBar from '../Navbar/NavBar'
+import NavBarD from '../NavBarD/NavBarD'
 
 function Tela_doador() {
   return (
     <div>
-    {/* <NavBar/> */}
-      <div className="container">
+      {/* <NavBarD/> */}
+      <div className="container"></div>
 
-</div>
+
 
 
 <img className="fixa-tela-inicial" src="./mundial_doador.png" alt=""/>
@@ -59,6 +59,7 @@ function Tela_doador() {
     </section>
 </div>
 </footer> 
+
     </div>
   )
 }
