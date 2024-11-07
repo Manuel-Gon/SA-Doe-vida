@@ -63,9 +63,4 @@ function Tela_doador() {
   )
 }
 
-<<<<<<< HEAD:doe vida/src/Doador/TelaIDoador.jsx
-export default TelaIDoador
-
-=======
 export default Tela_doador
->>>>>>> c2a9694f3bd173f0a6a18960ff9ba2a99e625f55:doe vida/src/Doador/Tela_doador.jsx
