@@ -1,13 +1,7 @@
 import { createBrowserRouter } from "react-router-dom"; 
-<<<<<<< HEAD
-import DoadorCadastro from "../Doador/DoadorCadastro";
-import DoadorLogin from "../Doador/DoadorLogin";
-import DoadorPefil from "../Doador/DoadorPefil";
-import TelaIDoador from "../Doador/TelaIDoador";
-=======
-import DoadorCadastro from "../Doador/Doador_cadastro";
 import Doador_login from "../Doador/Doador_login";
->>>>>>> c2a9694f3bd173f0a6a18960ff9ba2a99e625f55
+import Doador_pefil from "../Doador/Doador_perfil";
+import Tela_doador from "../Doador/Tela_doador";
 import HospitalCadastro from "../Hospital/HospitalCadastro";
 import LoginHospital from "../Hospital/LoginHospital";
 import PerfilHospital from "../Hospital/PerfilHospital";
@@ -17,7 +11,6 @@ import Doacao from "../telaparatodos/Doacao";
 import Parceiros from "../telaparatodos/Parceiros";
 import QuemSomos from "../telaparatodos/QuemSomos";
 import TelaInicialT from "../telaparatodos/TelaInicialT";
-import Doador_perfil from "../Doador/Doador_perfil";
 import Doador_cadastro from "../Doador/Doador_cadastro";
 
 
@@ -33,14 +26,9 @@ const router = createBrowserRouter([
     {path: "/qsomos", element: <QuemSomos/>},
     {path: "/perfilH", element: <PerfilHospital/>},
     {path: "/loginH", element: <LoginHospital/>},
-<<<<<<< HEAD
-    {path: "/perfilD", element: <DoadorPefil/>},
-    {path: "/loginD", element: <DoadorLogin/>},
-    {path: "/telaiDoador", element: <TelaIDoador/>},
-=======
-    {path: "/perfilD", element: <Doador_perfil/>},
+    {path: "/perfilD", element: <Doador_pefil/>},
     {path: "/loginD", element: <Doador_login/>},
->>>>>>> c2a9694f3bd173f0a6a18960ff9ba2a99e625f55
+    {path: "/telaiDoador", element: <Tela_doador/>},
 ])
 
 export default router;
