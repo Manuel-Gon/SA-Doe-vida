@@ -6,7 +6,7 @@ function PerfilHospital() {
   return (
    
     <>
-        <NavBar />
+
     <div className='container-perfil'>
          
        <div className='form-img-perfil'>
