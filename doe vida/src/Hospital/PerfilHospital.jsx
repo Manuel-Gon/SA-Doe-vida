@@ -10,7 +10,7 @@ function PerfilHospital() {
     <div className='container-perfil'>
          
        <div className='form-img-perfil'>
-            <img src="./area_hospitalar.png "/>
+            <img className='img-perfil-hospital-cadastro' src="./area_hospitalar.png "/>
         </div>
         <div className='form-perfil'>
             <div className='topo'>

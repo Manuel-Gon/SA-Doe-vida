@@ -12,11 +12,11 @@ function Doacao() {
        </div>
     
         <h3>Por Que Doar Sangue?</h3>
-        <p>Doar sangue é um ato de solidariedade que pode salvar vidas. Uma única doação pode beneficiar até quatro pessoas. Seja para vítimas de acidentes, pacientes em tratamento de câncer, ou pessoas que precisam de cirurgias, o sangue doado é vital.
+        <p className='p-four-pages'>Doar sangue é um ato de solidariedade que pode salvar vidas. Uma única doação pode beneficiar até quatro pessoas. Seja para vítimas de acidentes, pacientes em tratamento de câncer, ou pessoas que precisam de cirurgias, o sangue doado é vital.
         </p>
     
         <h3>Quem Pode Doar?</h3>
-        <p>Para ser um doador de sangue, você deve atender aos seguintes critérios:</p>
+        <p className='p-four-pages'>Para ser um doador de sangue, você deve atender aos seguintes critérios:</p>
         <ul>
             <li>Ter entre 16 e 69 anos (menores de idade devem ter autorização dos responsáveis).</li>
             <li>Pesar mais de 50 kg e estar em boas condições de saúde.</li>
@@ -25,7 +25,7 @@ function Doacao() {
         </ul>
     
         <h3>Como é o Processo de Doação?</h3>
-        <p>A doação de sangue é simples e segura. Todo o material utilizado é descartável e o processo dura cerca de 10 minutos:</p>
+        <p className='p-four-pages'>A doação de sangue é simples e segura. Todo o material utilizado é descartável e o processo dura cerca de 10 minutos:</p>
         <ol>
             <li><strong>Cadastro:</strong> Você preencherá um formulário com informações básicas.</li>
             <li><strong>Triagem:</strong> Será feita uma breve avaliação para garantir que você está apto a doar.</li>
@@ -41,9 +41,9 @@ function Doacao() {
         </ul>
     
         <h3>Benefícios para Quem Recebe</h3>
-        <p>O sangue doado é separado em componentes (plaquetas, plasma, hemácias), permitindo que diferentes pacientes recebam o que precisam. Isso significa que uma única doação pode ajudar até quatro pessoas diferentes.</p>
+        <p className='p-four-pages'>O sangue doado é separado em componentes (plaquetas, plasma, hemácias), permitindo que diferentes pacientes recebam o que precisam. Isso significa que uma única doação pode ajudar até quatro pessoas diferentes.</p>
     
-        <p>Participe da campanha Doe Vida e ajude a salvar vidas. Uma pequena atitude pode fazer toda a diferença para quem mais precisa.</p>
+        <p className='p-four-pages'>Participe da campanha Doe Vida e ajude a salvar vidas. Uma pequena atitude pode fazer toda a diferença para quem mais precisa.</p>
     </div>
     </div>
   )

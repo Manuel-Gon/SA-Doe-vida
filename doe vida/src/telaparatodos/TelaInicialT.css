@@ -33,7 +33,7 @@ h2 {
 }
 
 .itens>button:hover {
-    text-decoration: underline;
+
     transition: 0.3s;
 }
 
@@ -118,6 +118,7 @@ h2 {
 
 .descricao-inicial {
     display: flex;
+    margin-left: 12px;
 }
 
 .linksFooter-inicial {
@@ -136,7 +137,6 @@ h2 {
 .linkTres-inicial:hover {
     color: rgb(207, 33, 33);
     transition: 1s;
-    text-decoration: underline;
     background-color: #e0dcc0;
 }
 
@@ -161,7 +161,8 @@ h2 {
    align-items: flex-end;
    padding: 7px;
    margin-left: 40px;
-   
+   height: 40px;
+   margin-top: 50px;
 }
 
 .linkUm-inicial:hover,
@@ -179,7 +180,7 @@ h2 {
     font-size: 14px;
     color: #fff;
     padding-left: 50px;
-    margin-top: 50px;
+    margin-top: 63px;
 }
 
 .bntFooter-inicial {
@@ -199,7 +200,7 @@ h2 {
 .bntFooter-inicial:hover {
     background-color: #e5e1c1;
     transform: scale(1.05);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  
 }
 
 .bntFooter-inicial:active {
@@ -218,6 +219,7 @@ h2 {
 /*Cards*/
 .cards-inicial-inicial {
     display: flex;
+    
 }
 
 .card-inicial-one {
@@ -228,15 +230,14 @@ h2 {
     padding: 30px;
     border-radius: 20px;
     background-color: #b92c37;
-    margin-top: 20px;
     color: rgb(231, 231, 231);
     align-items: center;
-    
+    margin-top: 20px;
     
 }
 
 .p-inicial {
-    font-size: 15px;
+    font-size: 18px;
     font-family: 'Inter', sans-serif;
     padding: 10px;
 }
@@ -246,13 +247,12 @@ h2 {
     display: flex;
     flex-direction: column;
     margin: auto;
-    height: 580px;
     padding: 35px;
     border-radius: 20px;
     background-color: #b92c37;
-    margin-top: 10px;
+    margin-top: 23px;
     color: rgb(231, 231, 231);
-
+    height: 562px;
 }
 
 .card3-inicial {
@@ -260,17 +260,15 @@ h2 {
     display: flex;
     flex-direction: column;
     margin: auto;
-    height: 580px;
     padding: 30px;
     border-radius: 20px;
     background-color: #b92c37;
-    margin-top: 20px;
+    margin-top: 23px;
     color: rgb(231, 231, 231);
 }
 
 .img-card-inicial {
     border-radius: 20px;
-   
 
 }
 
@@ -292,7 +290,7 @@ h2 {
     cursor: pointer;
     transition: all 0.4s ease;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    margin-top: 9;
+    margin-top: 1px;
     height: 40px;
     width: 300px;
     
@@ -315,15 +313,21 @@ h2 {
 }
 .p-tela-inicial{
 
-    height: 140px;
-    margin-top: 30px;
-    padding: 7px;
-    font-size: 18px;
+    height: 170px;
+    margin-top: 10px;
+    padding: 8px;
+    font-size: 19px;
 }
     .p3-tela-inicial{
 
-      margin-top: 10;
-      padding: 7px;
+      margin-top: 14px;
+      padding: 8px;
+      font-size: 17px;
+      height: 136px;
+    }
+    .button-cards-one{
+
+        margin-top: 13px;
     }
 
 /*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/

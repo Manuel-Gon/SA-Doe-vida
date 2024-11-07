@@ -80,9 +80,9 @@ function TelaInicialT() {
               <p>©DoeVida todos os direitos reservados.</p>
             </div>
             <ul className="linksFooter-inicial">
-              <li><button className="linkUm-inicial">Termos de Uso</button></li>
-              <li><button className="linkDois-inicial">Sobre Nós</button></li>
-              <li><button className="linkTres-inicial">Política de Privacidade</button></li>
+              <button className="linkUm-inicial">Termos de Uso</button>
+              <button className="linkDois-inicial">Sobre Nós</button>
+              <button className="linkTres-inicial">Política de Privacidade</button>
             </ul>
           </section>
         </div>

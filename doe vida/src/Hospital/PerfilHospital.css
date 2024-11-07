@@ -1,22 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-
-
 .container-perfil {
-    width: 70%;
-    height: 80vh;
+    height: 100vh;
     display: flex;
     background-color: white;
     margin-left: 15%;
-    margin-top: 2%;
+  
 }
 
 .form-img-perfil {
     width: 50%;
     display: flex;
-    justify-content: center;
     align-items: center;        
-    background-color: #F2EED8;
+    background-color: #F1E2DA;
 }
 
 .form-img-perfil img {
@@ -25,7 +21,10 @@
 
 .form-perfil {
     margin: 50px;
-    
+   
+}
+.img-perfil-hospital-cadastro{
+    background-color: #F1E2DA
 }
 
 .form-content-perfil {
@@ -61,6 +60,7 @@
     justify-content: space-between;
     flex-wrap: wrap;
     width: 100%;
+    margin-top: 40px;
 }
 
 .input-box-perfil {
