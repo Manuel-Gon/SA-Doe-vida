@@ -4,8 +4,7 @@
     height: 100vh;
     display: flex;
     background-color: white;
-    margin-left: 15%;
-  
+    margin-left: 0%;
 }
 
 .form-img-perfil {
@@ -13,6 +12,7 @@
     display: flex;
     align-items: center;        
     background-color: #F1E2DA;
+    justify-content: center;
 }
 
 .form-img-perfil img {
@@ -30,6 +30,7 @@
 .form-content-perfil {
     text-align: center;
     margin-bottom: 30px;
+    margin-left: 25%;
 }
 
 .avatar {
@@ -42,7 +43,9 @@
 }
 .form-header-perfil {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+   margin-top: 50px;
+   margin-left: 140px;
     
 }
 
@@ -60,7 +63,8 @@
     justify-content: space-between;
     flex-wrap: wrap;
     width: 100%;
-    margin-top: 40px;
+    margin-top: 60px;
+    margin-left: 100px;
 }
 
 .input-box-perfil {
@@ -125,12 +129,13 @@
 }
 .sair-button-perfil button{
     width: 100%;
-    margin-top: 20px;
+    margin-top: 55px;
     border: none;
     background-color: #D80C12;
     padding: 0.62rem;
     border-radius: 5px;
     cursor: pointer;
+    margin-left: 93px;
 }
 
 .sair-button-perfil button:hover{

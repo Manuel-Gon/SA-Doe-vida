@@ -1,5 +1,5 @@
-import React from 'react'
 
+import { Link } from "react-router-dom"
 function NavBarD() {
   return (
 
@@ -12,11 +12,12 @@ function NavBarD() {
 
             <div class="linksNavBar">
                 <ul className="itens">
-                  <Link to= "/telaIDoador" className="home">Inicio</Link>
+                  <Link to= "/telaiDoador" className="home">Inicio</Link>
                   <Link to="/campanhas" className="link1">Campanhas</Link>
-                  <Link to="/doacao" className="link2">Onde Doar</Link>
+                  <Link to="/doacao" className="link2">Sangue</Link>
                   <Link to="/parceiros" className="link3">Parceiros</Link>
                   <Link to="/contato" className="link4">Contato</Link>
+
                 </ul>
                 
               

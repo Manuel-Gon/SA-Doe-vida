@@ -5,7 +5,7 @@ import NavBarD from '../NavBarD/NavBarD'
 function Tela_doador() {
   return (
     <div>
-      {/* <NavBarD/> */}
+      <NavBarD />
       <div className="container"></div>
 
 
