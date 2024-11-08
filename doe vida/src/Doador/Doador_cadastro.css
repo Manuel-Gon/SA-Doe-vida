@@ -184,10 +184,6 @@
 } 
 
 input[type="checkbox"],input[type="radio"]{
-<<<<<<< HEAD
-
-=======
->>>>>>> 74e594a779c923e563216812308190240d14ee64
     width: 12px;
     height: 12px;
     border: 1px solid #D80C12;
