@@ -1,0 +1,33 @@
+.sangue-doado-container{
+    background-color: #b92c37;
+    padding: 19.78%;
+}
+.coluna{
+    display: flex;
+    background-color: white;
+    padding: 7%;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+}
+.linha{
+    display: flex;
+    flex-direction: row;
+}
+.linha p{
+    color: black;
+    border-bottom: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    background-color: #D9D9D9;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 15px;
+}
+.divisor{
+    background-color: gray;
+    padding: 0.9px;
+    margin-right: 20px;
+    margin-left: 20px;
+    height: 30px;
+}

@@ -12,7 +12,7 @@ import Parceiros from "../telaparatodos/Parceiros";
 import QuemSomos from "../telaparatodos/QuemSomos";
 import TelaInicialT from "../telaparatodos/TelaInicialT";
 import Doador_cadastro from "../Doador/Doador_cadastro";
-
+import Sangue_doado from "../Doador/Sangue_doado";
 
 
 const router = createBrowserRouter([
@@ -29,8 +29,12 @@ const router = createBrowserRouter([
     {path: "/perfilD", element: <Doador_pefil/>},
     {path: "/loginD", element: <Doador_login/>},
     {path: "/telaiDoador", element: <Tela_doador/>},
+<<<<<<< HEAD
     
    
+=======
+    {path: '/sangueDoado', element: <Sangue_doado/>}
+>>>>>>> ebaf2106550db41cb68ec69539103281e742db23
 ])
 
 export default router;
