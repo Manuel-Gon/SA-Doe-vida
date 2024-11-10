@@ -29,12 +29,7 @@ const router = createBrowserRouter([
     {path: "/perfilD", element: <Doador_pefil/>},
     {path: "/loginD", element: <Doador_login/>},
     {path: "/telaiDoador", element: <Tela_doador/>},
-<<<<<<< HEAD
-    
-   
-=======
     {path: '/sangueDoado', element: <Sangue_doado/>}
->>>>>>> ebaf2106550db41cb68ec69539103281e742db23
 ])
 
 export default router;
