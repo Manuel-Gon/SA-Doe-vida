@@ -1,6 +1,7 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
 
+import { Link } from 'react-router-dom'
+import './NavBarH.css'
+  
 function NavBarH() {
   return (
           <nav>
@@ -21,7 +22,7 @@ function NavBarH() {
                     
                 </ul>
                 
-                <img className="perfil" src="./user perfil.png" alt=""/>
+                <img className="perfil" src="./user.png" alt=""/>
             </div>
     </div>
     </div>
