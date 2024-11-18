@@ -9,7 +9,7 @@ function NavBarH() {
        <div className="navBar-hospital">
 
             <img className="imgUm" src="./Logo da SA - sem o fundo.png " alt="logo"/>
-            <h2>Doação de Sangue</h2>
+            <h2 className='navBar-tela-hospital'>Doação de Sangue</h2>
 
             <div class="linksNavBar">
                 <ul className="itens">

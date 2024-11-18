@@ -14,8 +14,8 @@ function TelaIHospital() {
 <img className="fixa-tela-inicial-hospital" src="./mundial_doador.png" alt=""/>
 
 
-<div className="cards-inicial-inicial-tela-hospital">
 <h1 className='h1-tela-hospital'>Bem vindo a sua área do hospital</h1>
+<div className="cards-inicial-inicial-tela-hospital">
 
 <div className="card-inicial-one-tela-hospital">
     <img className="img-card-inicial-tela-hospital" src="./quemsomos_card.png" alt=""/>
