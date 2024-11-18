@@ -3,10 +3,10 @@
 
 
 .container-doador {
-    width: 70%;
-    height: 80vh;
+    width: 100%;
+    height: 100vh;
     display: flex;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
+    background-color: #F1E2DA;
 }
 
 .form-img-doador {
@@ -23,7 +23,8 @@
 }
 
 .form-doador {
-    width: 50%;
+    margin-top: 10px;
+    margin-left: 75px;
     display: flex;
     flex-direction: column;
     background-color: #fff;
