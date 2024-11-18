@@ -67,12 +67,12 @@ h2 {
     display: flex;
 }
 
-.secoes-inicial {
+.secoes-inicial-tela-hospital {
     max-width: 1900px;
     margin: auto;
 }
 
-.footer-tela-inicial {
+.footer-tela-inicial-hospital {
     background-color: #b92c37;
     left: 0;
     bottom: 0;
@@ -82,67 +82,50 @@ h2 {
     font-family: 'Poppins', sans-serif;
 }
 
-.info1-inicial,
-.info2-inicial,
-.info3-inicial {
-    padding-top: 30px;
-    padding-right: 30px;
-    padding-left: 30px;
-    font-size: 15px;
-    color: rgb(231, 231, 231);
-}
-
-.imgDois-inicial {
+.imgDois-inicial-tela-hospital {
     border-radius: 20px;
     height: 80px;
     margin-top: 30px;
 }
 
-.info1-inicial>h2,
-.info2-inicial>h2,
-.info3-inicial>h2 {
-    color: rgb(255, 255, 255);
-    font-size: 25px;
-}
-
-.divisao-inicial {
+.divisao-inicial-tela-hospital {
     margin-top: 20px;
 }
 
-.projeto-inicial {
+.projeto-inicial-tela-hospital {
     margin-top: 50px;
     color: #fff;
     padding-left: 50px;
     font-size: 30px;
 }
 
-.descricao-inicial {
+.descricao-inicial-tela-hospital {
     display: flex;
     margin-left: 12px;
 }
 
-.linksFooter-inicial {
+.linksFooter-inicial-tela-hospital {
     display: flex;
     background-color: #b92c37;
 }
 
-.linksFooter-inicial>li {
+.linksFooter-inicial-tela-hospital>li {
     margin-top: 35px;
     list-style: none;
 }
 
 
-.linkUm-inicial:hover,
-.linkDois-inicial:hover,
-.linkTres-inicial:hover {
+.linkUm-inicial-tela-hospital:hover,
+.linkDois-inicial-tela-hospital:hover,
+.linkTres-inicial-tela-hospital:hover {
     color: rgb(207, 33, 33);
     transition: 1s;
     background-color: #e0dcc0;
 }
 
-.linkUm-inicial,
-.linkDois-inicial,
-.linkTres-inicial {
+.linkUm-inicial-tela-hospital,
+.linkDois-inicial-tela-hospital,
+.linkTres-inicial-tela-hospital {
     margin-right: 20px;
     font-size: 15px;
     color: rgb(218, 42, 42);
@@ -163,9 +146,9 @@ h2 {
    margin-top: 50px;
 }
 
-.linkUm-inicial:hover,
-.linkDois-inicial:hover,
-.linkTres-inicial:hover {
+.linkUm-inicial-tela-hospital:hover,
+.linkDois-inicial-tela-hospital:hover,
+.linkTres-inicial-tela-hospital:hover {
     color: #e9dedf;
     transition: 0.3s;
     background-color: #b92c37; /* Vermelho mais escuro */

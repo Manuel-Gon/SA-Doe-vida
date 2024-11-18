@@ -43,19 +43,19 @@ function TelaIHospital() {
 </div>
 
 <footer className='footer-tela-inicial-hospital'>
-<div className="secoes-inicial">
+<div className="secoes-inicial-tela-hospital">
    
-    <hr className="divisao-inicial"/>
-    <section className="descricao-inicial">
-        <img className="imgDois-inicial" src="./logo doação de sangue.png" alt="logo"/>
-        <h1 className="projeto-inicial">DoeVida</h1>
-        <div className="creditos-inicial">
+    <hr className="divisao-inicial-tela-hospital"/>
+    <section className="descricao-inicial-tela-hospital">
+        <img className="imgDois-inicial-tela-hospital" src="./logo doação de sangue.png" alt="logo"/>
+        <h1 className="projeto-inicial-tela-hospital">DoeVida</h1>
+        <div className="creditos-inicial-tela-hospital">
             <p>©DoeVidas todos os direitos reservados.</p>
         </div>
-        <ul className="linksFooter-inicial">
-            <li><button className="linkUm-inicial">Termos de Uso</button></li>
-            <li><button className="linkDois-inicial">Sobre Nós</button></li>
-            <li><button className="linkTres-inicial">Política de Privacidade</button></li>
+        <ul className="linksFooter-inicial-tela-hospital">
+            <li><button className="linkUm-inicial-tela-hospital">Termos de Uso</button></li>
+            <li><button className="linkDois-inicial-tela-hospital">Sobre Nós</button></li>
+            <li><button className="linkTres-inicial-tela-hospital">Política de Privacidade</button></li>
         </ul>
     </section>
 </div>
