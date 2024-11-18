@@ -1,4 +1,4 @@
-.navBar {
+.navBar-hospital {
     background-color: #b92c37;
     justify-content: space-around;
     align-items: center;
@@ -10,7 +10,7 @@
    
 }
    
-.home {
+.home-navBar-hospital {
     display: inline-block;
     background-color: #b92c37; /* Cor de fundo do botão */
     color: white; /* Cor do texto */
@@ -23,11 +23,11 @@
     margin-top: 7px;
 }
 
-.home:hover {
+.home-navBar-hospital:hover {
     background-color: #c9302c; /* Cor ao passar o mouse */
     transform: scale(1.05); /* Leve aumento de tamanho */
 }
-    .link1{
+    .link1-navBar-hospital{
         display: inline-block;
         background-color: #b92c37; /* Cor de fundo do botão */
         color: white; /* Cor do texto */
@@ -40,13 +40,13 @@
         margin-top: 8px;
     }
 
-    .link1:hover {
+    .link1-navBar-hospital:hover {
         background-color: #c9302c; /* Cor ao passar o mouse */
         transform: scale(1.05); /* Leve aumento de tamanho */
     
     }
 
-    .link2{
+    .link2-navBar-hospital{
 
         display: inline-block;
         background-color: #b92c37; /* Cor de fundo do botão */
@@ -58,12 +58,12 @@
         transition: background-color 0.3s, transform 0.3s; /* Transições suaves */
         margin-top: 10px;
     }
-.link2:hover{
+.link2-navBar-hospital:hover{
     background-color: #c9302c; /* Cor ao passar o mouse */
     transform: scale(1.05); /* Leve aumento de tamanho */
 
 }
-    .link3{
+    .link3-navBar-hosptal{
 
         display: inline-block;
         background-color: #b92c37; /* Cor de fundo do botão */
@@ -75,29 +75,13 @@
         transition: background-color 0.3s, transform 0.3s; /* Transições suaves */
         margin-top: 10px;
     }
-.link3:hover{
+.link3-navBar-hosptal:hover{
     background-color: #c9302c; /* Cor ao passar o mouse */
     transform: scale(1.05); /* Leve aumento de tamanho */
 
 }
-    .link4{
-        display: inline-block;
-        background-color: #b92c37; /* Cor de fundo do botão */
-        color: white; /* Cor do texto */
-        padding: 15px 30px; /* Espaçamento interno */
-        font-size: 18px; /* Tamanho da fonte */
-        border-radius: 5px; /* Bordas arredondadas */
-        text-decoration: none; /* Sem sublinhado */
-        transition: background-color 0.3s, transform 0.3s; /* Transições suaves */
-        margin-top: 10px;
-    }
-    .link4:hover{
-
-        background-color: #c9302c; /* Cor ao passar o mouse */
-        transform: scale(1.05); /* Leve aumento de tamanho */
-
-    }
-    .perfil{
+    
+    .perfil-navBar-hospital{
 
         width: 70px;
         height: 70px;

@@ -6,7 +6,7 @@ function NavBarH() {
   return (
           <nav>
     <div>
-       <div className="navBar">
+       <div className="navBar-hospital">
 
             <img className="imgUm" src="./Logo da SA - sem o fundo.png " alt="logo"/>
             <h2>Doação de Sangue</h2>
@@ -14,15 +14,14 @@ function NavBarH() {
             <div class="linksNavBar">
                 <ul className="itens">
                   
-                    <Link to= "/" className="home">Inicio</Link>
-                    <Link to="/campanhas" className="link1">Campanhas</Link>
-                    <Link to="/doacao" className="link2">Onde Doar</Link>
-                    <Link to="/parceiros" className="link3">Parceiros</Link>
-                    <Link to="/contato" className="link4">Contato</Link>
+                    <Link to= "/" className="home-navBar-hospital">Inicio</Link>
+                    <Link to="/campanhas" className="link1-navBar-hospital">Campanhas</Link>
+                    <Link to="/parceiros" className="link2-navBar-hospital">Parceiros</Link>
+                    <Link to="/contato" className="link3-navBar-hosptal">Contato</Link>
                     
                 </ul>
                 
-                <img className="perfil" src="./user.png" alt=""/>
+                <img className="perfil-navBar-hospital" src="./user.png" alt=""/>
             </div>
     </div>
     </div>

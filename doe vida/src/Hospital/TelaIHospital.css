@@ -214,12 +214,12 @@ h2 {
 
 /*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 /*Cards*/
-.cards-inicial-inicial {
+.cards-inicial-inicial-tela-hospital {
     display: flex;
     
 }
 
-.card-inicial-one {
+.card-inicial-one-tela-hospital{
     width: 300px;
     display: flex;
     flex-direction: column;
@@ -233,13 +233,13 @@ h2 {
     
 }
 
-.p-inicial {
+.p-inicial-tela-hospital {
     font-size: 18px;
     font-family: 'Inter', sans-serif;
     padding: 10px;
 }
 
-.card2-inicial {
+.card2-inicial-tela-hospital     {
     max-width: 300px;
     display: flex;
     flex-direction: column;
@@ -252,31 +252,19 @@ h2 {
     height: 562px;
 }
 
-.card3-inicial {
-    max-width: 300px;
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    padding: 30px;
-    border-radius: 20px;
-    background-color: #b92c37;
-    margin-top: 23px;
-    color: rgb(231, 231, 231);
-}
-
-.img-card-inicial {
+.img-card-inicial-tela-hospital {
     border-radius: 20px;
 
 }
 
-.label-inicial {
+.label-inicial-tela-hospital {
     font-size: 20px;
     margin-top: 20px;
     color: #ffffff;
     font-family: 'Inter', sans-serif;
 }
 
-.button-cards-inicial{
+.button-cards-inicial-tela-hospital{
     background-color: #F2EED8;
     color: #820000;
     border: none;
@@ -304,11 +292,11 @@ h2 {
     transform: scale(0.98);
 }
 
-.fixa-tela-inicial {
+.fixa-tela-inicial-hospital {
     width: 100%;
    
 }
-.p-tela-inicial{
+.p-tela-inicial-hospital{
 
     height: 170px;
     margin-top: 10px;
@@ -325,6 +313,10 @@ h2 {
     .button-cards-one{
 
         margin-top: 13px;
+    }
+    .h1-tela-hospital{
+align-items: center;
+justify-content: center;
     }
 
 /*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
@@ -345,10 +337,11 @@ h2 {
 
 }
 
-h1 {
+.h1-tela-hospital {
     font-size: 30px;
     margin-bottom: 60px;
     color: #8e0116;
+    
 }
 
 .button-group {

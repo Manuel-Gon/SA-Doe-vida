@@ -14,7 +14,6 @@ function NavBarD() {
                 <ul className="itens">
                   <Link to= "/telaiDoador" className="home">Inicio</Link>
                   <Link to="/campanhas" className="link1">Campanhas</Link>
-                  <Link to="/doacao" className="link2">Sangue</Link>
                   <Link to="/parceiros" className="link3">Parceiros</Link>
                   <Link to="/contato" className="link4">Contato</Link>
 

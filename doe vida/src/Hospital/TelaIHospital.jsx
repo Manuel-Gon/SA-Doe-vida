@@ -11,38 +11,38 @@ function TelaIHospital() {
 
 
 
-<img className="fixa-tela-inicial" src="./mundial_doador.png" alt=""/>
+<img className="fixa-tela-inicial-hospital" src="./mundial_doador.png" alt=""/>
 
 
-<h1>Bem vindo a sua área do hospital</h1>
-<div className="cards-inicial-inicial">
+<div className="cards-inicial-inicial-tela-hospital">
+<h1 className='h1-tela-hospital'>Bem vindo a sua área do hospital</h1>
 
-<div className="card-inicial-one">
-    <img className="img-card-inicial" src="./quemsomos_card.png" alt=""/>
+<div className="card-inicial-one-tela-hospital">
+    <img className="img-card-inicial-tela-hospital" src="./quemsomos_card.png" alt=""/>
 
-    <label className='label-inicial'>Meu sangue doado</label>
+    <label className='label-inicial-tela-hospital'>Meu sangue doado</label>
 
-    <p className='p-inicial'>Somos uma comunidade comprometida em salvar vidas através da doação de sangue. Facilitamos button conexão entre doadores e pessoas em necessidade, garantindo que cada doação faça button diferença. </p>
+    <p className='p-inicial-tela-hospital'>Somos uma comunidade comprometida em salvar vidas através da doação de sangue. Facilitamos button conexão entre doadores e pessoas em necessidade, garantindo que cada doação faça button diferença. </p>
 
-    <Link to='/qsomos' className='button-cards-one'><button className="button-cards-inicial">Sangue</button></Link>
+    <Link to='/qsomos' className='button-cards-one'><button className="button-cards-inicial-tela-hospital">Sangue</button></Link>
 
 </div>
 
-<div className="card2-inicial">
+<div className="card2-inicial-tela-hospital">
     <img className="img-card-inicial" src="./quero_doar_sangue.png" alt=""/>
 
-    <label className='label-inicial'>Campanhas</label>
+    <label className='label-inicial-tela-hospital'>Campanhas</label>
 
     <p>Doar sangue é salvar vidas. Seu gesto pode ser o milagre que alguém precisa. Seja button esperança de alguém e doe sangue. Compartilhe o presente mais precioso: button vida.</p>
 
-  <button className="button-cards-inicial">Campanhas</button>
+  <button className="button-cards-inicial-tela-hospital">Campanhas</button>
 </div>
 
 
 
 </div>
 
-<footer className='footer-tela-inicial'>
+<footer className='footer-tela-inicial-hospital'>
 <div className="secoes-inicial">
    
     <hr className="divisao-inicial"/>
