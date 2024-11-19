@@ -17,7 +17,7 @@ function Doador_perfil() {
       </div>
       <div className='form-doador'>
         <div className='form-header'>
-          <img className='logo' src="logo doação de sangue (2).png" alt="" />
+
           <h1>Perfil do Doador</h1>
           <div className='voltar-button'>
             <button onClick={() => navigate('/telaIDoador')} >Voltar</button>
