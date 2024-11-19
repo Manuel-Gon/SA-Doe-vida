@@ -1,29 +1,28 @@
-import React from 'react'
-import './Sangue_doado.css'
-import NavBarD from '../NavBarD/NavBarD'
+import React from 'react';
+import './Sangue_doado.css';
+import NavBarDD from '../NavbarDD/NavBarDD';
 
 function Sangue_doado() {
   return (
     <>
-        <div className='sangue-doado-container'>
-            <div className='coluna'>
-            <div className='linha'>
-                    <strong><p>Seu sangue doado</p></strong>
-            </div>
-                <div className='divisor'></div>
-                <div className='linha'>
-                    <strong><p>Local da sua doação de sangue</p></strong>
-                </div>
-                <br />
-                <div className='linha'>
-                    <strong><p>Seu sangue doado</p></strong>
-                </div>
-                <div className='divisor'></div>
-                <div className='linha'>
-                    <strong><p>Local da sua doação de sangue</p></strong>
-                </div>
-            </div>
+      <NavBarDD />
+      <div className='sangue-doado-container'>
+        <div className='row'>
+          <div className='column'>
+            <p id='linha'>Seu sangue doado</p>
+            <p id='linha'>Seu sangue doado</p>
+            <p id='linha'>Seu sangue doado</p>
+            <p id='linha'>Seu sangue doado</p>
+          </div>
+          <div id='divisor'></div>
+          <div className='column'>
+            <p id='linha'>Local para onde foi a doação</p>
+            <p id='linha'>Local para onde foi a doação</p>
+            <p id='linha'>Local para onde foi a doação</p>
+            <p id='linha'>Local para onde foi a doação</p>
+          </div>
         </div>
+      </div>
     </>
   )
 }
