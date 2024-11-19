@@ -5,6 +5,7 @@ import NavBarD from '../NavBarD/NavBarD'
 function Sangue_doado() {
   return (
     <>
+    <NavBarD/>
         <div className='sangue-doado-container'>
             <div className='coluna'>
             <div className='linha'>

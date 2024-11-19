@@ -101,7 +101,8 @@ h2 {
 
 .descricao-inicial-tela-hospital {
     display: flex;
-    margin-left: 12px;
+    margin-left: 20px;
+    margin-top: 10px;
 }
 
 .linksFooter-inicial-tela-hospital {
@@ -110,7 +111,6 @@ h2 {
 }
 
 .linksFooter-inicial-tela-hospital>li {
-    margin-top: 35px;
     list-style: none;
 }
 
@@ -156,7 +156,7 @@ h2 {
     
 }
 
-.creditos-inicial {
+.creditos-inicial-tela-hospital {
     font-size: 14px;
     color: #fff;
     padding-left: 50px;
@@ -213,13 +213,13 @@ h2 {
     color: rgb(231, 231, 231);
     align-items: center;
     margin-top: 20px;
-    
+    height: 625px;
 }
 
 .p-inicial-tela-hospital {
-    font-size: 18px;
+    font-size: 20px;
     font-family: 'Inter', sans-serif;
-    padding: 10px;
+    padding: 12px;
 }
 
 .card2-inicial-tela-hospital     {
@@ -232,7 +232,7 @@ h2 {
     background-color: #b92c37;
     margin-top: 23px;
     color: rgb(231, 231, 231);
-    height: 562px;
+    height: 610px;
    
 }
 
@@ -243,9 +243,11 @@ h2 {
 
 .label-inicial-tela-hospital {
     font-size: 20px;
-    margin-top: 20px;
+    margin-top: 29px;
     color: #ffffff;
     font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
 }
 
 .button-cards-inicial-tela-hospital{
@@ -259,12 +261,27 @@ h2 {
     cursor: pointer;
     transition: all 0.4s ease;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    margin-top: 1px;
+    margin-top: 12px;
     height: 40px;
     width: 300px;
-    
-
 }
+
+    .button-cards-inicial-tela-hospital-dois{
+
+        background-color: #F2EED8;
+        color: #820000;
+        border: none;
+        border-radius: 8px;
+        padding: 10px 40px;
+        font-size: 18px;
+        font-weight: bolder;
+        cursor: pointer;
+        transition: all 0.4s ease;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        margin-top: 29px;
+        height: 50px;
+        width: 300px;
+    }
 
 .button-cards-inicial:hover {
     background-color: #e5e1c1;
@@ -280,12 +297,12 @@ h2 {
     width: 100%;
    
 }
-.p-tela-inicial-hospital{
+.p-inicial-tela-hospital{
 
     height: 170px;
-    margin-top: 10px;
-    padding: 8px;
-    font-size: 19px;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 20px;
 }
     .p3-tela-inicial{
 
@@ -296,14 +313,14 @@ h2 {
     }
     .button-cards-one{
 
-        margin-top: 13px;
+        margin-top: 1px;
     }
     .h1-tela-hospital{
 
         display: flex;
         align-items: center;
-        padding: 10px;
-        margin-top: 10px;
+        padding: 12px;
+        margin-top: 21px;
     }
 
 /*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/

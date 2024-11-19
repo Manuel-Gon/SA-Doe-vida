@@ -21,8 +21,8 @@ function NavBarH() {
                     
                 </ul>
                 
-                <img className="perfil-navBar-hospital" src="./user.png" alt=""/>
             </div>
+            <img className="perfil-navBar-hospital" src="./user.png" alt=""/>
     </div>
     </div>
     </nav>
