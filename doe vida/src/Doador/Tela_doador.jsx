@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import NavBarD from '../NavBarD/NavBarD'
-
+import './Tela_doador.css'
 function Tela_doador() {
   return (
     <div>

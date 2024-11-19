@@ -24,7 +24,7 @@ function TelaIHospital() {
 
     <p className='p-inicial-tela-hospital'> aqui você pode conferir os tipos de sangue que foram doados para seu hospital e ainda por cima ver se o tipo doado é raro, o que pode ajudar a salvar vidas que dependem do tipo raro. </p>
 
-    <Link to='/qsomos' className='button-cards-one'><button className="button-cards-inicial-tela-hospital">Sangue</button></Link>
+    <Link to='/qsomos' className='button-cards-one-hospital'><button className="button-cards-inicial-tela-hospital">Sangue</button></Link>
 
 </div>
 
