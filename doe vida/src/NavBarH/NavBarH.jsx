@@ -14,15 +14,15 @@ function NavBarH() {
             <div class="linksNavBar">
                 <ul className="itens">
                   
-                    <Link to= "/" className="home-navBar-hospital">Inicio</Link>
+                    <Link to= "/telaH" className="home-navBar-hospital">Inicio</Link>
                     <Link to="/campanhas" className="link1-navBar-hospital">Campanhas</Link>
-                    <Link to="/parceiros" className="link2-navBar-hospital">Parceiros</Link>
+                    <Link to="/parceiros" className="link2-navBar-hospital">Emergengia</Link>
                     <Link to="/contato" className="link3-navBar-hosptal">Contato</Link>
                     
                 </ul>
                 
             </div>
-            <img className="perfil-navBar-hospital" src="./user.png" alt=""/>
+            <Link to='/perfilH'><img className="perfil-navBar-hospital" src="./user.png" alt=""/></Link>
     </div>
     </div>
     </nav>

@@ -1,5 +1,5 @@
 import React from 'react'
-import NavBar from '../Navbar/NavBar'
+import { Link } from 'react-router-dom'
 import './PerfilHospital.css'
 
 function PerfilHospital() {
@@ -18,7 +18,7 @@ function PerfilHospital() {
                 <img className='logo' src="./Cópia de logo doação de sangue (2).png"/>
                 <h1>Perfil do Hospital</h1>
                     <div className='voltar-button'>
-                        <button>Voltar</button>
+                       <Link to='/telaH'><button>Voltar</button></Link>
                     </div>
                 </div>
 

@@ -32,8 +32,8 @@ const router = createBrowserRouter([
     {path: "/loginD", element: <Doador_login/>},
     {path: "/telaiDoador", element: <Tela_doador/>},
     {path: "/sangueDoado", element: <Sangue_doado/>},
-    {path: "/telaIHospital", element: <TelaIHospital/>},
-    {path: "/formulario", element: <Formulario_sangue/>}
+    {path: "/formulario", element: <Formulario_sangue/>},
+    {path: "/telaH", element:<TelaIHospital/> }
+  
 ])
-
 export default router;

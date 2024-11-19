@@ -5,14 +5,10 @@ import './TelaIHospital.css'
 function TelaIHospital() {
   return (
     <div>
-        <NavBarH />
-      <div className="container"></div>
 
-
-
+      <NavBarH/>
 
 <img className="fixa-tela-inicial-hospital" src="./mundial_doador.png" alt=""/>
-
 
 <h1 className='h1-tela-hospital'>Bem vindo a sua área do hospital</h1>
 <div className="cards-inicial-inicial-tela-hospital">
@@ -38,8 +34,6 @@ function TelaIHospital() {
   <button className="button-cards-inicial-tela-hospital-dois">Campanhas</button>
 </div>
 
-
-
 </div>
 
 <footer className='footer-tela-inicial-hospital'>
@@ -53,9 +47,9 @@ function TelaIHospital() {
             <p>©DoeVidas todos os direitos reservados.</p>
         </div>
         <ul className="linksFooter-inicial-tela-hospital">
-            <li><button className="linkUm-inicial-tela-hospital">Termos de Uso</button></li>
-            <li><button className="linkDois-inicial-tela-hospital">Sobre Nós</button></li>
-            <li><button className="linkTres-inicial-tela-hospital">Política de Privacidade</button></li>
+            <Link to=''><button className="linkUm-inicial-tela-hospital">Termos de Uso</button></Link>
+            <Link to='/qsomos'><button className="linkDois-inicial-tela-hospital">Sobre Nós</button></Link>
+            <Link to=''><button className="linkTres-inicial-tela-hospital">Política de Privacidade</button></Link>
         </ul>
     </section>
 </div>
