@@ -264,7 +264,7 @@ h2 {
     color: rgb(231, 231, 231);
     align-items: center;
     margin-top: 20px;
-   
+   height: 575px;
 }
 
 
@@ -370,9 +370,7 @@ h2 {
       height: 136px;
     }
     .button-cards-one{
-
-
-        margin-top: 13px;
+     margin-top: 13px;
     }
 
 

@@ -1,33 +1,38 @@
-.sangue-doado-container{
+.sangue-doado-container {
     background-color: #b92c37;
-    padding: 19.78%;
+    padding: 9.9%;
 }
-.coluna{
+
+.row {
     display: flex;
+    flex-direction: row;
     background-color: white;
-    padding: 7%;
+    padding: 4%;
     border-radius: 15px;
     justify-content: center;
     align-items: center;
+    margin-left: 400px;
+    margin-right: 400px;
 }
-.linha{
+
+.column{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 20px;
 }
-.linha p{
-    color: black;
-    border-bottom: 0;
-    padding-bottom: 0;
-    margin-top: 0;
-    background-color: #D9D9D9;
-    padding: 10px;
-    border-radius: 15px;
-    font-size: 15px;
+
+.column #linha{
+    background-color: rgb(217, 217, 217);
+    margin: 15px;
+    padding: 20px;
+    border-radius: 20px;
 }
-.divisor{
-    background-color: gray;
-    padding: 0.9px;
-    margin-right: 20px;
-    margin-left: 20px;
-    height: 30px;
+
+#divisor{
+    height: 400px;
+    padding: 0.5px;
+    border-radius: 100px;
+    background-color: black;
+    margin: 5px;
 }
