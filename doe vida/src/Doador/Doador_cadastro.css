@@ -38,6 +38,9 @@
     padding: 3rem;
     margin-left: 200%;
     margin-bottom: 10%;
+        margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
     
 }
 

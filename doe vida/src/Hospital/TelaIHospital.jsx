@@ -20,9 +20,9 @@ function TelaIHospital() {
 <div className="card-inicial-one-tela-hospital">
     <img className="img-card-inicial-tela-hospital" src="./quemsomos_card.png" alt=""/>
 
-    <label className='label-inicial-tela-hospital'>Meu sangue doado</label>
+    <label className='label-inicial-tela-hospital'>Tipos doados</label>
 
-    <p className='p-inicial-tela-hospital'>Somos uma comunidade comprometida em salvar vidas através da doação de sangue. Facilitamos button conexão entre doadores e pessoas em necessidade, garantindo que cada doação faça button diferença. </p>
+    <p className='p-inicial-tela-hospital'> aqui você pode conferir os tipos de sangue que foram doados para seu hospital e ainda por cima ver se o tipo doado é raro, o que pode ajudar a salvar vidas que dependem do tipo raro. </p>
 
     <Link to='/qsomos' className='button-cards-one'><button className="button-cards-inicial-tela-hospital">Sangue</button></Link>
 
@@ -33,9 +33,9 @@ function TelaIHospital() {
 
     <label className='label-inicial-tela-hospital'>Campanhas</label>
 
-    <p>Doar sangue é salvar vidas. Seu gesto pode ser o milagre que alguém precisa. Seja button esperança de alguém e doe sangue. Compartilhe o presente mais precioso: button vida.</p>
+    <p className='p-inicial-tela-hospital'>Aqui você poderá fazer suas campanhas para arrecadar os tipos sanguineos que necessitam urgentemente ou para repor o estoque para caso algo acontece, sempre bom estarmos preparados.</p>
 
-  <button className="button-cards-inicial-tela-hospital">Campanhas</button>
+  <button className="button-cards-inicial-tela-hospital-dois">Campanhas</button>
 </div>
 
 

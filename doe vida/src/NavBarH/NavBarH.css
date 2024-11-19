@@ -86,7 +86,10 @@
         width: 70px;
         height: 70px;
         display: flex;
+        justify-content: right;
+        align-items: ri;
         margin-top: 10px;
+    
     }
     .navBar-tela-hospital{
         color: #F2EED8;

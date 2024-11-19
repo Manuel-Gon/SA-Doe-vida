@@ -1,11 +1,11 @@
 import React from 'react';
 import './Sangue_doado.css';
-import NavBarDD from '../NavbarDD/NavBarDD';
+import NavBarS from '../NavbarS/NavBarS';
 
 function Sangue_doado() {
   return (
     <>
-      <NavBarDD />
+      <NavBarS />
       <div className='sangue-doado-container'>
         <div className='row'>
           <div className='column'>
