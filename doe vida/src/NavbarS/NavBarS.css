@@ -1,4 +1,4 @@
-.navBar {
+.navBar-tela-s{
     background-color: #F1E2DA;
     justify-content: space-around;
     align-items: center;
@@ -8,7 +8,7 @@
     margin-top: 0;
 }
 
-.home {
+.home-tela-s {
     display: inline-block;
     background-color: #F1E2DA; /* Cor de fundo do botão (bege) */
     color: #b92c37; /* Cor do texto (vermelho) */
@@ -21,13 +21,13 @@
     margin-top: 7px;
 }
 
-.home:hover {
+.home-tela-s:hover {
     background-color: #c9302c; /* Cor ao passar o mouse */
     color: white; /* Mudando a cor da fonte para branco quando passar o mouse */
     transform: scale(1.05); /* Leve aumento de tamanho */
 }
 
-.link1 {
+.link1-tela-s {
     display: inline-block;
     background-color: #F1E2DA; /* Cor de fundo do botão (bege) */
     color: #b92c37; /* Cor do texto (vermelho) */
@@ -39,13 +39,13 @@
     margin-top: 8px;
 }
 
-.link1:hover {
+.link1-tela-s:hover {
     background-color: #c9302c; /* Cor ao passar o mouse */
     color: white; /* Mudando a cor da fonte para branco quando passar o mouse */
     transform: scale(1.05); /* Leve aumento de tamanho */
 }
 
-.link2 {
+.link2-tela-s {
     display: inline-block;
     background-color: #F1E2DA; /* Cor de fundo do botão (bege) */
     color: #b92c37; /* Cor do texto (vermelho) */
@@ -57,13 +57,13 @@
     margin-top: 10px;
 }
 
-.link2:hover {
+.link2-tela-s:hover {
     background-color: #c9302c; /* Cor ao passar o mouse */
     color: white; /* Mudando a cor da fonte para branco quando passar o mouse */
     transform: scale(1.05); /* Leve aumento de tamanho */
 }
 
-.link3 {
+.link3-tela-s {
     display: inline-block;
     background-color: #F1E2DA; /* Cor de fundo do botão (bege) */
     color: #b92c37; /* Cor do texto (vermelho) */
@@ -75,13 +75,13 @@
     margin-top: 10px;
 }
 
-.link3:hover {
+.link3-tela-s:hover {
     background-color: #c9302c; /* Cor ao passar o mouse */
     color: white; /* Mudando a cor da fonte para branco quando passar o mouse */
     transform: scale(1.05); /* Leve aumento de tamanho */
 }
 
-.link4 {
+.link4-tela-s {
     display: inline-block;
     background-color: #F1E2DA; /* Cor de fundo do botão (bege) */
     color: #b92c37; /* Cor do texto (vermelho) */
@@ -93,13 +93,13 @@
     margin-top: 10px;
 }
 
-.link4:hover {
+.link4-tela-s:hover {
     background-color: #c9302c; /* Cor ao passar o mouse */
     color: white; /* Mudando a cor da fonte para branco quando passar o mouse */
     transform: scale(1.05); /* Leve aumento de tamanho */
 }
 
-.perfil {
+.perfil-tela-s {
     width: 70px;
     height: 70px;
     display: flex;
@@ -107,17 +107,17 @@
 }
 
 /* Estilo do h1 */
-h1 {
-    color: #b92c37; /* Cor do texto (vermelho) - mesma cor dos links */
-    background-color: #F1E2DA; /* Cor de fundo (bege) */
-    font-size: 36px; /* Tamanho da fonte */
-    padding: 20px; /* Espaçamento interno */
-    border-radius: 10px; /* Bordas arredondadas */
-    text-align: center; /* Centraliza o texto */
-    margin: 20px 0; /* Espaçamento acima e abaixo */
-}
+/*h1 {
+    color: #b92c37; 
+    background-color: #F1E2DA; 
+    font-size: 36px; 
+    padding: 20px; 
+    border-radius: 10px; 
+    text-align: center; 
+    margin: 20px 0; 
+}*/
 
-.h2-navbar {
+.h2-navbar-tela-s {
     color: #b92c37;
     font-size: 35px;
     margin-top: 10px;
