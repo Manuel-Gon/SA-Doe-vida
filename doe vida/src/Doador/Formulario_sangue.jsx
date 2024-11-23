@@ -1,70 +1,75 @@
 import React from 'react'
 import './FormularioSangue.css'
 
-function Formulario_sangue() {
+function FormularioSangue() {
   return (
-    <div className='container-formulario-doador'>
-        
-         <div className="PrimeiraColuna-formulario-doador">
-         <div className="form-header-formulario-doador">
+    
+    <div className='containerFormularioDoador'>
+
+
+         <div className="primeiraColunaFormularioDoador">
+         <img className='img-tela-d-formulario' src="Design sem nome.png" alt="" />
+         <div className="formHeaderFormularioDoador">
+
+             
                     <h1>Formulário</h1>
         </div>
-                    <h2 className='h2-formulario-doador'>Você já doou sangue para essa organização antes?</h2>
+                    <h2 className='h2FormularioDoador'>Você já doou sangue para essa organização antes?</h2>
                           
-                    <div className="input-box-doador-formulario">
+                    <div className="inputBoxDoadorFormulario">
                         <label>
-                            <input type="radio" id="Sim" name="opção" value="Sim"/>Sim
+                            <input type="radio" id="Sim" name="opcao" value="Sim"/>Sim
                         </label>
                         
                         <label>
-                            <input type="radio" id="Não" name="opção" value="Não"/>Não
+                            <input type="radio" id="Nao" name="opcao" value="Nao"/>Não
                         </label>
                     </div>
                           
-                            <h2 className='h2-formulario-doador'>Tem alergia a algum tipo de medicamento?</h2>
+                            <h2 className='h2FormularioDoador'>Tem alergia a algum tipo de medicamento?</h2>
 
-                    <div className="input-radio-formulario-doador">
+                    <div className="inputRadioFormularioDoador">
                         <label>
-                            <input type="radio"  id="Sim" name="opção" value="Sim"/>Sim
+                            <input type="radio"  id="Sim" name="opcao" value="Sim"/>Sim
                         </label>
                      
                         <label>
-                            <input type="radio" id="Não" name="opção" value="Não"/>Não
+                            <input type="radio" id="Nao" name="opcao" value="Nao"/>Não
                         </label>
                       
                     <h2>Qual seu tipo sanguineo?</h2>
 
-                    <div className="radio-group">
-                        <div className="radio-column">
+                    <div className="radioGroup">
+                        <div className="radioColumn">
                             <label>
-                                <input type="radio" id="sangue" name="tipo sanguineo" value="sangue"/>A+
+                                <input type="radio" id="sangue" name="tipoSanguineo" value="sangue"/>A+
                             </label>
                             <label>
-                                <input type="radio" id="sangue" name="tipo sanguineo" value="sangue"/>A-
-                            </label>
-                        </div>
-                        <div className="radio-column-formulario-doador">
-                            <label>
-                                <input type="radio" id="sangue" name="tipo sanguineo" value="sangue"/>B+
-                            </label>
-                            <label>
-                                <input type="radio" id="sangue" name="tipo sanguineo" value="sangue"/>B-
+                                <input type="radio" id="sangue" name="tipoSanguineo" value="sangue"/>A-
                             </label>
                         </div>
-                        <div className="radio-column-formulario-doador">
+                        <div className="radioColumnFormularioDoador">
                             <label>
-                                <input type="radio" id="sangue" name="tipo sanguineo" value="sangue"/>AB+
+                                <input type="radio" id="sangue" name="tipoSanguineo" value="sangue"/>B+
                             </label>
                             <label>
-                                <input type="radio" id="sangue" name="tipo sanguineo" value="sangue"/>AB-
+                                <input type="radio" id="sangue" name="tipoSanguineo" value="sangue"/>B-
                             </label>
                         </div>
-                        <div className="radio-column-formulario-doador">
+                        <div className="radioColumnFormularioDoador">
                             <label>
-                                <input type="radio" id="sangue" name="tipo sanguineo" value="sangue"/>O+
+                                <input type="radio" id="sangue" name="tipoSanguineo" value="sangue"/>AB+
                             </label>
                             <label>
-                                <input type="radio" id="sangue" name="tipo sanguineo" value="sangue"/>O-
+                                <input type="radio" id="sangue" name="tipoSanguineo" value="sangue"/>AB-
+                            </label>
+                        </div>
+                        <div className="radioColumnFormularioDoador">
+                            <label>
+                                <input type="radio" id="sangue" name="tipoSanguineo" value="sangue"/>O+
+                            </label>
+                            <label>
+                                <input type="radio" id="sangue" name="tipoSanguineo" value="sangue"/>O-
                             </label>
                         
                         </div>
@@ -72,26 +77,25 @@ function Formulario_sangue() {
 
                     <h2>Como classifica o seu estado e saúde atual?</h2>
 
-                    <div className="input-radio-formulario-doador">
+                    <div className="inputRadioFormularioDoador">
                         <label>
-                            <input type="radio"  id="Muito bom" name="opção" value="Sim"/>Muito bom
+                            <input type="radio"  id="MuitoBom" name="opcao" value="Sim"/>Muito bom
                         </label>
                         <label>
-                            <input type="radio"id="Bom" name="opção" value="Não"/>Bom
+                            <input type="radio"id="Bom" name="opcao" value="Nao"/>Bom
                         </label>
                         <label>
-                            <input type="radio" id="Rasuável" name="opção" value="Não"/>Rasuável
+                            <input type="radio" id="Razoavel" name="opcao" value="Nao"/>Razoável
                         </label>
                     </div>
 
                 </div>
             </div> 
-            <div className="continue-button-formulario-doador">
+            <div className="continueButtonFormularioDoador">
                 <button >Cadastrar</button>
             </div>
     </div>
-    
   )
 }
 
-export default Formulario_sangue
+export default FormularioSangue

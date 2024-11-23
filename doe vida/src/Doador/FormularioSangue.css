@@ -1,183 +1,224 @@
+/* Container principal do formulário */
+.containerFormularioDoador {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
 
-  .container-formulario-doador{
+/* Cabeçalho do formulário */
+.formHeaderFormularioDoador {
+  background-color: #4CAF50;
+  color: white;
+  padding: 40px;
+  text-align: left; /* Alinha o texto à esquerda */
+  border-radius: 8px 8px 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Alinha os itens à esquerda */
+}
 
-    align-items: center;
-    justify-content: center;
-    display: column;
-    
+.formHeaderFormularioDoador h1 {
+  font-size: 36px;
+  margin: 0;
+  font-weight: bold;
+}
+
+/* Primeira coluna */
+.primeiraColunaFormularioDoador {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  height: auto;
+  width: 570px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  margin-top: 100px;
+}
+
+/* Títulos e perguntas */
+.h2FormularioDoador {
+  font-size: 22px;
+  color: #333;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+/* Estilo dos inputs de radio (caixas de seleção) */
+.inputBoxDoadorFormulario,
+.inputRadioFormularioDoador {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.inputBoxDoadorFormulario label,
+.inputRadioFormularioDoador label {
+  font-size: 16px;
+  color: #555;
+  display: inline-flex;
+  align-items: center;
+}
+
+input[type="radio"] {
+  margin-right: 10px;
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
+
+input[type="radio"]:checked {
+  background-color: #4CAF50;
+}
+
+/* Grupo de rádio para tipos sanguíneos */
+.radioGroup {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.radioColumnFormularioDoador {
+  flex: 1 1 45%;
+  margin-bottom: 15px;
+}
+
+.radioColumnFormularioDoador label {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #555;
+}
+
+/* Grupo de opções de saúde */
+.inputRadioFormularioDoador {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 25px;
+}
+
+.inputRadioFormularioDoador label {
+  font-size: 16px;
+  color: #555;
+}
+
+/* Botão de enviar */
+.continueButtonFormularioDoador {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.continueButtonFormularioDoador button {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 18px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.continueButtonFormularioDoador button:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+}
+
+.continueButtonFormularioDoador button:focus {
+  outline: none;
+}
+
+/* Seção de gênero (opcional) */
+.genderInputsFormularioDoador {
+  width: 645px;
+  height: 250px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  margin-top: 1px;
+}
+
+/* Ajustando a imagem à esquerda */
+.img-i-formulario-doador {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Alinha a imagem à esquerda */
+  margin-bottom: 20px; /* Espaço abaixo da imagem */
+}
+
+.img-tela-d-formulario {
+  width: 300px; /* Ajuste o tamanho da imagem conforme necessário */
+  height: auto;
+  margin-right: 20px; /* Espaço à direita da imagem */
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+  .radioGroup {
+    flex-direction: column;
   }
 
-  /* Cabeçalho do formulário */
-  .form-header-formulario-doador {
-    background-color: #4CAF50;
-    color: white;
-    padding: 40px;
-    text-align: center;
-    border-radius: 8px 8px 0 0;
+  .radioColumnFormularioDoador {
+    flex: 1 1 100%;
   }
-  
-  .form-header-formulario-doador h1 {
-    font-size: 36px;
-    margin: 0;
-    font-weight: bold;
-    
+
+  .primeiraColunaFormularioDoador {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 40px;
+    padding: 15px;
   }
-  
-  /* Primeira coluna */
-  .PrimeiraColuna-formulario-doador {
-    background-color: #fff;
-    padding: 30px;
-    border-radius: 8px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    margin-top: 20px;
-    height: 200px;
-    margin-left: 50%;
-    width: 570px;
-    margin-top: 100px;
-    height: 350px;
+
+  /* Para telas menores, ajustar a imagem */
+  .img-tela-d-formulario {
+    width: 250px; /* Ajuste o tamanho da imagem em telas menores */
+    height: auto;
   }
-  
-  /* Títulos e perguntas */
-  .h2-formulario-doador {
-    font-size: 22px;
-    color: #333;
-    margin-bottom: 20px;
-    font-weight: 600;
+}
+
+@media (max-width: 480px) {
+  .formHeaderFormularioDoador h1 {
+    font-size: 30px;
   }
-  
-  /* Estilo dos inputs de radio (caixas de seleção) */
-  .input-box-doador-formulario,
-  .input-radio-formulario-doador {
-    display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
-    margin-bottom: 20px;
+
+  .primeiraColunaFormularioDoador {
+    padding: 20px;
   }
-  
-  .input-box-doador-formulario label,
-  .input-radio-formulario-doador label {
+
+  .inputBoxDoadorFormulario,
+  .inputRadioFormularioDoador {
+    flex-direction: column;
+  }
+
+  .continueButtonFormularioDoador button {
     font-size: 16px;
-    color: #555;
-    display: inline-flex;
-    align-items: center;
+    padding: 10px 20px;
   }
-  
-  input[type="radio"] {
-    margin-right: 10px;
-    width: 18px;
-    height: 18px;
-    cursor: pointer;
-  }
-  
-  input[type="radio"]:checked {
-    background-color: #4CAF50;
-  }
-  
-  /* Grupo de rádio para tipos sanguíneos */
-  .radio-group {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
-    margin-bottom: 20px;
-  }
-  
-  .radio-column-formulario-doador {
-    flex: 1 1 45%;
-    margin-bottom: 15px;
-  }
-  
-  .radio-column-formulario-doador label {
-    margin-bottom: 10px;
-    font-size: 16px;
-    color: #555;
-  }
-  
-  /* Grupo de opções de saúde */
-  .input-radio-formulario-doador {
-    display: flex;
-    gap: 20px;
-    margin-bottom: 25px;
-  }
-  
-  .input-radio-formulario-doador label {
-    font-size: 16px;
-    color: #555;
-  }
-  
-  /* Botão de enviar */
-  .continue-button-formulario-doador {
-    text-align: center;
-    margin-top: 30px;
-  }
-  
-  .continue-button-formulario-doador button {
-    background-color: #4CAF50;
-    color: white;
-    font-size: 18px;
-    padding: 12px 24px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.2s ease;
-  }
-  
-  .continue-button-formulario-doador button:hover {
-    background-color: #45a049;
-    transform: scale(1.05);
-  }
-  
-  .continue-button-formulario-doador button:focus {
-    outline: none;
-  }
-    .gender-inputs-formulario-doador{
-width:  645px;
-height: 250px;
-background-color: #fff;
-display: flex;
-align-items: center;
-justify-content: center ;
-margin-left: 50%;
-margin-top: 1px;
 
-
-    }
-
-  /* Estilos responsivos */
-  @media (max-width: 768px) {
-    .radio-group {
-      flex-direction: column;
-    }
-  
-    .radio-column-formulario-doador {
-      flex: 1 1 100%;
-    }
+  .h2FormularioDoador {
+    font-size: 20px;
   }
-  
-  @media (max-width: 480px) {
-    .form-header-formulario-doador h1 {
-      font-size: 30px;
-    }
-  
-    .PrimeiraColuna-formulario-doador {
-      padding: 20px;
-    }
-  
-    .input-box-doador-formulario,
-    .input-radio-formulario-doador {
-      flex-direction: column;
-    }
-  
-    .continue-button-formulario-doador button {
-      font-size: 16px;
-      padding: 10px 20px;
-    }
-  
-    .h2-formulario-doador {
-      font-size: 20px;
-    }
-  
-    .radio-column-formulario-doador label {
-      font-size: 14px;
-    }
+
+  .radioColumnFormularioDoador label {
+    font-size: 14px;
   }
-  
+
+  .genderInputsFormularioDoador {
+    width: 100%;
+    margin-left: 0;
+    height: auto;
+  }
+
+  /* Ajuste a imagem para telas pequenas */
+  .img-tela-d-formulario {
+    width: 100%; /* Faz a imagem ocupar 100% da largura */
+    height: auto;
+  }
+}

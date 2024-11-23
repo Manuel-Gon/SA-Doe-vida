@@ -16,7 +16,7 @@ function NavBarH() {
                   
                     <Link to= "/telaH" className="home-navBar-hospital">Inicio</Link>
                     <Link to="/campanhas" className="link1-navBar-hospital">Campanhas</Link>
-                    <Link to="/parceiros" className="link2-navBar-hospital">Emergengia</Link>
+                    <Link to="/parceiros" className="link2-navBar-hospital">Emergência</Link>
                     <Link to="/contato" className="link3-navBar-hosptal">Contato</Link>
                     
                 </ul>
