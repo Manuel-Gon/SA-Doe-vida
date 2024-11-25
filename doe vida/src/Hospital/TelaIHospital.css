@@ -11,14 +11,6 @@ body {
     height: 130px;
 }
 
-
-h2 {
-    color: #F2EED8;
-    font-size: 35px;
-    padding: 10px;
-    margin-top: 20px;
-}
-
 .itens {
     list-style: none;
     display: flex;

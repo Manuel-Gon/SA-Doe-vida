@@ -1,10 +1,7 @@
 /* Container principal do formulário */
-.containerFormularioDoador {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 20px;
+.containerFormularioDoador{
+height: 600px;
+
 }
 
 /* Cabeçalho do formulário */
@@ -32,10 +29,9 @@
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   margin-top: 20px;
-  height: auto;
-  width: 570px;
+  height: 700px;
+  width: 579px;
   margin-left: 50%;
-  transform: translateX(-50%);
   margin-top: 100px;
 }
 
@@ -154,10 +150,13 @@ input[type="radio"]:checked {
 }
 
 .img-tela-d-formulario {
-  width: 300px; /* Ajuste o tamanho da imagem conforme necessário */
-  height: auto;
-  margin-right: 20px; /* Espaço à direita da imagem */
-}
+
+    float: left;    
+    height: 629px ; 
+    margin-left: 100px;
+  }
+  
+
 
 /* Estilos responsivos */
 @media (max-width: 768px) {

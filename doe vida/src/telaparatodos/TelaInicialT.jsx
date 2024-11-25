@@ -55,7 +55,7 @@ function TelaInicialT() {
         <div className="secoes-inicial">
           <section className="informacoes-inicial">
             <div className="info1-inicial">
-              <h2>Descrição</h2>
+              <h2 className='h2-tela-inicial-todos'>Descrição</h2>
               <p>O projeto Doevida é uma plataforma dedicada à doação de sangue, onde doadores e hospitais podem se cadastrar e gerenciar seus perfis. O principal objetivo do projeto é facilitar e incentivar a doação de sangue, conectando doadores voluntários com hospitais e centros de saúde que necessitam de sangue para pacientes. A plataforma permite que doadores atualizem suas informações e que hospitais publiquem suas necessidades, promovendo uma rede eficiente de comunicação e colaboração para salvar vidas.</p>
             </div>
 
@@ -67,7 +67,7 @@ function TelaInicialT() {
             </div>
 
             <div className="info3-inicial">
-              <h2>TORNE-SE UM DOADOR DE SANGUE</h2>
+              <h2 className='h2-tela-inicial-todos'>TORNE-SE UM DOADOR DE SANGUE</h2>
               <p>Todos os dias acontecem centenas de acidentes, cirurgias e queimaduras violentas que exigem transfusão, assim como os portadores de hemofilia, leucemia e anemias. Além disso, doar sangue é um ato simples, tranquilo e seguro que não provoca risco.</p>
               <button className="bntFooter-inicial">Quero Doar Sangue!</button>
             </div>

@@ -6,9 +6,9 @@ function FormularioSangue() {
     
     <div className='containerFormularioDoador'>
 
-
+<img className='img-tela-d-formulario' src="Design sem nome.png" alt="" />
          <div className="primeiraColunaFormularioDoador">
-         <img className='img-tela-d-formulario' src="Design sem nome.png" alt="" />
+        
          <div className="formHeaderFormularioDoador">
 
              
