@@ -60,6 +60,7 @@ function Doador_perfil() {
               <label htmlFor="email">Email*</label>
               <div className='input-btn-wrapper'>
                 <input id="email" type="email" name="email" />
+                <button onClick={() => console.log('Editar Email')} className='bntEditar'>Editar</button>
               </div>
             </div>
             <div className='input-box'>

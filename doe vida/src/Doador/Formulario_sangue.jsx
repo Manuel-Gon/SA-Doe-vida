@@ -1,7 +1,11 @@
 import React from 'react'
+import { useState } from 'react'
 import './FormularioSangue.css'
 
 function FormularioSangue() {
+
+    const [sangue, setSangue] = useState(null)
+
   return (
     
     <div className='containerFormularioDoador'>
@@ -42,8 +46,9 @@ function FormularioSangue() {
                     <div className="radioGroup">
                         <div className="radioColumn">
                             <label>
-                                <input type="radio" id="sangue" name="tipoSanguineo" value="sangue"/>A+
+                                 <input type="radio" id="sangue" name="tipoSanguineo" value="sangue" onSelect={(i)}/>A+{/* para fazer a verificação do tipo Sanguíneo do usuário no banco de dados */}
                             </label>
+                          
                             <label>
                                 <input type="radio" id="sangue" name="tipoSanguineo" value="sangue"/>A-
                             </label>
