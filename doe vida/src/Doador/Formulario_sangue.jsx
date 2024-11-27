@@ -2,9 +2,8 @@ import React from 'react'
 import { useState } from 'react'
 import './FormularioSangue.css'
 
-function FormularioSangue() {
+function Formulario_sangue() {
 
-    const [sangue, setSangue] = useState(null)
 
   return (
     
@@ -32,7 +31,7 @@ function FormularioSangue() {
                           
                             <h2 className='h2FormularioDoador'>Tem alergia a algum tipo de medicamento?</h2>
 
-                    <div className="inputRadioFormularioDoador">
+                   
                         <label>
                             <input type="radio"  id="Sim" name="opcao" value="Sim"/>Sim
                         </label>
@@ -40,13 +39,14 @@ function FormularioSangue() {
                         <label>
                             <input type="radio" id="Nao" name="opcao" value="Nao"/>Não
                         </label>
+                        <div className="inputRadioFormularioDoador">
                       
-                    <h2>Qual seu tipo sanguineo?</h2>
+                    <h2 className='h2-tipo-sanguineo-formulario-doador'>Qual seu tipo sanguineo?</h2>
 
                     <div className="radioGroup">
                         <div className="radioColumn">
                             <label>
-                                 <input type="radio" id="sangue" name="tipoSanguineo" value="sangue" onSelect={(i)}/>A+{/* para fazer a verificação do tipo Sanguíneo do usuário no banco de dados */}
+                                 <input type="radio" id="sangue" name="tipoSanguineo" value="sangue"/>A+{/* para fazer a verificação do tipo Sanguíneo do usuário no banco de dados */}
                             </label>
                           
                             <label>
@@ -93,14 +93,15 @@ function FormularioSangue() {
                             <input type="radio" id="Razoavel" name="opcao" value="Nao"/>Razoável
                         </label>
                     </div>
-
+                    
                 </div>
-            </div> 
-            <div className="continueButtonFormularioDoador">
+                <div className="continueButtonFormularioDoador">
                 <button >Cadastrar</button>
             </div>
+            </div> 
+           
     </div>
   )
 }
 
-export default FormularioSangue
+export default Formulario_sangue
