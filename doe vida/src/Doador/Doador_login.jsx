@@ -13,12 +13,9 @@ function Doador_login() {
     console.log("Recuperação de senha solicitada!");
   };
 
-  const handleRegister = () => {
-    console.log("Redirecionando para o cadastro!");
-  };
-
   const handleBack = () => {
-    navigate('/doador'); // Redireciona para a página de cadastro do doador
+    console.log("Redirecionando para o cadastro!");
+    navigate('/doador');
   };
 
   return (
@@ -48,25 +45,20 @@ function Doador_login() {
         </div>
 <br /><br />
         <div className='esqueceuSenha'>
-          <button type="button" onClick={handleForgotPassword}>Esqueci minha senha</button>
+          <a href=''>Esqueci minha senha</a>
         </div>
 <br /><br />
         <div className='termos-e-politicas-login-doador'>
           <input type="checkbox" id="confirmacao" name="confirmacao" required />
-          <label htmlFor="confirmacao">
-            Ao confirmar os dados preenchidos do login acima, você concorda com os nossos 
-            <button type="button" onClick={() => window.open('/termos', '_blank')}>Termos de Uso</button> e nossa 
-            <button type="button" onClick={() => window.open('/politica', '_blank')}>Política de Privacidade</button>.
+          <label htmlFor="confirmacao" className='confirmacao'>
+            Ao confirmar os dados preenchidos do formulário acima, você concorda com os nossos <a href='/termos'>Termos de Uso</a> e nossa <a href='/politica'>Política de Privacidade</a>.
           </label>
         </div>
 <br />
-        <div className='botao-entrar-login-doador'>
-          <button type="submit">Entrar</button>
+        <div>
+          <button type="submit" className='botao-entrar-login-doador'>Entrar</button>
         </div>
 <br />
-        <div className='naoPossuiConta'>
-          <label>Não possui conta? <button type="button" onClick={handleRegister}>Cadastre-se</button></label>
-        </div>
       </form>
     </div>
 
