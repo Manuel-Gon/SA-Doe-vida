@@ -15,6 +15,7 @@ import Doador_cadastro from "../Doador/Doador_cadastro";
 import Sangue_doado from "../Doador/Sangue_doado";
 import TelaIHospital from "../Hospital/TelaIHospital";
 import Formulario_sangue from "../Doador/Formulario_sangue";
+import CampanhasHospital from "../Hospital/CampanhasHospital";
 
 
 const router = createBrowserRouter([
@@ -33,7 +34,7 @@ const router = createBrowserRouter([
     {path: "/telaiDoador", element: <Tela_doador/>},
     {path: "/sangueDoado", element: <Sangue_doado/>},
     {path: "/formulario", element: <Formulario_sangue/>},
-    {path: "/telaH", element:<TelaIHospital/> }
-  
+    {path: "/telaH", element:<TelaIHospital/> },
+    {path: '/campanhasHospital', element:<CampanhasHospital />}
 ])
 export default router;

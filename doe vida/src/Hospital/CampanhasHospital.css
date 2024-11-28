@@ -1,0 +1,6 @@
+.container-campanha-hospital{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4.5%;
+}
