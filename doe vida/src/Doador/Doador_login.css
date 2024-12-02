@@ -7,15 +7,65 @@
     height: 100vh;
     background-color: #f1e2da;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .formulario-login-doador{
     background-color: white;
     display: block;
-    margin-top: 7% ;
-    width: 25%;
-    height: 67%;
+    margin-top: 0% ;
+    width: 45%;
+    height: 89.5%;
     align-items: center;
     padding: 50px;
-    margin-left: 15%;
+    margin-left: 25%;
 }
+.formulario-login-doador h1::after{
+    content: '';
+    display: block;
+    width: 5rem;
+    height: 0.3rem;
+    background-color: #d80c12;
+    margin-top: 1%;
+    position: absolute;
+}
+#imagem-de-login{
+    margin-left: 50%;
+}
+.botao-voltar-login-doador{
+    padding: 10px 40px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #D80C12;
+    cursor: pointer;
+}
+.formulario-login-doador input{
+    height: 50px;
+    width: 61%;
+    padding: 1%;
+    background-color: lightgray;
+    border-style: none;
+    border-radius: 15px;
+    outline: none;
+}
+.botao-entrar-login-doador{
+    width: 100%;
+    margin-top: 20px;
+    border: none;
+    background-color: #D80C12;
+    padding: 0.62rem;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+.confirmacao a, .esqueceuSenha a{
+    color: #bd0000;
+    }.Requisitos-login-doador{
+
+        background-color: #fff;
+    }.email{
+        background-color: #fff;
+    }

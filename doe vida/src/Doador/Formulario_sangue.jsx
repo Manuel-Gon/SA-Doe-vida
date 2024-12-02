@@ -1,5 +1,4 @@
 import React from 'react'
-import { useState } from 'react'
 import './FormularioSangue.css'
 
 function Formulario_sangue() {
@@ -15,7 +14,7 @@ function Formulario_sangue() {
          <div className="formHeaderFormularioDoador">
 
              
-                    <h1>Formulário</h1>
+                    <h1 className='Titulo-formulario-doador'>Formulário</h1>
         </div>
                     <h2 className='h2FormularioDoador'>Você já doou sangue para essa organização antes?</h2>
                           
@@ -36,15 +35,15 @@ function Formulario_sangue() {
                             <input type="radio"  id="Sim" name="opcao" value="Sim"/>Sim
                         </label>
                      
-                        <label>
-                            <input type="radio" id="Nao" name="opcao" value="Nao"/>Não
+                        <label className='botao-label-doador' >
+                            <input className='ajustar-input-doador' type="radio" id="Nao" name="opcao" value="Nao"/>Não
                         </label>
                         <div className="inputRadioFormularioDoador">
                       
                     <h2 className='h2-tipo-sanguineo-formulario-doador'>Qual seu tipo sanguineo?</h2>
 
                     <div className="radioGroup">
-                        <div className="radioColumn">
+                        <div className="radioColumnFormularioDoador">
                             <label>
                                  <input type="radio" id="sangue" name="tipoSanguineo" value="sangue"/>A+{/* para fazer a verificação do tipo Sanguíneo do usuário no banco de dados */}
                             </label>
@@ -90,7 +89,7 @@ function Formulario_sangue() {
                             <input type="radio"id="Bom" name="opcao" value="Nao"/>Bom
                         </label>
                         <label>
-                            <input type="radio" id="Rasuável" name="opção" value="Não"/>Razoável
+                            <input type="radio" id="Rasuável" name="opcao" value="Nao"/>Razoável
                         </label>
                     </div>
                     

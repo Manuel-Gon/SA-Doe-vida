@@ -31,7 +31,7 @@ function TelaIHospital() {
 
     <p className='p-inicial-tela-hospital'>Aqui você poderá fazer suas campanhas para arrecadar os tipos sanguineos que necessitam urgentemente ou para repor o estoque para caso algo acontece, sempre bom estarmos preparados.</p>
 
-  <button className="button-cards-inicial-tela-hospital-dois">Campanhas</button>
+  <Link to='/CampanhasHospital'><button className="button-cards-inicial-tela-hospital-dois">Campanhas</button></Link>
 </div>
 
 </div>
