@@ -1,19 +1,20 @@
 /* Container principal do formulário */
 .containerFormularioDoador{
-height: 600px;
-
+height: 90vh;
+width: 99vw;
 }
 
 /* Cabeçalho do formulário */
 .formHeaderFormularioDoador {
   background-color: #b92c37;
   color: white;
-  padding: 40px;
+  padding: 30px;
   text-align: left; /* Alinha o texto à esquerda */
   border-radius: 8px 8px 0 0;
   display: flex;
   flex-direction: column;
   align-items: flex-start; /* Alinha os itens à esquerda */
+   
 }
 
 .formHeaderFormularioDoador h1 {
@@ -31,7 +32,7 @@ height: 600px;
   margin-top: 20px;
   height: 700px;
   width: 579px;
-  margin-left: 50%;
+  margin-left: 53%;
   margin-top: 100px;
 }
 
@@ -113,12 +114,10 @@ input[type="radio"]:checked {
 /* Botão de enviar */
 .continueButtonFormularioDoador {
   text-align: center;
-  margin-top: px;
- 
 }
 
 .continueButtonFormularioDoador button {
-  background-color: #4CAF50;
+  background-color: #b92c37;
   color: white;
   font-size: 18px;
   padding: 12px 24px;
@@ -162,7 +161,7 @@ input[type="radio"]:checked {
 
     float: left;    
     height: 760px ; 
-    margin-left: 115px;
+    margin-left: 280px;
 
   }
   .h2FormularioDoador{
@@ -171,7 +170,7 @@ input[type="radio"]:checked {
 
   }
   .h2-tipo-sanguineo-formulario-doador{
-margin-top: 40px;
+margin-top: 28px;
 
   }.Titulo-formulario-doador{
     color: #fff;
@@ -185,7 +184,7 @@ display: inline-block
 
     margin-top: 10px;
     }
-
+   
 
 /* Estilos responsivos */
 @media (max-width: 768px) {

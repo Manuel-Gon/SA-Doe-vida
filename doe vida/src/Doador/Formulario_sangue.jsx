@@ -95,7 +95,7 @@ function Formulario_sangue() {
                     
                 </div>
                 <div className="continueButtonFormularioDoador">
-                <button >Cadastrar</button>
+                <button className='cadastrar-formulario-doador' >Cadastrar</button>
             </div>
             </div> 
            
