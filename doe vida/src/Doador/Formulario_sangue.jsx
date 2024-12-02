@@ -90,11 +90,7 @@ function Formulario_sangue() {
                             <input type="radio"id="Bom" name="opcao" value="Nao"/>Bom
                         </label>
                         <label>
-<<<<<<< Updated upstream
-                            <input type="radio" id="Razoavel" name="opcao" value="Nao"/>Razoável
-=======
                             <input type="radio" id="Rasuável" name="opção" value="Não"/>Razoável
->>>>>>> Stashed changes
                         </label>
                     </div>
                     
