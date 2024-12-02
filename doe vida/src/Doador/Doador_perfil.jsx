@@ -35,28 +35,28 @@ function Doador_perfil() {
               <label htmlFor="firstname">Nome*</label>
               <input id="firstname" type="text" name="firstname" />
             </div>
-            <div className='input-box-doador'>
+            <div className='input-box'>
               <label htmlFor="tipoSanguineo">Tipo Sanguíneo*</label>
               <input id="tipoSanguineo" type="text" name="tipoSanguineo" />
             </div>
-            <div className='input-box-doador'>
+            <div className='input-box'>
               <label htmlFor="cpf">CPF*</label>
               <input id="cpf" type="text" name="cpf" />
             </div>
-            <div className='input-box-doador'>
+            <div className='input-box'>
               <label htmlFor="data">Data de nascimento*</label>
               <input id="data" type="date" name="data" />
             </div>
           </div>
           <div className='segundaColuna'>
-            <div className='input-box-doador'>
+            <div className='input-box'>
               <label htmlFor="endereco">Endereço*</label>
               <div className='input-btn-wrapper-doador'>
                 <input id="endereco" type="text" name="endereco" />
                 <button onClick={() => console.log('Editar Endereço')} className='bntEditar'>Editar</button>
               </div>
             </div>
-            <div className='input-box-doador'>
+            <div className='input-box'>
               <label htmlFor="email">Email*</label>
               <div className='input-btn-wrapper'>
                 <input id="email" type="email" name="email" />

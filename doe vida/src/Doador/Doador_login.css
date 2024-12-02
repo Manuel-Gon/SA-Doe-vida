@@ -42,15 +42,6 @@
     background-color: #D80C12;
     cursor: pointer;
 }
-.formulario-login-doador input{
-    height: 50px;
-    width: 61%;
-    padding: 1%;
-    background-color: lightgray;
-    border-style: none;
-    border-radius: 15px;
-    outline: none;
-}
 .botao-entrar-login-doador{
     width: 100%;
     margin-top: 20px;
@@ -69,3 +60,12 @@
     }.email{
         background-color: #fff;
     }
+.Requisitos-login-doador input{
+        margin: 0.4rem 0;
+        padding: 1rem 0.5rem;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 1px 1px 7px #0000001c;
+        width: 50%;
+        text-align: start;
+}

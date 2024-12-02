@@ -32,9 +32,9 @@ function Tela_doador() {
 
     <label className='label-inicial-i-doador'>Campanhas</label>
 
-    <p className='p-tela-i-doador'>Doar sangue é salvar vidas. Seu gesto pode ser o milagre que alguém precisa. Seja button esperança de alguém e doe sangue. Compartilhe o presente mais precioso: button vida.</p>
+    <p className='p-tela-i-doador'>Doar sangue é salvar vidas. Seu gesto pode ser o milagre que alguém precisa. Seja button esperança de alguém e doe sangue. Compartilhe o presente mais precioso: vida.</p>
 
-  <button className="button-cards-inicial-i-doador-dois">Campanhas</button>
+  <Link to={'/Campanhas'}><button className="button-cards-inicial-i-doador-dois">Campanhas</button></Link>
 </div>
 
 
