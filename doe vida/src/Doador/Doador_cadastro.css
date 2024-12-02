@@ -7,7 +7,6 @@
 
 
 .Container-cadastro-doador{
-   
     display: flex;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
     background-color: #F1E2DA;
@@ -35,10 +34,8 @@
     justify-content: center;
     flex-direction: column;
     background-color: #fff;
-    padding: 3rem;
+    padding: 6.5rem;
     margin-left: 200%;
-    margin-bottom: 10%;
-        margin-bottom: 3rem;
     display: flex;
     justify-content: space-between;
     
@@ -92,11 +89,14 @@
 }
 
 .Requisitos_cadastro input{
-    margin: 0.6rem 0;
+    margin: 0.8rem 1rem;
     padding: 0.8rem 1.8rem;
     border: none;
     border-radius: 15px;
     box-shadow: 1px 1px 7px #0000001c;
+}
+.Requisitos_cadastro label{
+    margin-left: 1.5rem;
 }
 
 .Requisitos_cadastro input:hover{
