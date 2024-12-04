@@ -60,7 +60,7 @@ function TelaInicialT() {
             </div>
 
             <div className="info2-inicial">
-              <h2>Contato</h2>
+              <h2 className='contato-tela-inicial-todos'>Contato</h2>
               <p>(48) 91234-5678</p>
               <p>exemplo@gmail.com</p>
               <p>Brasil</p>

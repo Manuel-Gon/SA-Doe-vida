@@ -232,10 +232,10 @@ body {
     transform: scale(0.98);
 }
 .button-group-inicial{
-
-
     display: flex;
-   
+}.contato-tela-inicial-todos{
+
+    margin-top: 29px;
 }
 
 
