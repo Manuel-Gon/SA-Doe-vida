@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import './PerfilHospital.css'
 
 function PerfilHospital() {
+
   return (
    
     <>
@@ -89,9 +90,9 @@ function PerfilHospital() {
              </div>
 
              <div className='sair-button-perfil'>
-                <button>Excluir conta</button>
+               <button>Excluir conta</button> 
             </div>
-
+{/* onClick={ExcluirConta}*/}
         </div> 
     </div>
     </>

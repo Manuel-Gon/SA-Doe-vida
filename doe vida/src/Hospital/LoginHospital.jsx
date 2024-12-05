@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import './LoginH.css'
 function LoginHospital() {
+  
   return (
     <div className='container-login-hospital'>
        <div className='form-image-login'>
@@ -31,20 +32,18 @@ function LoginHospital() {
                 </div>
 
                 <div className='esqueceuSenha-login-doador'>
-                    <a>Esqueci minha senha</a>
+                    <Link to='/hospital'>Esqueci minha senha</Link>
                 </div>
 
-                <br />
-                <br />
                 
                 <div className='confirm-input-login'>
                     <input type="checkbox" id="confirmacao" name="confirmacao" value="confirmacao" required/> <label>
-                        Ao confirmar os dados preenchidos do login acima, você concorda com os nossos <a>Termos de Uso</a> e nossa <a>Política de Privacidade</a>.
+                        Ao confirmar os dados preenchidos do login acima, você concorda com os nossos <Link >Termos de Uso</Link> e nossa <Link>Política de Privacidade</Link>.
                     </label>
                 </div>
 
                 <div className='login-button-hospital-login'>
-                  <button onclick="login()"><button>Entrar</button></button>
+                  <button onClick={PerfilUsuario}><button>Entrar</button></button>
                 </div>
 
                 <label className='naoPossuiConta'>Não possui conta?</label><Link to='/hospital' className='login-button-hospital'><button>Cadastre-se</button></Link>

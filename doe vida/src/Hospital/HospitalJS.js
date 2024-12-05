@@ -62,7 +62,7 @@ app.put('/CadastroHospital/:id', async (req, res) => {
     const {nome, cep,telefone, email, bairro, cnpj, senha,Cidade, responsavel, Equipe, estado, website, pais } = req.body;
     try {
         const result = await pool.query(
-            'UPDATE CadastroHospital SET nome = $1, responsavel = $2, email = $3, telefone = $4 cep = $5  bairro = $6 cnpj = $7 senha = $8 cidade =$9 equipe = $10 estado = $11 website = $12 pais = $13  WHERE id = $14 RETURNING *',
+            'UPDATE CadastroHospital SET nome = $1, responsavel = $2, email = $3, telefone = $4, cep = $5,  bairro = $6, cnpj = $7, senha = $8, cidade =$9, equipe = $10, estado = $11, website = $12, pais = $13  WHERE id = $14 RETURNING *',
             [nome, cep,telefone, email, bairro, cnpj, senha,Cidade, responsavel, Equipe, estado, website, pais, id]
         );
         if (result.rows.length === 0) {
@@ -75,8 +75,8 @@ app.put('/CadastroHospital/:id', async (req, res) => {
     }
 });
 
-// Rota para deletar um cliente
-app.delete('/Usuarios/:id', async (req, res) => {
+    
+ app.delete('/Usuarios/:id', async (req, res) => {
     const { id } = req.params;
     try {
         const result = await pool.query('DELETE FROM Usuarios WHERE id = $1 RETURNING *', [id]);
@@ -88,7 +88,8 @@ app.delete('/Usuarios/:id', async (req, res) => {
         console.error(err.message);
         res.status(500).json({ error: 'Erro ao deletar hospital' });
     }
-});
+});   
+
 
 app.listen(3000, () => {
     console.log('Servidor rodando na porta 3000');
