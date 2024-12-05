@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 import './NavBarS.css'
 
-function NavBarDD() {
+function NavBarS() {
   return (
     <nav>
     <div>
@@ -29,4 +29,4 @@ function NavBarDD() {
   )
 }
 
-export default NavBarDD
+export default NavBarS
