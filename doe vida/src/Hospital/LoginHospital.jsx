@@ -42,11 +42,20 @@ function LoginHospital() {
                     </label>
                 </div>
 
+<<<<<<< Updated upstream
                 <div className='login-button-hospital-login'>
                   <button onClick={PerfilUsuario}><button>Entrar</button></button>
                 </div>
 
                 <label className='naoPossuiConta'>Não possui conta?</label><Link to='/hospital' className='login-button-hospital'><button>Cadastre-se</button></Link>
+=======
+                  <button onclick="login()" id='login-button-hospital'>Entrar</button>
+                
+                <br />
+                <label className='naoPossuiConta'>Não possui conta?</label><Link to='/hospital' className='login-button-hospital'>
+                <br />    
+                <button id='trocar-cadastro'>Cadastre-se</button></Link>
+>>>>>>> Stashed changes
 
         </div>
     </div>

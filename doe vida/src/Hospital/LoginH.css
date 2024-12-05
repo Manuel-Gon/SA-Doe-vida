@@ -87,18 +87,20 @@
     color: #000000be;
 }
 
-.login-button-hospital-login button{
+#login-button-hospital{
     width: 90%;
+    height: 7%;
     margin-top: 15px;
     border: none;
     background-color:#D80C12;
     padding: 0.60rem;
     border-radius: 5px;
     cursor: pointer;
-    
+    transition: 0.2s;
+    color: white;
 }
 
-.login-button-hospital-login button:hover{
+#login-button-hospital:hover{
     background-color: #820000;
 }
 
@@ -133,4 +135,7 @@
 }
 .esqueceuSenha-login-doador{
     font-size: 13px;
+}
+#trocar-cadastro{
+    cursor: pointer;
 }
