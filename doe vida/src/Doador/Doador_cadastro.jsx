@@ -4,7 +4,7 @@ import './Doador_cadastro.css'
 
 function Doador_cadastro() {
   return (
-    <form action="">
+    <form className='form-cadastro-doador-tela' action="">
     <div className='Container-cadastro-doador'>
 
       <div className='imagem_cadastro'>

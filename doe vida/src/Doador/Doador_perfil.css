@@ -25,6 +25,9 @@
     flex-direction: column;
     background-color: #fff;
     padding: 3rem;
+    width: 50%;
+    margin-right: px;
+    margin-top: 0;
 }
 .form-content-doador {
     text-align: center;
