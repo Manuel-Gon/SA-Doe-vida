@@ -1,8 +1,26 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import './PerfilHospital.css'
+import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
+import './PerfilHospital.css';
 
 function PerfilHospital() {
+
+    const [hospital, setHospital] = useState({}); // Estado para armazenar os dados do hospital
+    const hospitalId = 1 ; 
+  
+    useEffect(() => {
+      // Função para buscar os dados do hospital
+      const fetchHospital = async () => {
+        try {
+          const response = await axios.get(`http://localhost:3000/Usuarios/${hospitalId}`);
+          setHospital(response.data); // Armazena os dados no estado
+        } catch (error) {
+          console.error('Erro ao buscar os dados do hospital:', error);
+        }
+      };
+  
+      fetchHospital();
+    }, [hospitalId]);
+  
 
   return (
    
@@ -56,7 +74,7 @@ function PerfilHospital() {
                 <div className='segundaColuna'>
 
                     <div className='input-box-perfil'>
-                        <label htmlFor="email">Login*</label>
+                        <label htmlFor="email">Email*</label>
                         <div className='input-btn-wrapper-perfil'>
                             <input id="email" type="email" name="email"/>
                             <button className='bntEditar'>Editar</button>

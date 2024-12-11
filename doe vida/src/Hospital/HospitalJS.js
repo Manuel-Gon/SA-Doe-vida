@@ -1,9 +1,9 @@
 const express = require('express');
 const cors = require('cors');
 const { Pool } = require('pg');
-
 const app = express();
 const pool = new Pool({
+
     user: 'Postgres', // Substitua pelo seu usuário do PostgreSQL
     host: 'localhost',
     database: 'DoeVida_Hospital', // Nome da sua database
@@ -11,9 +11,16 @@ const pool = new Pool({
     port: 5432, // Porta padrão do PostgreSQL
 });
 
+
 // Habilitar CORS para todas as rotas
 app.use(cors());
 app.use(express.json());
+
+
+app.use(cors({
+    origin: 'http://localhost:5173'  // frontend
+}));
+
 
 // Rota para buscar todos os clientes
 app.get('/Usuarios', async (req, res) => {
@@ -41,22 +48,23 @@ app.get('/Usuarios/:id', async (req, res) => {
     }
 });
 
-// Rota para adicionar um cliente
+// Rota para adicionar cliente
 app.post('/CadastroHospital', async (req, res) => {
+    console.log(req.body); // Verificar o que está sendo enviado para o banco
     const { nome, cep,telefone, email, bairro, cnpj, senha,Cidade, responsavel, Equipe, estado, website, pais } = req.body;
     try {
         const result = await pool.query(
-            'INSERT INTO CadastroHospital (nome, endereco, email, telefone) VALUES ($1, $2, $3, $4) RETURNING *',
-            [ nome, cep,telefone, email, bairro, cnpj, senha,Cidade, responsavel, Equipe, estado, website, pais]
+            'INSERT INTO CadastroHospital ( nome, cep,telefone, email, bairro, cnpj, senha,Cidade, responsavel, Equipe, estado, website, pais) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13) RETURNING *',
+            [ nome, cep, telefone, email, bairro, cnpj, senha, Cidade, responsavel, Equipe, estado, website, pais]
         );
         res.status(201).json(result.rows[0]);
     } catch (err) {
         console.error(err.message);
-        res.status(500).json({ error: 'Erro ao adicionar cliente' });
+        res.status(500).json({ error: 'Erro ao adicionar Hospital' });
     }
 });
 
-// Rota para atualizar um cliente
+// Rota para atualizar cliente
 app.put('/CadastroHospital/:id', async (req, res) => {
     const { id } = req.params;
     const {nome, cep,telefone, email, bairro, cnpj, senha,Cidade, responsavel, Equipe, estado, website, pais } = req.body;
@@ -90,7 +98,14 @@ app.put('/CadastroHospital/:id', async (req, res) => {
     }
 });   
 
+app.use((err, req, res, next) => {
+    console.error(err.stack);
+    res.status(500).json({ error: 'Ocorreu um erro no servidor' });
+});
+
 
 app.listen(3000, () => {
     console.log('Servidor rodando na porta 3000');
 });
+
+
