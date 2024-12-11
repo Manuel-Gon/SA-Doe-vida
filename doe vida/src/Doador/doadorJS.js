@@ -58,11 +58,7 @@ app.post('/CadastroDoador', [
     const { nome, endereco, email, telefone } = req.body;
     try {
         const result = await pool.query(
-<<<<<<< HEAD
-            'INSERT INTO CadastroDoador (nome, endereco, email, telefone) VALUES ($1, $2, $3, $4) RETURNING *',
-=======
             'INSERT INTO UsuariosDoador (nome, endereco, email, telefone) VALUES ($1, $2, $3, $4) RETURNING *',
->>>>>>> a55a24da557835d97104d10d4b63b1f50bda9fa9
             [nome, endereco, email, telefone]
         );
         res.status(201).json({
@@ -70,26 +66,17 @@ app.post('/CadastroDoador', [
             doador: result.rows[0],  // Retorna o doador inserido
         });
     } catch (err) {
-<<<<<<< HEAD
-        console.error(err.message);
-=======
         console.error('Erro ao adicionar doador:', err.message);
->>>>>>> a55a24da557835d97104d10d4b63b1f50bda9fa9
         res.status(500).json({ error: 'Erro ao adicionar Doador' });
     }
 });
 
-<<<<<<< HEAD
-// Rota para atualizar um cliente
-app.put('/CadastroDoador/:id', async (req, res) => {
-=======
 // Rota para atualizar um doador
 app.put('/UsuariosDoador/:id', [
     body('nome').notEmpty().withMessage('Nome é obrigatório'),
     body('email').isEmail().withMessage('Email inválido'),
     body('telefone').notEmpty().withMessage('Telefone é obrigatório'),
 ], async (req, res) => {
->>>>>>> a55a24da557835d97104d10d4b63b1f50bda9fa9
     const { id } = req.params;
     const { nome, endereco, email, telefone } = req.body;
     const errors = validationResult(req);
@@ -99,11 +86,7 @@ app.put('/UsuariosDoador/:id', [
 
     try {
         const result = await pool.query(
-<<<<<<< HEAD
-            'UPDATE CadastroDoador SET nome = $1, endereco = $2, email = $3, telefone = $4 WHERE id = $5 RETURNING *',
-=======
             'UPDATE UsuariosDoador SET nome = $1, endereco = $2, email = $3, telefone = $4 WHERE id = $5 RETURNING *',
->>>>>>> a55a24da557835d97104d10d4b63b1f50bda9fa9
             [nome, endereco, email, telefone, id]
         );
         if (result.rows.length === 0) {
@@ -116,11 +99,7 @@ app.put('/UsuariosDoador/:id', [
     }
 });
 
-<<<<<<< HEAD
-// Rota para deletar um cliente
-=======
 // Rota para deletar um doador
->>>>>>> a55a24da557835d97104d10d4b63b1f50bda9fa9
 app.delete('/UsuariosDoador/:id', async (req, res) => {
     const { id } = req.params;
     try {
@@ -128,17 +107,10 @@ app.delete('/UsuariosDoador/:id', async (req, res) => {
         if (result.rows.length === 0) {
             return res.status(404).json({ error: 'Doador não encontrado' });
         }
-<<<<<<< HEAD
         res.json({ message: 'Doador deletado com sucesso' });
     } catch (err) {
         console.error(err.message);
         res.status(500).json({ error: 'Erro ao deletar Deletar' });
-=======
-        res.json({ message: 'Doador deletado com sucesso' }); // Confirmação da exclusão
-    } catch (err) {
-        console.error('Erro ao deletar doador:', err.message);
-        res.status(500).json({ error: 'Erro ao deletar Doador' });
->>>>>>> a55a24da557835d97104d10d4b63b1f50bda9fa9
     }
 });
 
