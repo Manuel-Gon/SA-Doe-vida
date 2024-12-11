@@ -15,7 +15,7 @@ function Contato() {
         <p className='p-four-pages'>Tem dúvidas sobre a doação de sangue? Quer saber mais sobre a campanha ou como participar? Entre em contato conosco pelos canais abaixo:</p>
     
         <h3>Telefone</h3>
-        <p className='p-four-pages'>Central de Atendimento: <strong>(48) 1234-5678</strong></p>
+        <p className='p-four-pages'>Central de Atendimento: (48) 1234-5678</p>
     
         <h3>E-mail</h3>
         <p className='p-four-pages'>Envie suas dúvidas para: <a>contato@doevida.org</a></p>

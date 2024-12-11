@@ -27,10 +27,10 @@ function Doacao() {
         <h3>Como é o Processo de Doação?</h3>
         <p className='p-four-pages'>A doação de sangue é simples e segura. Todo o material utilizado é descartável e o processo dura cerca de 10 minutos:</p>
         <ol>
-            <li><strong>Cadastro:</strong> Você preencherá um formulário com informações básicas.</li>
-            <li><strong>Triagem:</strong> Será feita uma breve avaliação para garantir que você está apto a doar.</li>
-            <li><strong>Doação:</strong> O processo de coleta de sangue é rápido e indolor.</li>
-            <li><strong>Recuperação:</strong> Após a doação, você receberá um lanche e será orientado a se hidratar bem.</li>
+            <li>Cadastro:Você preencherá um formulário com informações básicas.</li>
+            <li>Triagem: Será feita uma breve avaliação para garantir que você está apto a doar.</li>
+            <li>Doação: O processo de coleta de sangue é rápido e indolor.</li>
+            <li>Recuperação: Após a doação, você receberá um lanche e será orientado a se hidratar bem.</li>
         </ol>
     
         <h3>O Que Fazer Antes e Depois de Doar?</h3>
