@@ -1,18 +1,19 @@
 .container-doador {
     width: 100%;
-    height: 137vh;
+    height: 110vh;
     display: flex;
   background-color: #f1e2da;
 }
 
-.form-img-doador {
-    width: 50%;
+.form-img-doador-d {
+    width: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #f1e2da;
-    height: 800px;
+    height: 857px;
     margin-top: 20px;
+    margin-right: 10px;
 }
 
 .form-img-doador img {
@@ -21,7 +22,7 @@
     background-color: #f1e2da;
 }
 
-.form-doador {
+.form-doador-d {
 
     margin-left: 75px;
     display: flex;
@@ -31,6 +32,7 @@
     width: 50%;
 height: 780px;
     margin-top: 0;
+   
 }
 .form-content-doador {
     text-align: center;
@@ -193,4 +195,7 @@ height: 780px;
     text-decoration: none;
     font-weight: 500;
     color: #fff;
+}#endereco{
+
+    width: 92%;
 }

@@ -19,20 +19,21 @@ function Doador_login() {
   };
 
   return (
-    <div className='container-login-doador'>
+    <div className='container-login-doador-l-d'>
       <div className='imagem-login-doador'>
         <img src="../../public/tela_login_doador.png" alt="Imagem de Login" id='imagem-de-login' />
       </div>
 
       <form className='formulario-login-doador' onSubmit={e => { e.preventDefault(); handleLogin(); }}>
-      <div className='informacoes-login-doador'>
-        <h1>Login</h1>
+      <div className='voltar-botao-login-d'>
+       <h1>Login</h1>
         <p>Digite seus dados de acesso no campo abaixo.</p>
-      </div>
-     
+      
         <div className='botao-voltar-container-login-doador'>
           <button className='botao-voltar-login-doador' type="button" onClick={handleBack}>Voltar</button>
         </div>
+        </div>
+        
 
         <div className='Requisitos-login-doador'>
           <label htmlFor="email">E-mail</label><br /><br /><br />
@@ -54,11 +55,9 @@ function Doador_login() {
             Ao confirmar os dados preenchidos do formulário acima, você concorda com os nossos <a href='/termos'>Termos de Uso</a> e nossa <a href='/politica'>Política de Privacidade</a>.
           </label>
         </div>
-<br />
         <div>
           <button type="submit" className='botao-entrar-login-doador'>Entrar</button>
         </div>
-<br />
       </form>
     </div>
 

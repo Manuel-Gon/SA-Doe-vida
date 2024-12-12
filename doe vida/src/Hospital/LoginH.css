@@ -5,11 +5,13 @@
 
 .container-login-hospital{
     width: 214vh;
-    height: 50vh;
+    height: 0vh;
     display: flex;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
-
+padding-bottom: 10%;
+margin-top: 0;
 }
+
 
 .form-image-login{
     width: 50%;
@@ -18,7 +20,7 @@
     align-items: center;
     background-color: #f1e2da;
     padding: 2rem;
-    height: 561px;
+    height: 650px;
 }
 
 .form-image-login img{
@@ -30,8 +32,9 @@
     display: flex;
     flex-direction: column;
     background-color: #fff;
-    padding: 2rem;
-    height: 561px;
+    padding: 5rem;
+    height: 78vh;
+ 
     
 }
 
@@ -50,7 +53,7 @@
 
 .input-group-login{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap;    
     justify-content: space-between;
 }
 

@@ -12,10 +12,10 @@ function Doador_perfil() {
 
   return (
     <div className='container-doador'>
-      <div className='form-img-doador'>
+      <div className='form-img-doador-d'>
         <img src="/tela_login_doador.png" alt="" /> {/* Corrigido o caminho da imagem */}
       </div>
-      <div className='form-doador'>
+      <div className='form-doador-d'>
         <div className='form-header'>
 
           <h1>Perfil do Doador</h1>
