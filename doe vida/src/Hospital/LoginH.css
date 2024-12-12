@@ -4,8 +4,8 @@
 
 
 .container-login-hospital{
-    width: 208vh;
-    height: 105vh;
+    width: 214vh;
+    height: 50vh;
     display: flex;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
 
@@ -18,7 +18,7 @@
     align-items: center;
     background-color: #f1e2da;
     padding: 2rem;
-    height: 840px;
+    height: 561px;
 }
 
 .form-image-login img{
@@ -31,7 +31,7 @@
     flex-direction: column;
     background-color: #fff;
     padding: 2rem;
-    height: 840px;
+    height: 561px;
     
 }
 
@@ -138,4 +138,29 @@
 }
 #trocar-cadastro{
     cursor: pointer;
+}.confirm-input-login{
+
+    margin-top: 20px;
+    padding: 2px;
+}
+.login-button-hospital-login{
+
+    margin-top: 20px;
+   
+    
+}.naoPossuiConta{
+
+    margin-top: 20px;
+}.entrar-button-login-hospital{
+    width: 80%;
+    height: 90%;
+    margin-top: 15px;
+    border: none;
+    background-color:#D80C12;
+    padding: 0.60rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+    color: white;
+
 }

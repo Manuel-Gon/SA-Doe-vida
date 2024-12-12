@@ -1,6 +1,7 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import './LoginH.css'
+import React from 'react';
+import { Link } from 'react-router-dom';
+import './LoginH.css';
+
 function LoginHospital() {
   
   return (
@@ -43,7 +44,7 @@ function LoginHospital() {
                 </div>
 
                 <div className='login-button-hospital-login'>
-                  <button onClick={PerfilUsuario}><button>Entrar</button></button>
+                  <button className='entrar-button-login-hospital'>Entrar</button>
                 </div>
 
                 <label className='naoPossuiConta'>Não possui conta?</label><Link to='/hospital' className='login-button-hospital'><button>Cadastre-se</button></Link>
