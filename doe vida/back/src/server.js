@@ -1,5 +1,16 @@
+const express = require('express');
+const cors = require('cors');
+const { Pool } = require('pg');
+const app = express();
+const pool = new Pool({
 
-
+    user: 'Postgres', // Substitua pelo seu usuário do PostgreSQL
+    host: 'localhost',
+    database: 'DoeVida_Hospital', // Nome da sua database
+    password: 'senai', // Substitua pela sua senha
+    port: 5432, // Porta padrão do PostgreSQL
+    
+});
 
 // Habilitar CORS para todas as rotas
 app.use(cors());
