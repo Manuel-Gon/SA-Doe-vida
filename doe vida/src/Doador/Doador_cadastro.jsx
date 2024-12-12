@@ -11,7 +11,7 @@ function Doador_cadastro() {
         <img src="./tela_cadastro_doador.png" alt="" />
 
  
-        <div className='formulario-cadastro-doador'>
+        <div className='formulario-cadastro-doador-d'>
 
 
             <div className='Div_cadastra-se'>

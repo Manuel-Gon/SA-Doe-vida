@@ -15,23 +15,24 @@
     background-color: white;
     display: block;
     margin-top: 0% ;
-    width: 45%;
+    width: 55%;
     height: 89.5%;
     align-items: center;
     padding: 50px;
-    margin-left: 25%;
+    margin-left: 15%;
 }
 .formulario-login-doador h1::after{
     content: '';
     display: block;
-    width: 5rem;
+    width: 6rem;
     height: 0.3rem;
     background-color: #d80c12;
     margin-top: 1%;
     position: absolute;
+    margin-right: 10px;
 }
 #imagem-de-login{
-    margin-left: 50%;
+    margin-left: 10%;
 }
 .botao-voltar-login-doador{
     padding: 10px 40px;
