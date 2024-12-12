@@ -1,0 +1,203 @@
+
+
+
+.Container-cadastro-doador{
+    display: flex;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
+    background-color: #F1E2DA;
+    padding-top: 0%;
+   height: 135vh;
+   width: 110vw;
+   margin-top: 0;
+   background-color: #F1E2DA;
+  margin-top: 0;
+}
+
+.imagem_cadastro{
+
+    display: flex;
+    justify-content: center;
+    background-color: #f1e2da;
+    padding: 1rem;
+    height: 70vh;
+    width: 55vw;
+    margin-top: 0%;
+}
+
+.imagem_cadastro img{
+    
+    position: absolute;
+    padding: 6%;
+}
+
+
+.formulario-cadastro-doador-d{
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 6.5rem;
+    margin-left: 200%;
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    width: 100vw;
+    margin-top: 0%;
+    
+}
+
+.botao_login button{
+    padding: 10px 40px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #D80C12;  
+}
+
+.botao_login button:hover{
+    background-color: #820000;
+    transition: 0.3s;
+}
+
+.botao_login button{
+    text-decoration: none;
+    font-weight: 500;   
+    color: #fff;
+}
+
+.Div_cadastra-se h1::after{
+    content: '';
+    display: block;
+    width: 5rem;
+    height: 0.3rem;
+    background-color: #D80C12;
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.Div_requisitos{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Requisitos_cadastro{
+    display: flex;
+    flex-direction: column; 
+}
+
+.Requisitos_cadastro input{
+    margin: 0.8rem 1rem;
+    padding: 0.8rem 1.8rem;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 1px 1px 7px #0000001c;
+}
+.Requisitos_cadastro label{
+    margin-left: 1.5rem;
+}
+
+.Requisitos_cadastro input:hover{
+    background-color: #eeeeee75;
+}
+
+.Requisitos_cadastro input:focus-visible{
+    outline: 1px solid #D80C12;
+}
+
+.Requisitos_cadastro label, .gender-tittle h6{
+    font-size: 0.80rem;
+    font-weight: 600;
+    color: #000000c0;
+}
+
+.Requisitos_cadastro input:hover{
+    color: #000000be;
+}
+
+.Div_femino_masculino{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.62rem;
+    padding: 0 0.5rem;
+}
+
+.Feminino_masculino{
+    display: flex;
+    align-items: center;
+}
+
+.Feminino_masculino input{
+    margin-right: 0.35rem;
+    accent-color: #820000;
+}
+
+.Feminino_masculino label{
+    font-size: 0.81rem;
+    font-weight: 600;
+    color: #000000c0;
+    
+}
+
+.botao_cadastrar button{
+    width: 100%;
+    margin-top: 20px;
+    border: none;
+    background-color: #D80C12;
+    padding: 0.62rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.botao_cadastrar button:hover{
+    background-color: #820000;
+    transition: 0.3s;
+}
+
+.botao_cadastrar button {
+    text-decoration: none;
+    font-size: 0.93rem;
+    font-weight: 500;
+    color: #fff;
+}
+
+.Div_termos_e_Privacidade {
+    margin-top:20px;
+}
+
+.Div_termos_e_Privacidade input {
+    margin-right: 0.5rem;
+}
+
+.Div_termos_e_Privacidade label {
+    font-size: 0.75rem;
+    color: #000000c0;
+}
+
+.Div_termos_e_Privacidade a{
+    color: #bd0000;
+    text-decoration: none;
+   
+}
+
+.Div_termos_e_Privacidade a:hover {
+    text-decoration: underline;
+} 
+
+input[type="checkbox"],input[type="radio"]{
+    width: 12px;
+    height: 12px;
+    border: 1px solid #D80C12;
+}
+
+input[type="checkbox"]:checked,input[type="radio"]:checked {
+    background-color: #D80C12;
+}
+
+input[type="radio"]{
+  border-radius: 50%;
+}

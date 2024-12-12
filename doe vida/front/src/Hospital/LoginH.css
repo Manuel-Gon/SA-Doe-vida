@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+
+.container-login-hospital{
+    width: 214vh;
+    height: 50vh;
+    display: flex;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
+
+}
+
+.form-image-login{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1e2da;
+    padding: 2rem;
+    height: 561px;
+}
+
+.form-image-login img{
+    width: 25rem;
+}
+
+.form-login{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 2rem;
+    height: 561px;
+    
+}
+
+.form-header-login{
+    margin-bottom: 30px;
+}
+
+.form-header-login h1::after{
+    content: '';
+    display: block;
+    width: 2.5rem;
+    height: 0.3rem;
+    background-color:#D80C12;
+    border-radius: 10px;
+}
+
+.input-group-login{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.input-box-login{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px; 
+}
+
+.input-box-login input{
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    width: 500px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 1px 1px 6px #0000001c;
+}
+
+.input-box-login input:hover{
+    background-color: #eeeeee75;
+}
+
+.input-box-login input:focus-visible{
+    outline: 1px solid #D80C12;
+}
+
+.input-box-login label{
+    font-size: 0.80rem;
+    font-weight: 600;
+    color: #000000c0;
+}
+
+.input-box-login input:hover{
+    color: #000000be;
+}
+
+#login-button-hospital{
+    width: 90%;
+    height: 7%;
+    margin-top: 15px;
+    border: none;
+    background-color:#D80C12;
+    padding: 0.60rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+    color: white;
+}
+
+#login-button-hospital:hover{
+    background-color: #820000;
+}
+
+.login-button-hospital-login button a{
+    text-decoration: none;
+    font-size: 0.93rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+.confirm-input-logint {
+    margin-top:20px;
+}
+
+.confirm-input-login input {
+    margin-right: 2px;
+}
+
+.confirm-input-login label {
+    font-size: 0.75rem;
+    color: #000000c0;
+}
+
+
+.mensagem-login-hospital{
+    font-size: 14px;
+}
+
+.naoPossuiConta{
+    color: black;
+    font-size:13px;
+}
+.esqueceuSenha-login-doador{
+    font-size: 13px;
+}
+#trocar-cadastro{
+    cursor: pointer;
+}.confirm-input-login{
+
+    margin-top: 20px;
+    padding: 2px;
+}
+.login-button-hospital-login{
+
+    margin-top: 20px;
+   
+    
+}.naoPossuiConta{
+
+    margin-top: 20px;
+}.entrar-button-login-hospital{
+    width: 80%;
+    height: 90%;
+    margin-top: 15px;
+    border: none;
+    background-color:#D80C12;
+    padding: 0.60rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+    color: white;
+
+}
